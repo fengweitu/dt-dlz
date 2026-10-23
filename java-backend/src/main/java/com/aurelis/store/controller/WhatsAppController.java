@@ -1,0 +1,5 @@
+package com.aurelis.store.controller;
+import org.springframework.beans.factory.annotation.Value;import org.springframework.web.bind.annotation.*;import org.springframework.web.server.ResponseStatusException;import org.springframework.http.HttpStatus;import java.net.*;import java.nio.charset.StandardCharsets;import java.util.*;
+@RestController @RequestMapping("/api/whatsapp")
+public class WhatsAppController { @Value("${aurelis.whatsapp-number:}") String configured;
+ @GetMapping("/payment-link") public Map<String,String> paymentLink(@RequestParam String orderId,@RequestParam String total){String phone=configured.replaceAll("[+ ()-]","");if(!phone.matches("[1-9][0-9]{6,14}"))throw new ResponseStatusException(HttpStatus.SERVICE_UNAVAILABLE,"WhatsApp payment contact is not configured yet.");String text="Hello, I would like to arrange payment for AURELIS order "+orderId+". Total: USD "+total;return Map.of("url","https://wa.me/"+phone+"?text="+URLEncoder.encode(text,StandardCharsets.UTF_8));}}

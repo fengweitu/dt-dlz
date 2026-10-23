@@ -1,0 +1,16 @@
+.react-modal{border:0;padding:40px;width:min(520px,92vw);max-height:90vh;overflow:auto;background:var(--paper,#f7f6f0);color:var(--pine,#193a32);position:fixed;margin:auto}.react-modal::backdrop{background:#13291fcc;backdrop-filter:blur(4px)}.react-modal .modal-close{position:absolute;right:18px;top:12px;border:0;background:none;font-size:28px;cursor:pointer}.react-modal p{line-height:1.8;margin:15px 0}.react-modal form>.btn{margin-top:18px}.cart-dialog{margin:0 0 0 auto;height:100dvh;max-height:100dvh;width:min(500px,100vw);padding:35px}.cart-dialog .cart-item{grid-template-columns:80px 1fr auto}.cart-dialog .cart-item img{width:80px;height:95px;object-fit:contain}.check-label{display:flex;gap:9px;align-items:flex-start;font-size:12px;line-height:1.8}.check-label input{width:auto;margin-top:5px;flex-shrink:0}.variant-edit-row{border-top:1px solid var(--line);padding:16px 0}.order>p{font-size:11px;color:var(--muted);overflow-wrap:anywhere}.account-layout>section{min-width:0}.checkout .panel>label>select{width:100%;margin:12px 0 20px}.panel>p{font-size:12px;line-height:1.8}.footer-bottom>a{color:inherit}.newsletter form{display:flex;border-bottom:1px solid #ffffff50}.newsletter form input{background:none;border:0;color:inherit;padding:12px 0;flex:1;min-width:0}.newsletter form button{background:none;border:0;color:inherit}.react-modal input,.react-modal textarea,.react-modal select{max-width:100%}.product-image>a>img{display:block}.header nav a.active:after{content:''}.admin-stats .stat{min-width:0}@media(max-width:560px){.react-modal{padding:30px 22px}.cart-dialog{width:100vw}.react-modal .form-two{grid-template-columns:1fr}.account-layout .product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Floating WhatsApp contact and back-to-top, on every page. */
+.contact-float{position:fixed;right:14px;top:50%;transform:translateY(-50%);z-index:39;display:flex;flex-direction:column;align-items:flex-end;gap:8px}
+.contact-link{position:relative;display:flex;align-items:center;justify-content:flex-end;width:44px;height:44px;padding:0}
+.contact-card{position:absolute;right:44px;display:flex;flex-direction:column;justify-content:center;height:44px;max-width:0;padding:0;overflow:hidden;white-space:nowrap;background:#fbfaf5;border:1px solid var(--line);border-right:0;color:var(--ink);opacity:0;transition:max-width .3s ease,padding .3s ease,opacity .2s ease}
+.contact-link:hover .contact-card,.contact-link:focus-visible .contact-card{max-width:240px;padding:0 14px;opacity:1}
+.contact-card small{font-size:9px;letter-spacing:1.4px;color:var(--muted);text-transform:uppercase}
+.contact-card strong{font-size:12px;font-weight:500;letter-spacing:.4px;font-variant-numeric:lining-nums tabular-nums}
+.contact-icon{display:grid;place-items:center;width:44px;height:44px;background:#25d366;color:#fff;box-shadow:0 4px 16px #1c2d1f26}
+.contact-icon svg{width:21px;height:21px}
+.contact-link:hover .contact-icon{background:#1ebe5b}
+.contact-top{display:grid;place-items:center;width:44px;height:44px;background:#fbfaf5;border:1px solid var(--line);color:var(--ink);box-shadow:0 4px 16px #1c2d1f1a}
+.contact-top svg{width:18px;height:18px}
+.contact-top:hover{background:var(--light)}
+@media(max-width:560px){.contact-float{right:10px;gap:6px}.contact-link,.contact-icon,.contact-top{width:40px;height:40px}.contact-card{display:none}}

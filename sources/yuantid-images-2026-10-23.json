@@ -1,0 +1,410 @@
+[
+  {
+    "id": 2001,
+    "name": "SLU-PP-332",
+    "source_url": "https://www.yuantid.com/products/slu-pp-332",
+    "urls": [
+      "https://img.wpassets-delta.com/images/f9035fe2af160d2c04ceb14e9f24f2e07357ecb31d09546cf0e8a658883d70b0.webp",
+      "https://img.wpassets-delta.com/images/be0c441f770b015aa55a7dfe4b3a9d38ecbf67bfa1e995defa9241225a341532.webp"
+    ],
+    "local_images": [
+      "/images/yuantid-2001-1.webp",
+      "/images/yuantid-2001-2.webp"
+    ]
+  },
+  {
+    "id": 2002,
+    "name": "Ipamorelin",
+    "source_url": "https://www.yuantid.com/products/ipamorelin",
+    "urls": [
+      "https://img.wpassets-delta.com/images/10e74174b87e6f5a6bd7036aea0549a4d6590f4a0812cce3807b7be3990f1f6b.webp",
+      "https://img.wpassets-delta.com/images/e92a9785f43ddc7b0523ef8f95e8fddd4d8b6eab309e9e9ed1e7a61054e176bb.webp"
+    ],
+    "local_images": [
+      "/images/yuantid-2002-1.webp",
+      "/images/yuantid-2002-2.webp"
+    ]
+  },
+  {
+    "id": 2003,
+    "name": "VIP",
+    "source_url": "https://www.yuantid.com/products/vip",
+    "urls": [
+      "https://img.wpassets-delta.com/images/15318926ba6708f34d56ece214f1c1a5bf6560244e3f0e17191ada23316f8681.png?x-oss-process=image/resize,m_lfit,w_1180"
+    ],
+    "local_images": [
+      "/images/yuantid-2003-1.png"
+    ]
+  },
+  {
+    "id": 2004,
+    "name": "Semaglutide",
+    "source_url": "https://www.yuantid.com/products/semaglutide",
+    "urls": [
+      "https://img.wpassets-delta.com/images/e41698d41fccb73a7805efbb80671ba7fdaa359ed2d191044de0271d3faeec8c.webp",
+      "https://img.wpassets-delta.com/images/84bf12b0fb22a5acf7dd7db050fa75399e99d482d5845625ab06c8b9aa2a246b.webp",
+      "https://img.wpassets-delta.com/images/a25d3f032821e97cfbf6eeb4d26c5d3466c6944333a027d666683b54e3de74d5.webp",
+      "https://img.wpassets-delta.com/images/1e29fd78f447625445006bd70a7c0a27f6bc91c381d1b0110ccb2223c62f8901.webp",
+      "https://img.wpassets-delta.com/images/4d3ac0a661a33d2f997244a0bcbac44e9698fb7b0f44b53ec1b72bc612f1f0be.webp"
+    ],
+    "local_images": [
+      "/images/yuantid-2004-1.webp",
+      "/images/yuantid-2004-2.webp",
+      "/images/yuantid-2004-3.webp",
+      "/images/yuantid-2004-4.webp",
+      "/images/yuantid-2004-5.webp"
+    ]
+  },
+  {
+    "id": 2005,
+    "name": "Mazdutide",
+    "source_url": "https://www.yuantid.com/products/mazdutide",
+    "urls": [
+      "https://img.wpassets-delta.com/images/3c9ebc7e5c18175fc871aabd1e6a62148db58ffe5f3ca9aab620a0c96fd91246.webp"
+    ],
+    "local_images": [
+      "/images/yuantid-2005-1.webp"
+    ]
+  },
+  {
+    "id": 2006,
+    "name": "Melanotan I",
+    "source_url": "https://www.yuantid.com/products/melanotan-i",
+    "urls": [
+      "https://img.wpassets-delta.com/images/652c378bb6fa44dbbcfcc26aaee0a7bcf37b8ff0e25ad3a77a5b3984ff4abf39.webp",
+      "https://img.wpassets-delta.com/images/b5611448098c2a37869e520d0ad0823db76ff0b9b49452b41ae6890aba07bb7e.png",
+      "https://img.wpassets-delta.com/images/b5611448098c2a37869e520d0ad0823db76ff0b9b49452b41ae6890aba07bb7e.png?x-oss-process=image/resize,m_lfit,w_168"
+    ],
+    "local_images": [
+      "/images/yuantid-2006-1.webp",
+      "/images/yuantid-2006-2.png",
+      "/images/yuantid-2006-3.png"
+    ]
+  },
+  {
+    "id": 2007,
+    "name": "Tirzepatide",
+    "source_url": "https://www.yuantid.com/products/tirzepatide",
+    "urls": [
+      "https://img.wpassets-delta.com/images/a9814ba57f50f01b2a6f4ca4c373e61ca7c7fc9bec0e99fe03169fee07bff7df.webp",
+      "https://img.wpassets-delta.com/images/df195e55c59f3bc9b7dafd3ba213a7266713159ad6c5382654a14b44db008651.webp",
+      "https://img.wpassets-delta.com/images/74e2abe08a9857a7ff2c01b71bf38be80dfb77114142e7b899ab8eaec3982aaf.webp",
+      "https://img.wpassets-delta.com/images/2e22e1f18e0984837ce4cddcc5f8dcd885b9121307033125ecc6d86da6046f91.webp",
+      "https://img.wpassets-delta.com/images/01bdc11c3579aa7d5fd324404956d78a0e3f0d870b03990cc78aac5ff9210427.webp",
+      "https://img.wpassets-delta.com/images/cbc606dfabf9236ac96a9e6ef853e1299251e2cdb9c55918eba148360e2f07c3.webp",
+      "https://img.wpassets-delta.com/images/1f45894d43613483ba645fa3f98ea35934f147583d1b2f264363c3e71ffd5d69.webp",
+      "https://img.wpassets-delta.com/images/553586de7ae4807d6948f732cfcbfb20b845631836f7f5566978a75132723e14.webp"
+    ],
+    "local_images": [
+      "/images/yuantid-2007-1.webp",
+      "/images/yuantid-2007-2.webp",
+      "/images/yuantid-2007-3.webp",
+      "/images/yuantid-2007-4.webp",
+      "/images/yuantid-2007-5.webp",
+      "/images/yuantid-2007-6.webp",
+      "/images/yuantid-2007-7.webp",
+      "/images/yuantid-2007-8.webp"
+    ]
+  },
+  {
+    "id": 2008,
+    "name": "Retatrutide",
+    "source_url": "https://www.yuantid.com/products/retatrutide",
+    "urls": [
+      "https://img.wpassets-delta.com/images/da9c56653a0c15a45a628832129a530f6817940c0d72269d1b8d4315866dd820.webp"
+    ],
+    "local_images": [
+      "/images/yuantid-2008-1.webp"
+    ]
+  },
+  {
+    "id": 2009,
+    "name": "BPC 10mg+Tb500 10mg",
+    "source_url": "https://www.yuantid.com/products/bpc-10mg-tb500-10mg",
+    "urls": [
+      "https://img.wpassets-delta.com/images/b2f338bbc25f0b938dc32b705c8216d9454b2982ce4d2e00f8a7746d7846b7bd.webp"
+    ],
+    "local_images": [
+      "/images/yuantid-2009-1.webp"
+    ]
+  },
+  {
+    "id": 2010,
+    "name": "Tesamorelin",
+    "source_url": "https://www.yuantid.com/products/tesamorelin",
+    "urls": [
+      "https://img.wpassets-delta.com/images/6866edd68ea65def94cc9fbb68a420ceb26b6354bbcb40f46200b2068e29b640.webp",
+      "https://img.wpassets-delta.com/images/6b128969b83a70eddc2f157d1538c0fe96db5696d1c34f4a59ae58b06963d35a.webp",
+      "https://img.wpassets-delta.com/images/7310510f3e7824c77ada57d253592c73c358a5c929df0a713647b0d5f37eb08b.webp"
+    ],
+    "local_images": [
+      "/images/yuantid-2010-1.webp",
+      "/images/yuantid-2010-2.webp",
+      "/images/yuantid-2010-3.webp"
+    ]
+  },
+  {
+    "id": 2011,
+    "name": "Pinealon",
+    "source_url": "https://www.yuantid.com/products/pinealon",
+    "urls": [
+      "https://img.wpassets-delta.com/images/c0bdcb828328a51152e4bcacca7a036c32ceb2ebd2e327b9bc0042e8154afbee.webp",
+      "https://img.wpassets-delta.com/images/6cf9d1b10e663e0746637bd3945d15381c8bde3ce39851c0bdc3421d827119ca.webp"
+    ],
+    "local_images": [
+      "/images/yuantid-2011-1.webp",
+      "/images/yuantid-2011-2.webp"
+    ]
+  },
+  {
+    "id": 2012,
+    "name": "Thymosin Alpha-1",
+    "source_url": "https://www.yuantid.com/products/thymosin-1",
+    "urls": [
+      "https://img.wpassets-delta.com/images/2082a730723f19c98365894db866009588f09261407f57d727e7a42f3f2ef191.webp",
+      "https://img.wpassets-delta.com/images/bbc1c5b1194b63e1dc56a85919f811f402d592f995ccd4b3021c7786513fa771.webp"
+    ],
+    "local_images": [
+      "/images/yuantid-2012-1.webp",
+      "/images/yuantid-2012-2.webp"
+    ]
+  },
+  {
+    "id": 2013,
+    "name": "Semax",
+    "source_url": "https://www.yuantid.com/products/semax",
+    "urls": [
+      "https://img.wpassets-delta.com/images/2ec27d963a040064855d3e5da7332b67834f567b2fed9152d62fdaa12f76bc1f.webp",
+      "https://img.wpassets-delta.com/images/eff84ec3d0e3a9870874f3d532fe9d4272b2baef9aab90cafd4c66ba2f88753b.webp",
+      "https://img.wpassets-delta.com/images/9f855f3e1fd856a73b8b9c92d637c2789f14a7d72ed29df4ffbf372ed3a36448.webp"
+    ],
+    "local_images": [
+      "/images/yuantid-2013-1.webp",
+      "/images/yuantid-2013-2.webp",
+      "/images/yuantid-2013-3.webp"
+    ]
+  },
+  {
+    "id": 2014,
+    "name": "Selank",
+    "source_url": "https://www.yuantid.com/products/selank",
+    "urls": [
+      "https://img.wpassets-delta.com/images/42f3fedbcca988b6e94c36bb9d6353a56fd2f816eae40fc505ccb8f261eb2eb5.webp",
+      "https://img.wpassets-delta.com/images/ec3038979593dfb0c8fb06f44289ad0844b7b4a6a21688fcdc3b227a6091a41d.webp"
+    ],
+    "local_images": [
+      "/images/yuantid-2014-1.webp",
+      "/images/yuantid-2014-2.webp"
+    ]
+  },
+  {
+    "id": 2015,
+    "name": "Cagrilintide",
+    "source_url": "https://www.yuantid.com/products/cagrilintide",
+    "urls": [
+      "https://img.wpassets-delta.com/images/f344e7bb51f8a64a229e7ee7abad383d9858eef3999c340d56cb99b7a5d056c4.webp",
+      "https://img.wpassets-delta.com/images/459dd0801c822318f13c934d97db7e314fe98a097e67574c644b509ee776675b.webp"
+    ],
+    "local_images": [
+      "/images/yuantid-2015-1.webp",
+      "/images/yuantid-2015-2.webp"
+    ]
+  },
+  {
+    "id": 2016,
+    "name": "BPC-157",
+    "source_url": "https://www.yuantid.com/products/bpc-157_8bd5ae7e",
+    "urls": [
+      "https://img.wpassets-delta.com/images/00aed8cb581dc828b35d13507fd6354227b491599a6ae9e3e98402d1ccddd66e.webp",
+      "https://img.wpassets-delta.com/images/a9f2a429db0d9863165f23da85eb01bedafc20b09c9df122ae179d79c1d20e18.webp",
+      "https://img.wpassets-delta.com/images/e268041bef03b4c72ebde2105fecf859bf97cfcecf97cda3860f122bdaa6ac72.webp",
+      "https://img.wpassets-delta.com/images/e847bc681d389e40ccdf2502ab55f76e43932f8740a7cded9ebb20c30f200ec2.webp"
+    ],
+    "local_images": [
+      "/images/yuantid-2016-1.webp",
+      "/images/yuantid-2016-2.webp",
+      "/images/yuantid-2016-3.webp",
+      "/images/yuantid-2016-4.webp"
+    ]
+  },
+  {
+    "id": 2017,
+    "name": "Melanotan II",
+    "source_url": "https://www.yuantid.com/products/melanotan-ii",
+    "urls": [
+      "https://img.wpassets-delta.com/images/ca437decdda676bab18d419b5875521575fc6eb5ba3de12bb221daffed475f36.webp"
+    ],
+    "local_images": [
+      "/images/yuantid-2017-1.webp"
+    ]
+  },
+  {
+    "id": 2018,
+    "name": "TB-500",
+    "source_url": "https://www.yuantid.com/products/tb-500",
+    "urls": [
+      "https://img.wpassets-delta.com/images/78acd896b684eae183d4528b838fce83b44f22836dcefe5b189e465337c39674.webp",
+      "https://img.wpassets-delta.com/images/c1235b09d3ecf9270c41d3b05ccdfd9642d0f794684431a98d24bf92c393daa4.webp",
+      "https://img.wpassets-delta.com/images/a02910b3ddef6f25c2a088c812f3ef5be08e797101b3b77edecbb369befb2bdb.webp"
+    ],
+    "local_images": [
+      "/images/yuantid-2018-1.webp",
+      "/images/yuantid-2018-2.webp",
+      "/images/yuantid-2018-3.webp"
+    ]
+  },
+  {
+    "id": 2019,
+    "name": "SS-31",
+    "source_url": "https://www.yuantid.com/products/ss-31",
+    "urls": [
+      "https://img.wpassets-delta.com/images/b99aa3952cb3fd7b26e182600517830302f40ccab72c10bf8efc09477ab7e89d.png?x-oss-process=image/resize,m_lfit,w_1180"
+    ],
+    "local_images": [
+      "/images/yuantid-2019-1.png"
+    ]
+  },
+  {
+    "id": 2020,
+    "name": "PT-141",
+    "source_url": "https://www.yuantid.com/products/pt-141",
+    "urls": [
+      "https://img.wpassets-delta.com/images/1ab49b9fb444c3d883d7d200d3f9ee3b400d9b0a3247be347c0a99e8b1e21483.png?x-oss-process=image/resize,m_lfit,w_1180"
+    ],
+    "local_images": [
+      "/images/yuantid-2020-1.png"
+    ]
+  },
+  {
+    "id": 2021,
+    "name": "NAD",
+    "source_url": "https://www.yuantid.com/products/nad",
+    "urls": [
+      "https://img.wpassets-delta.com/images/a043955d70d5fc315e004ff9e3c2e30f45be3fc84adffd46ced9e9bd2f4a0be2.png?x-oss-process=image/resize,m_lfit,w_1180"
+    ],
+    "local_images": [
+      "/images/yuantid-2021-1.png"
+    ]
+  },
+  {
+    "id": 2022,
+    "name": "MOTS-c",
+    "source_url": "https://www.yuantid.com/products/mots-c",
+    "urls": [
+      "https://img.wpassets-delta.com/images/8647952d5f68d80034c0d18ff33011c2fd0352fd9b6455757ba81d5ba354a931.webp",
+      "https://img.wpassets-delta.com/images/3591e2948643ac17a657718168f392f98f4acd1960bf85c4bccfcee8cdf4dc92.webp",
+      "https://img.wpassets-delta.com/images/00ec52f200541743d4a62ed6ae2ae332d7ca441656f5c69058c07c0b090ecafe.webp"
+    ],
+    "local_images": [
+      "/images/yuantid-2022-1.webp",
+      "/images/yuantid-2022-2.webp",
+      "/images/yuantid-2022-3.webp"
+    ]
+  },
+  {
+    "id": 2023,
+    "name": "KPV",
+    "source_url": "https://www.yuantid.com/products/kpv",
+    "urls": [
+      "https://img.wpassets-delta.com/images/0197a2f18f7fe2228e6789161e40491dffb5a94fbf17834dde408487c5bd1c74.png?x-oss-process=image/resize,m_lfit,w_1180"
+    ],
+    "local_images": [
+      "/images/yuantid-2023-1.png"
+    ]
+  },
+  {
+    "id": 2024,
+    "name": "GHK-CU",
+    "source_url": "https://www.yuantid.com/products/ghk-cu",
+    "urls": [
+      "https://img.wpassets-delta.com/images/1e66515420d25c0b342761af960df114e170b991ca0b678ecb2376a6f9a1cdb9.webp",
+      "https://img.wpassets-delta.com/images/d465b321539fdd517643d3e1def16c6f7ba4567e59d2d4e8656f9d05f32776dc.webp",
+      "https://img.wpassets-delta.com/images/8a8058ffc97b99a8ec642108e421dd9e198b964ec1cde7018f8500dbfe59d87b.webp"
+    ],
+    "local_images": [
+      "/images/yuantid-2024-1.webp",
+      "/images/yuantid-2024-2.webp",
+      "/images/yuantid-2024-3.webp"
+    ]
+  },
+  {
+    "id": 2025,
+    "name": "FOXO4",
+    "source_url": "https://www.yuantid.com/products/foxo4",
+    "urls": [
+      "https://img.wpassets-delta.com/images/41dd9a18d3810f998db9057abc35cc9b5de6495a722b42b7072aa8bbeec8286b.webp"
+    ],
+    "local_images": [
+      "/images/yuantid-2025-1.webp"
+    ]
+  },
+  {
+    "id": 2026,
+    "name": "Epithalon",
+    "source_url": "https://www.yuantid.com/products/epithalon",
+    "urls": [
+      "https://img.wpassets-delta.com/images/138577f7862ee6017a59d767a278b69e793b19e125f33e862656f0dab60aea64.webp",
+      "https://img.wpassets-delta.com/images/50a434d8d3a957bab1ceb36aa3d8ae7e00c28a3f55e7345adc4b7928cc7a271c.webp"
+    ],
+    "local_images": [
+      "/images/yuantid-2026-1.webp",
+      "/images/yuantid-2026-2.webp"
+    ]
+  },
+  {
+    "id": 2027,
+    "name": "CJC-1295 With DAC",
+    "source_url": "https://www.yuantid.com/products/cjc-1295-5mg",
+    "urls": [
+      "https://img.wpassets-delta.com/images/1de5b2fa2dc260e6f29e86d566eee5fb70b04e96c664ea075eb35a32c93c1017.webp",
+      "https://img.wpassets-delta.com/images/0e36f7d8e2b3b0b8a4407735a7dd085425dfac3b49c9ed1198b131a52c1e1fbe.webp",
+      "https://img.wpassets-delta.com/images/17a79717604623594f539bbec5c59f695d9054eeddb95fb25d421ed6cd9bfafe.webp",
+      "https://img.wpassets-delta.com/images/80166f83ce3b8baa2ed64f5f3fc409a1ba342f1a54cee8a47c5475589bfcaf7d.png",
+      "https://img.wpassets-delta.com/images/80166f83ce3b8baa2ed64f5f3fc409a1ba342f1a54cee8a47c5475589bfcaf7d.png?x-oss-process=image/resize,m_lfit,w_168"
+    ],
+    "local_images": [
+      "/images/yuantid-2027-1.webp",
+      "/images/yuantid-2027-2.webp",
+      "/images/yuantid-2027-3.webp",
+      "/images/yuantid-2027-4.png",
+      "/images/yuantid-2027-5.png"
+    ]
+  },
+  {
+    "id": 2028,
+    "name": "AOD-9604",
+    "source_url": "https://www.yuantid.com/products/aod-9604",
+    "urls": [
+      "https://img.wpassets-delta.com/images/cfbca891397173bb18294b9919f20ac4e32d6acb2c2d72ce88fe3be3ce992485.webp",
+      "https://img.wpassets-delta.com/images/1843cf04822af4fd41f6530a8768756a64409b55a616ae19ad4f83233043b393.webp"
+    ],
+    "local_images": [
+      "/images/yuantid-2028-1.webp",
+      "/images/yuantid-2028-2.webp"
+    ]
+  },
+  {
+    "id": 2029,
+    "name": "10-amino-1mq",
+    "source_url": "https://www.yuantid.com/products/10-amino-1mq",
+    "urls": [
+      "https://img.wpassets-delta.com/images/f36384a9f6a9db6d465b18169bd8cd8ee619e5deae38112e1cdeac380a17f664.webp",
+      "https://img.wpassets-delta.com/images/c289f751d46b5065152c4a6790518cb903e44eaac6d47ce06baa69a7cfad573d.webp"
+    ],
+    "local_images": [
+      "/images/yuantid-2029-1.webp",
+      "/images/yuantid-2029-2.webp"
+    ]
+  },
+  {
+    "id": 2030,
+    "name": "Klow80",
+    "source_url": "https://www.yuantid.com/products/klow-peptide-blend",
+    "urls": [
+      "https://img.wpassets-delta.com/images/d7ef5e0219edf0acd337d242bd81a0926546349ebea2f581c8abede9eca57904.webp"
+    ],
+    "local_images": [
+      "/images/yuantid-2030-1.webp"
+    ]
+  }
+]

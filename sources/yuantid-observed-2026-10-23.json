@@ -1,0 +1,1192 @@
+[
+  {
+    "name": "SLU-PP-332",
+    "url": "https://www.yuantid.com/products/slu-pp-332",
+    "price": "$85.50 – $135.00",
+    "attributes": [
+      [
+        "class",
+        "ys-card ys-reveal"
+      ],
+      [
+        "data-cat",
+        "single"
+      ],
+      [
+        "data-price",
+        "95"
+      ],
+      [
+        "data-name",
+        "slu-pp-332"
+      ]
+    ],
+    "captured_at": "2026-10-23",
+    "variants": [
+      {
+        "id": 26420863,
+        "label": "332 5mg*10vials",
+        "price": 85.5
+      },
+      {
+        "id": 26420864,
+        "label": "332 10mg*10vials",
+        "price": 135
+      }
+    ]
+  },
+  {
+    "name": "Ipamorelin",
+    "url": "https://www.yuantid.com/products/ipamorelin",
+    "price": "$44.00 – $76.00",
+    "attributes": [
+      [
+        "class",
+        "ys-card ys-reveal"
+      ],
+      [
+        "data-cat",
+        "single"
+      ],
+      [
+        "data-price",
+        "53"
+      ],
+      [
+        "data-name",
+        "ipamorelin"
+      ]
+    ],
+    "captured_at": "2026-10-23",
+    "variants": [
+      {
+        "id": 26420865,
+        "label": "IP5 5mg*10vials",
+        "price": 44
+      },
+      {
+        "id": 26420866,
+        "label": "IP10 10mg*10vials",
+        "price": 76
+      }
+    ]
+  },
+  {
+    "name": "VIP",
+    "url": "https://www.yuantid.com/products/vip",
+    "price": "$94.50 – $198.00",
+    "attributes": [
+      [
+        "class",
+        "ys-card ys-reveal"
+      ],
+      [
+        "data-cat",
+        "single"
+      ],
+      [
+        "data-price",
+        "105"
+      ],
+      [
+        "data-name",
+        "vip"
+      ]
+    ],
+    "captured_at": "2026-10-23",
+    "variants": [
+      {
+        "id": 26420867,
+        "label": "VIP5 5mg*10vials",
+        "price": 94.5
+      },
+      {
+        "id": 26420868,
+        "label": "VIP10 10mg*10vials",
+        "price": 198
+      }
+    ]
+  },
+  {
+    "name": "Semaglutide",
+    "url": "https://www.yuantid.com/products/semaglutide",
+    "price": "$51.75 – $135.00",
+    "attributes": [
+      [
+        "class",
+        "ys-card ys-reveal"
+      ],
+      [
+        "data-cat",
+        "glp"
+      ],
+      [
+        "data-price",
+        "58"
+      ],
+      [
+        "data-name",
+        "semaglutide"
+      ]
+    ],
+    "captured_at": "2026-10-23",
+    "variants": [
+      {
+        "id": 26420869,
+        "label": "SM5 5mg*10vials",
+        "price": 51.75
+      },
+      {
+        "id": 26420870,
+        "label": "SM10 10mg*10vials",
+        "price": 63
+      },
+      {
+        "id": 26420871,
+        "label": "SM15 15mg*10vials",
+        "price": 76.5
+      },
+      {
+        "id": 26420872,
+        "label": "SM20 20mg*10vials",
+        "price": 99
+      },
+      {
+        "id": 26420873,
+        "label": "SM30 30mg*10vials",
+        "price": 135
+      }
+    ]
+  },
+  {
+    "name": "Mazdutide",
+    "url": "https://www.yuantid.com/products/mazdutide",
+    "price": "$450.00",
+    "attributes": [
+      [
+        "class",
+        "ys-card ys-reveal"
+      ],
+      [
+        "data-cat",
+        "glp"
+      ],
+      [
+        "data-price",
+        "500"
+      ],
+      [
+        "data-name",
+        "mazdutide"
+      ]
+    ],
+    "captured_at": "2026-10-23",
+    "variants": [
+      {
+        "id": 26420874,
+        "label": "MDT10 10mg*10vials",
+        "price": 450
+      }
+    ]
+  },
+  {
+    "name": "Melanotan I",
+    "url": "https://www.yuantid.com/products/melanotan-i",
+    "price": "$76.50",
+    "attributes": [
+      [
+        "class",
+        "ys-card ys-reveal"
+      ],
+      [
+        "data-cat",
+        "single"
+      ],
+      [
+        "data-price",
+        "85"
+      ],
+      [
+        "data-name",
+        "melanotan i"
+      ]
+    ],
+    "captured_at": "2026-10-23",
+    "variants": [
+      {
+        "id": 26420875,
+        "label": "MT1 10mg*10vials",
+        "price": 76.5
+      }
+    ]
+  },
+  {
+    "name": "Tirzepatide",
+    "url": "https://www.yuantid.com/products/tirzepatide",
+    "price": "$42.00 – $254.00",
+    "attributes": [
+      [
+        "class",
+        "ys-card ys-reveal"
+      ],
+      [
+        "data-cat",
+        "glp"
+      ],
+      [
+        "data-price",
+        "53"
+      ],
+      [
+        "data-name",
+        "tirzepatide"
+      ]
+    ],
+    "captured_at": "2026-10-23",
+    "variants": [
+      {
+        "id": 26420960,
+        "label": "TR5 5mg*10vials",
+        "price": 42
+      },
+      {
+        "id": 26420961,
+        "label": "TR10 10mg*10vials",
+        "price": 58
+      },
+      {
+        "id": 26420962,
+        "label": "TR15 15mg*10vials",
+        "price": 76
+      },
+      {
+        "id": 26420963,
+        "label": "TR20 20mg*10vials",
+        "price": 104
+      },
+      {
+        "id": 26420964,
+        "label": "TR30 30mg*10vials",
+        "price": 132
+      },
+      {
+        "id": 26420965,
+        "label": "TR40 40mg*10vials",
+        "price": 178
+      },
+      {
+        "id": 26420966,
+        "label": "TR45 45mg*10vials",
+        "price": 209
+      },
+      {
+        "id": 26420967,
+        "label": "TR50 50mg*10vials",
+        "price": 228
+      },
+      {
+        "id": 26420968,
+        "label": "TR60 60mg*10vials",
+        "price": 254
+      }
+    ]
+  },
+  {
+    "name": "Retatrutide",
+    "url": "https://www.yuantid.com/products/retatrutide",
+    "price": "$46.00 – $308.00",
+    "attributes": [
+      [
+        "class",
+        "ys-card ys-reveal"
+      ],
+      [
+        "data-cat",
+        "glp"
+      ],
+      [
+        "data-price",
+        "150"
+      ],
+      [
+        "data-name",
+        "retatrutide"
+      ]
+    ],
+    "captured_at": "2026-10-23",
+    "variants": [
+      {
+        "id": 26421010,
+        "label": "RT5",
+        "price": 46
+      },
+      {
+        "id": 26421011,
+        "label": "RT10",
+        "price": 69
+      },
+      {
+        "id": 26421012,
+        "label": "RT15",
+        "price": 98
+      },
+      {
+        "id": 26421013,
+        "label": "RT20",
+        "price": 127
+      },
+      {
+        "id": 26421014,
+        "label": "RT25",
+        "price": 155
+      },
+      {
+        "id": 26421015,
+        "label": "RT30",
+        "price": 189
+      },
+      {
+        "id": 26421016,
+        "label": "RT35",
+        "price": 204
+      },
+      {
+        "id": 26421017,
+        "label": "RT40",
+        "price": 240
+      },
+      {
+        "id": 26421018,
+        "label": "RT50",
+        "price": 269
+      },
+      {
+        "id": 26421019,
+        "label": "RT60",
+        "price": 308
+      }
+    ]
+  },
+  {
+    "name": "BPC 10mg+Tb500 10mg",
+    "url": "https://www.yuantid.com/products/bpc-10mg-tb500-10mg",
+    "price": "$128.00 – $329.00",
+    "attributes": [
+      [
+        "class",
+        "ys-card ys-reveal"
+      ],
+      [
+        "data-cat",
+        "blend"
+      ],
+      [
+        "data-price",
+        "150"
+      ],
+      [
+        "data-name",
+        "bpc 10mg+tb500 10mg"
+      ]
+    ],
+    "captured_at": "2026-10-23",
+    "variants": [
+      {
+        "id": 26421000,
+        "label": "BB10",
+        "price": 128
+      },
+      {
+        "id": 26421001,
+        "label": "BB20",
+        "price": 235
+      },
+      {
+        "id": 26421002,
+        "label": "BB30",
+        "price": 329
+      }
+    ]
+  },
+  {
+    "name": "Tesamorelin",
+    "url": "https://www.yuantid.com/products/tesamorelin",
+    "price": "$106.00 – $385.00",
+    "attributes": [
+      [
+        "class",
+        "ys-card ys-reveal"
+      ],
+      [
+        "data-cat",
+        "single"
+      ],
+      [
+        "data-price",
+        "140"
+      ],
+      [
+        "data-name",
+        "tesamorelin"
+      ]
+    ],
+    "captured_at": "2026-10-23",
+    "variants": [
+      {
+        "id": 26420993,
+        "label": "TSM5 5mg*10vials",
+        "price": 106
+      },
+      {
+        "id": 26420994,
+        "label": "TSM10 10mg*10vials",
+        "price": 199
+      },
+      {
+        "id": 26420995,
+        "label": "TSM15 15mg*10vials",
+        "price": 268
+      },
+      {
+        "id": 26420996,
+        "label": "TSM20 20mg*10vials",
+        "price": 385
+      }
+    ]
+  },
+  {
+    "name": "Pinealon",
+    "url": "https://www.yuantid.com/products/pinealon",
+    "price": "$99.00 – $414.00",
+    "attributes": [
+      [
+        "class",
+        "ys-card ys-reveal"
+      ],
+      [
+        "data-cat",
+        "single"
+      ],
+      [
+        "data-price",
+        "115"
+      ],
+      [
+        "data-name",
+        "pinealon"
+      ]
+    ],
+    "captured_at": "2026-10-23",
+    "variants": [
+      {
+        "id": 26420908,
+        "label": "PIN10 10mg*10vials",
+        "price": 99
+      },
+      {
+        "id": 26420909,
+        "label": "PIN50 50mg*10vials",
+        "price": 414
+      }
+    ]
+  },
+  {
+    "name": "Thymosin Alpha-1",
+    "url": "https://www.yuantid.com/products/thymosin-1",
+    "price": "$175.50 – $326.25",
+    "attributes": [
+      [
+        "class",
+        "ys-card ys-reveal"
+      ],
+      [
+        "data-cat",
+        "single"
+      ],
+      [
+        "data-price",
+        "195"
+      ],
+      [
+        "data-name",
+        "thymosin alpha-1"
+      ]
+    ],
+    "captured_at": "2026-10-23",
+    "variants": [
+      {
+        "id": 26420910,
+        "label": "TA5 5mg*10vials",
+        "price": 175.5
+      },
+      {
+        "id": 26420911,
+        "label": "TA10 10mg*10vials",
+        "price": 326.25
+      }
+    ]
+  },
+  {
+    "name": "Semax",
+    "url": "https://www.yuantid.com/products/semax",
+    "price": "$51.75 – $132.75",
+    "attributes": [
+      [
+        "class",
+        "ys-card ys-reveal"
+      ],
+      [
+        "data-cat",
+        "single"
+      ],
+      [
+        "data-price",
+        "58"
+      ],
+      [
+        "data-name",
+        "semax"
+      ]
+    ],
+    "captured_at": "2026-10-23",
+    "variants": [
+      {
+        "id": 26420912,
+        "label": "XA5 5mg*10vials",
+        "price": 51.75
+      },
+      {
+        "id": 26420913,
+        "label": "XA10 10mg*10vials",
+        "price": 76.5
+      },
+      {
+        "id": 26420914,
+        "label": "XA30 30mg*10vials",
+        "price": 132.75
+      }
+    ]
+  },
+  {
+    "name": "Selank",
+    "url": "https://www.yuantid.com/products/selank",
+    "price": "$49.00 – $74.00",
+    "attributes": [
+      [
+        "class",
+        "ys-card ys-reveal"
+      ],
+      [
+        "data-cat",
+        "single"
+      ],
+      [
+        "data-price",
+        "58"
+      ],
+      [
+        "data-name",
+        "selank"
+      ]
+    ],
+    "captured_at": "2026-10-23",
+    "variants": [
+      {
+        "id": 26420915,
+        "label": "SK5 5mg*10vials",
+        "price": 49
+      },
+      {
+        "id": 26420916,
+        "label": "SK10 10mg*10vials",
+        "price": 74
+      }
+    ]
+  },
+  {
+    "name": "Cagrilintide",
+    "url": "https://www.yuantid.com/products/cagrilintide",
+    "price": "$169.00 – $328.00",
+    "attributes": [
+      [
+        "class",
+        "ys-card ys-reveal"
+      ],
+      [
+        "data-cat",
+        "glp"
+      ],
+      [
+        "data-price",
+        "208"
+      ],
+      [
+        "data-name",
+        "cagrilintide"
+      ]
+    ],
+    "captured_at": "2026-10-23",
+    "variants": [
+      {
+        "id": 26420917,
+        "label": "CGL5 5mg*10vials",
+        "price": 169
+      },
+      {
+        "id": 26420918,
+        "label": "CGL10 10mg*10vials",
+        "price": 328
+      }
+    ]
+  },
+  {
+    "name": "BPC-157",
+    "url": "https://www.yuantid.com/products/bpc-157_8bd5ae7e",
+    "price": "$52.00 – $129.00",
+    "attributes": [
+      [
+        "class",
+        "ys-card ys-reveal"
+      ],
+      [
+        "data-cat",
+        "single"
+      ],
+      [
+        "data-price",
+        "65"
+      ],
+      [
+        "data-name",
+        "bpc-157"
+      ]
+    ],
+    "captured_at": "2026-10-23",
+    "variants": [
+      {
+        "id": 26420919,
+        "label": "BC5 5mg*10vials",
+        "price": 52
+      },
+      {
+        "id": 26420920,
+        "label": "BC10 10mg*10vials",
+        "price": 81
+      },
+      {
+        "id": 26420921,
+        "label": "BC20 20mg*10vials",
+        "price": 129
+      }
+    ]
+  },
+  {
+    "name": "Melanotan II",
+    "url": "https://www.yuantid.com/products/melanotan-ii",
+    "price": "$76.50",
+    "attributes": [
+      [
+        "class",
+        "ys-card ys-reveal"
+      ],
+      [
+        "data-cat",
+        "single"
+      ],
+      [
+        "data-price",
+        "85"
+      ],
+      [
+        "data-name",
+        "melanotan ii"
+      ]
+    ],
+    "captured_at": "2026-10-23",
+    "variants": [
+      {
+        "id": 26420937,
+        "label": "ML10 10mg*10vials",
+        "price": 76.5
+      }
+    ]
+  },
+  {
+    "name": "TB-500",
+    "url": "https://www.yuantid.com/products/tb-500",
+    "price": "$92.00 – $234.00",
+    "attributes": [
+      [
+        "class",
+        "ys-card ys-reveal"
+      ],
+      [
+        "data-cat",
+        "single"
+      ],
+      [
+        "data-price",
+        "115"
+      ],
+      [
+        "data-name",
+        "tb-500"
+      ]
+    ],
+    "captured_at": "2026-10-23",
+    "variants": [
+      {
+        "id": 26420944,
+        "label": "BT5 5mg*10vials",
+        "price": 92
+      },
+      {
+        "id": 26420945,
+        "label": "BT10 10mg*10vials",
+        "price": 169
+      },
+      {
+        "id": 26420946,
+        "label": "BT20 20mg*10vials",
+        "price": 234
+      }
+    ]
+  },
+  {
+    "name": "SS-31",
+    "url": "https://www.yuantid.com/products/ss-31",
+    "price": "$72.00 – $319.00",
+    "attributes": [
+      [
+        "class",
+        "ys-card ys-reveal"
+      ],
+      [
+        "data-cat",
+        "single"
+      ],
+      [
+        "data-price",
+        "93"
+      ],
+      [
+        "data-name",
+        "ss-31"
+      ]
+    ],
+    "captured_at": "2026-10-23",
+    "variants": [
+      {
+        "id": 26420942,
+        "label": "2S10 10mg*10vials",
+        "price": 72
+      },
+      {
+        "id": 26420943,
+        "label": "2S50 50mg*10vials",
+        "price": 319
+      }
+    ]
+  },
+  {
+    "name": "PT-141",
+    "url": "https://www.yuantid.com/products/pt-141",
+    "price": "$99.00",
+    "attributes": [
+      [
+        "class",
+        "ys-card ys-reveal"
+      ],
+      [
+        "data-cat",
+        "single"
+      ],
+      [
+        "data-price",
+        "110"
+      ],
+      [
+        "data-name",
+        "pt-141"
+      ]
+    ],
+    "captured_at": "2026-10-23",
+    "variants": [
+      {
+        "id": 26420941,
+        "label": "P41 10mg*10vials",
+        "price": 99
+      }
+    ]
+  },
+  {
+    "name": "NAD",
+    "url": "https://www.yuantid.com/products/nad",
+    "price": "$38.00 – $71.00",
+    "attributes": [
+      [
+        "class",
+        "ys-card ys-reveal"
+      ],
+      [
+        "data-cat",
+        "single"
+      ],
+      [
+        "data-price",
+        "45"
+      ],
+      [
+        "data-name",
+        "nad"
+      ]
+    ],
+    "captured_at": "2026-10-23",
+    "variants": [
+      {
+        "id": 26420938,
+        "label": "NJ100 100mg*10vials",
+        "price": 38
+      },
+      {
+        "id": 26420939,
+        "label": "NJ500 500mg*10vials",
+        "price": 55
+      },
+      {
+        "id": 26420940,
+        "label": "NJ1000 1000mg*10vials",
+        "price": 71
+      }
+    ]
+  },
+  {
+    "name": "MOTS-c",
+    "url": "https://www.yuantid.com/products/mots-c",
+    "price": "$69.00 – $258.00",
+    "attributes": [
+      [
+        "class",
+        "ys-card ys-reveal"
+      ],
+      [
+        "data-cat",
+        "single"
+      ],
+      [
+        "data-price",
+        "85"
+      ],
+      [
+        "data-name",
+        "mots-c"
+      ]
+    ],
+    "captured_at": "2026-10-23",
+    "variants": [
+      {
+        "id": 26420934,
+        "label": "MS10 10mg*10vials",
+        "price": 69
+      },
+      {
+        "id": 26420935,
+        "label": "MS20 20mg*10vials",
+        "price": 135
+      },
+      {
+        "id": 26420936,
+        "label": "MS40 40mg*10vials",
+        "price": 258
+      }
+    ]
+  },
+  {
+    "name": "KPV",
+    "url": "https://www.yuantid.com/products/kpv",
+    "price": "$49.50 – $202.50",
+    "attributes": [
+      [
+        "class",
+        "ys-card ys-reveal"
+      ],
+      [
+        "data-cat",
+        "single"
+      ],
+      [
+        "data-price",
+        "55"
+      ],
+      [
+        "data-name",
+        "kpv"
+      ]
+    ],
+    "captured_at": "2026-10-23",
+    "variants": [
+      {
+        "id": 26420930,
+        "label": "KPV5 5mg*10vials",
+        "price": 49.5
+      },
+      {
+        "id": 26420931,
+        "label": "KPV10 10mg*10vials",
+        "price": 83.25
+      },
+      {
+        "id": 26420932,
+        "label": "KPV30 30mg*10vials",
+        "price": 202.5
+      }
+    ]
+  },
+  {
+    "name": "GHK-CU",
+    "url": "https://www.yuantid.com/products/ghk-cu",
+    "price": "$21.00 – $32.00",
+    "attributes": [
+      [
+        "class",
+        "ys-card ys-reveal"
+      ],
+      [
+        "data-cat",
+        "single"
+      ],
+      [
+        "data-price",
+        "18"
+      ],
+      [
+        "data-name",
+        "ghk-cu"
+      ]
+    ],
+    "captured_at": "2026-10-23",
+    "variants": [
+      {
+        "id": 26420928,
+        "label": "CU50 50mg*10vials",
+        "price": 21
+      },
+      {
+        "id": 26420929,
+        "label": "CU100 100mg*10vials",
+        "price": 32
+      }
+    ]
+  },
+  {
+    "name": "FOXO4",
+    "url": "https://www.yuantid.com/products/foxo4",
+    "price": "$426.00",
+    "attributes": [
+      [
+        "class",
+        "ys-card ys-reveal"
+      ],
+      [
+        "data-cat",
+        "single"
+      ],
+      [
+        "data-price",
+        "495"
+      ],
+      [
+        "data-name",
+        "foxo4"
+      ]
+    ],
+    "captured_at": "2026-10-23",
+    "variants": [
+      {
+        "id": 26420927,
+        "label": "F410 10mg*10vials",
+        "price": 426
+      }
+    ]
+  },
+  {
+    "name": "Epithalon",
+    "url": "https://www.yuantid.com/products/epithalon",
+    "price": "$63.00 – $239.00",
+    "attributes": [
+      [
+        "class",
+        "ys-card ys-reveal"
+      ],
+      [
+        "data-cat",
+        "single"
+      ],
+      [
+        "data-price",
+        "70"
+      ],
+      [
+        "data-name",
+        "epithalon"
+      ]
+    ],
+    "captured_at": "2026-10-23",
+    "variants": [
+      {
+        "id": 26420925,
+        "label": "ET10 10mg*10vials",
+        "price": 63
+      },
+      {
+        "id": 26420926,
+        "label": "ET50 50mg*10vials",
+        "price": 239
+      }
+    ]
+  },
+  {
+    "name": "CJC-1295 With DAC",
+    "url": "https://www.yuantid.com/products/cjc-1295-5mg",
+    "price": "$124.00 – $440.00",
+    "attributes": [
+      [
+        "class",
+        "ys-card ys-reveal"
+      ],
+      [
+        "data-cat",
+        "single"
+      ],
+      [
+        "data-price",
+        "155"
+      ],
+      [
+        "data-name",
+        "cjc-1295 with dac"
+      ]
+    ],
+    "captured_at": "2026-10-23",
+    "variants": [
+      {
+        "id": 26420922,
+        "label": "CD2 2mg*10vials",
+        "price": 124
+      },
+      {
+        "id": 26420923,
+        "label": "CD5 5mg*10vials",
+        "price": 238
+      },
+      {
+        "id": 26420924,
+        "label": "CD10 10mg*10vials",
+        "price": 440
+      }
+    ]
+  },
+  {
+    "name": "AOD-9604",
+    "url": "https://www.yuantid.com/products/aod-9604",
+    "price": "$168.00 – $299.00",
+    "attributes": [
+      [
+        "class",
+        "ys-card ys-reveal"
+      ],
+      [
+        "data-cat",
+        "single"
+      ],
+      [
+        "data-price",
+        "220"
+      ],
+      [
+        "data-name",
+        "aod-9604"
+      ]
+    ],
+    "captured_at": "2026-10-23",
+    "variants": [
+      {
+        "id": 26420949,
+        "label": "5AD 5mg*10vials",
+        "price": 168
+      },
+      {
+        "id": 26420950,
+        "label": "10AD 10mg*10vials",
+        "price": 299
+      }
+    ]
+  },
+  {
+    "name": "10-amino-1mq",
+    "url": "https://www.yuantid.com/products/10-amino-1mq",
+    "price": "$30.00 – $51.75",
+    "attributes": [
+      [
+        "class",
+        "ys-card ys-reveal"
+      ],
+      [
+        "data-cat",
+        "single"
+      ],
+      [
+        "data-price",
+        "35"
+      ],
+      [
+        "data-name",
+        "10-amino-1mq"
+      ]
+    ],
+    "captured_at": "2026-10-23",
+    "variants": [
+      {
+        "id": 26420947,
+        "label": "5AM 5mg*10vials",
+        "price": 30
+      },
+      {
+        "id": 26420948,
+        "label": "10AM 10mg*10vials",
+        "price": 51.75
+      }
+    ]
+  },
+  {
+    "name": "Klow80",
+    "url": "https://www.yuantid.com/products/klow-peptide-blend",
+    "price": "$312.00",
+    "attributes": [
+      [
+        "class",
+        "ys-card ys-reveal"
+      ],
+      [
+        "data-cat",
+        "blend"
+      ],
+      [
+        "data-price",
+        "370"
+      ],
+      [
+        "data-name",
+        "klow80"
+      ]
+    ],
+    "captured_at": "2026-10-23",
+    "variants": [
+      {
+        "id": 26420933,
+        "label": "Klow80 80mg*10vials",
+        "price": 312
+      }
+    ]
+  }
+]

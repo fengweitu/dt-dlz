@@ -1,0 +1,1267 @@
+[
+  {
+    "id": 2001,
+    "name": "SLU-PP-332",
+    "subtitle": "2 packages · 5–10mg per vial",
+    "category": "Single Peptides",
+    "price": 8550,
+    "old_price": 0,
+    "stock": 200,
+    "image": "/images/yuantid-2001-1.webp",
+    "tag": "SINGLE PEPTIDES",
+    "description": "SLU-PP-332 is listed in our Single Peptides range. 2 packages to choose from: 5–10mg per vial, 10 vials per package. Prices run from $85.50 to $135.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
+    "source_url": "https://www.yuantid.com/products/slu-pp-332",
+    "source_checked_on": "2026-10-23",
+    "variants": [
+      {
+        "id": 200101,
+        "label": "332 5mg*10vials",
+        "price": 8550,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420863"
+      },
+      {
+        "id": 200102,
+        "label": "332 10mg*10vials",
+        "price": 13500,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420864"
+      }
+    ],
+    "gallery": [
+      "/images/yuantid-2001-1.webp",
+      "/images/yuantid-2001-2.webp"
+    ]
+  },
+  {
+    "id": 2002,
+    "name": "Ipamorelin",
+    "subtitle": "2 packages · 5–10mg per vial",
+    "category": "Single Peptides",
+    "price": 4400,
+    "old_price": 0,
+    "stock": 200,
+    "image": "/images/yuantid-2002-1.webp",
+    "tag": "SINGLE PEPTIDES",
+    "description": "Ipamorelin is listed in our Single Peptides range. 2 packages to choose from: 5–10mg per vial, 10 vials per package. Prices run from $44.00 to $76.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
+    "source_url": "https://www.yuantid.com/products/ipamorelin",
+    "source_checked_on": "2026-10-23",
+    "variants": [
+      {
+        "id": 200201,
+        "label": "IP5 5mg*10vials",
+        "price": 4400,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420865"
+      },
+      {
+        "id": 200202,
+        "label": "IP10 10mg*10vials",
+        "price": 7600,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420866"
+      }
+    ],
+    "gallery": [
+      "/images/yuantid-2002-1.webp",
+      "/images/yuantid-2002-2.webp"
+    ]
+  },
+  {
+    "id": 2003,
+    "name": "VIP",
+    "subtitle": "2 packages · 5–10mg per vial",
+    "category": "Single Peptides",
+    "price": 9450,
+    "old_price": 0,
+    "stock": 200,
+    "image": "/images/yuantid-2003-1.png",
+    "tag": "SINGLE PEPTIDES",
+    "description": "VIP is listed in our Single Peptides range. 2 packages to choose from: 5–10mg per vial, 10 vials per package. Prices run from $94.50 to $198.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
+    "source_url": "https://www.yuantid.com/products/vip",
+    "source_checked_on": "2026-10-23",
+    "variants": [
+      {
+        "id": 200301,
+        "label": "VIP5 5mg*10vials",
+        "price": 9450,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420867"
+      },
+      {
+        "id": 200302,
+        "label": "VIP10 10mg*10vials",
+        "price": 19800,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420868"
+      }
+    ],
+    "gallery": [
+      "/images/yuantid-2003-1.png"
+    ]
+  },
+  {
+    "id": 2004,
+    "name": "Semaglutide",
+    "subtitle": "5 packages · 5–30mg per vial",
+    "category": "GLP Series",
+    "price": 5175,
+    "old_price": 0,
+    "stock": 500,
+    "image": "/images/yuantid-2004-1.webp",
+    "tag": "GLP SERIES",
+    "description": "Semaglutide is listed in our GLP Series range. 5 packages to choose from: 5–30mg per vial, 10 vials per package. Prices run from $51.75 to $135.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
+    "source_url": "https://www.yuantid.com/products/semaglutide",
+    "source_checked_on": "2026-10-23",
+    "variants": [
+      {
+        "id": 200401,
+        "label": "SM5 5mg*10vials",
+        "price": 5175,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420869"
+      },
+      {
+        "id": 200402,
+        "label": "SM10 10mg*10vials",
+        "price": 6300,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420870"
+      },
+      {
+        "id": 200403,
+        "label": "SM15 15mg*10vials",
+        "price": 7650,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420871"
+      },
+      {
+        "id": 200404,
+        "label": "SM20 20mg*10vials",
+        "price": 9900,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420872"
+      },
+      {
+        "id": 200405,
+        "label": "SM30 30mg*10vials",
+        "price": 13500,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420873"
+      }
+    ],
+    "gallery": [
+      "/images/yuantid-2004-1.webp",
+      "/images/yuantid-2004-2.webp",
+      "/images/yuantid-2004-3.webp",
+      "/images/yuantid-2004-4.webp",
+      "/images/yuantid-2004-5.webp"
+    ]
+  },
+  {
+    "id": 2005,
+    "name": "Mazdutide",
+    "subtitle": "1 package · 10mg per vial",
+    "category": "GLP Series",
+    "price": 45000,
+    "old_price": 0,
+    "stock": 100,
+    "image": "/images/yuantid-2005-1.webp",
+    "tag": "GLP SERIES",
+    "description": "Mazdutide is listed in our GLP Series range. One package: 10mg per vial, 10 vials per package. Priced at $450.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
+    "source_url": "https://www.yuantid.com/products/mazdutide",
+    "source_checked_on": "2026-10-23",
+    "variants": [
+      {
+        "id": 200501,
+        "label": "MDT10 10mg*10vials",
+        "price": 45000,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420874"
+      }
+    ],
+    "gallery": [
+      "/images/yuantid-2005-1.webp"
+    ]
+  },
+  {
+    "id": 2006,
+    "name": "Melanotan I",
+    "subtitle": "1 package · 10mg per vial",
+    "category": "Single Peptides",
+    "price": 7650,
+    "old_price": 0,
+    "stock": 100,
+    "image": "/images/yuantid-2006-1.webp",
+    "tag": "SINGLE PEPTIDES",
+    "description": "Melanotan I is listed in our Single Peptides range. One package: 10mg per vial, 10 vials per package. Priced at $76.50 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
+    "source_url": "https://www.yuantid.com/products/melanotan-i",
+    "source_checked_on": "2026-10-23",
+    "variants": [
+      {
+        "id": 200601,
+        "label": "MT1 10mg*10vials",
+        "price": 7650,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420875"
+      }
+    ],
+    "gallery": [
+      "/images/yuantid-2006-1.webp",
+      "/images/yuantid-2006-2.png",
+      "/images/yuantid-2006-3.png"
+    ]
+  },
+  {
+    "id": 2007,
+    "name": "Tirzepatide",
+    "subtitle": "9 packages · 5–60mg per vial",
+    "category": "GLP Series",
+    "price": 4200,
+    "old_price": 0,
+    "stock": 900,
+    "image": "/images/yuantid-2007-1.webp",
+    "tag": "GLP SERIES",
+    "description": "Tirzepatide is listed in our GLP Series range. 9 packages to choose from: 5–60mg per vial, 10 vials per package. Prices run from $42.00 to $254.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
+    "source_url": "https://www.yuantid.com/products/tirzepatide",
+    "source_checked_on": "2026-10-23",
+    "variants": [
+      {
+        "id": 200701,
+        "label": "TR5 5mg*10vials",
+        "price": 4200,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420960"
+      },
+      {
+        "id": 200702,
+        "label": "TR10 10mg*10vials",
+        "price": 5800,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420961"
+      },
+      {
+        "id": 200703,
+        "label": "TR15 15mg*10vials",
+        "price": 7600,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420962"
+      },
+      {
+        "id": 200704,
+        "label": "TR20 20mg*10vials",
+        "price": 10400,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420963"
+      },
+      {
+        "id": 200705,
+        "label": "TR30 30mg*10vials",
+        "price": 13200,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420964"
+      },
+      {
+        "id": 200706,
+        "label": "TR40 40mg*10vials",
+        "price": 17800,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420965"
+      },
+      {
+        "id": 200707,
+        "label": "TR45 45mg*10vials",
+        "price": 20900,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420966"
+      },
+      {
+        "id": 200708,
+        "label": "TR50 50mg*10vials",
+        "price": 22800,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420967"
+      },
+      {
+        "id": 200709,
+        "label": "TR60 60mg*10vials",
+        "price": 25400,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420968"
+      }
+    ],
+    "gallery": [
+      "/images/yuantid-2007-1.webp",
+      "/images/yuantid-2007-2.webp",
+      "/images/yuantid-2007-3.webp",
+      "/images/yuantid-2007-4.webp",
+      "/images/yuantid-2007-5.webp",
+      "/images/yuantid-2007-6.webp",
+      "/images/yuantid-2007-7.webp",
+      "/images/yuantid-2007-8.webp"
+    ]
+  },
+  {
+    "id": 2008,
+    "name": "Retatrutide",
+    "subtitle": "10 packages · RT5–RT60",
+    "category": "GLP Series",
+    "price": 4600,
+    "old_price": 0,
+    "stock": 1000,
+    "image": "/images/yuantid-2008-1.webp",
+    "tag": "GLP SERIES",
+    "description": "Retatrutide is listed in our GLP Series range. 10 packages, published as RT5 through RT60. The source catalogue lists these codes without a quantity, so we quote them exactly as published rather than inferring one. Prices run from $46.00 to $308.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
+    "source_url": "https://www.yuantid.com/products/retatrutide",
+    "source_checked_on": "2026-10-23",
+    "variants": [
+      {
+        "id": 200801,
+        "label": "RT5",
+        "price": 4600,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26421010"
+      },
+      {
+        "id": 200802,
+        "label": "RT10",
+        "price": 6900,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26421011"
+      },
+      {
+        "id": 200803,
+        "label": "RT15",
+        "price": 9800,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26421012"
+      },
+      {
+        "id": 200804,
+        "label": "RT20",
+        "price": 12700,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26421013"
+      },
+      {
+        "id": 200805,
+        "label": "RT25",
+        "price": 15500,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26421014"
+      },
+      {
+        "id": 200806,
+        "label": "RT30",
+        "price": 18900,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26421015"
+      },
+      {
+        "id": 200807,
+        "label": "RT35",
+        "price": 20400,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26421016"
+      },
+      {
+        "id": 200808,
+        "label": "RT40",
+        "price": 24000,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26421017"
+      },
+      {
+        "id": 200809,
+        "label": "RT50",
+        "price": 26900,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26421018"
+      },
+      {
+        "id": 200810,
+        "label": "RT60",
+        "price": 30800,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26421019"
+      }
+    ],
+    "gallery": [
+      "/images/yuantid-2008-1.webp"
+    ]
+  },
+  {
+    "id": 2009,
+    "name": "BPC 10mg+Tb500 10mg",
+    "subtitle": "3 packages · BB10–BB30",
+    "category": "Peptide Blends",
+    "price": 12800,
+    "old_price": 0,
+    "stock": 300,
+    "image": "/images/yuantid-2009-1.webp",
+    "tag": "PEPTIDE BLENDS",
+    "description": "BPC 10mg+Tb500 10mg is listed in our Peptide Blends range. 3 packages, published as BB10, BB20, BB30. The source catalogue lists these codes without a quantity, so we quote them exactly as published rather than inferring one. Prices run from $128.00 to $329.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
+    "source_url": "https://www.yuantid.com/products/bpc-10mg-tb500-10mg",
+    "source_checked_on": "2026-10-23",
+    "variants": [
+      {
+        "id": 200901,
+        "label": "BB10",
+        "price": 12800,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26421000"
+      },
+      {
+        "id": 200902,
+        "label": "BB20",
+        "price": 23500,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26421001"
+      },
+      {
+        "id": 200903,
+        "label": "BB30",
+        "price": 32900,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26421002"
+      }
+    ],
+    "gallery": [
+      "/images/yuantid-2009-1.webp"
+    ]
+  },
+  {
+    "id": 2010,
+    "name": "Tesamorelin",
+    "subtitle": "4 packages · 5–20mg per vial",
+    "category": "Single Peptides",
+    "price": 10600,
+    "old_price": 0,
+    "stock": 400,
+    "image": "/images/yuantid-2010-1.webp",
+    "tag": "SINGLE PEPTIDES",
+    "description": "Tesamorelin is listed in our Single Peptides range. 4 packages to choose from: 5–20mg per vial, 10 vials per package. Prices run from $106.00 to $385.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
+    "source_url": "https://www.yuantid.com/products/tesamorelin",
+    "source_checked_on": "2026-10-23",
+    "variants": [
+      {
+        "id": 201001,
+        "label": "TSM5 5mg*10vials",
+        "price": 10600,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420993"
+      },
+      {
+        "id": 201002,
+        "label": "TSM10 10mg*10vials",
+        "price": 19900,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420994"
+      },
+      {
+        "id": 201003,
+        "label": "TSM15 15mg*10vials",
+        "price": 26800,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420995"
+      },
+      {
+        "id": 201004,
+        "label": "TSM20 20mg*10vials",
+        "price": 38500,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420996"
+      }
+    ],
+    "gallery": [
+      "/images/yuantid-2010-1.webp",
+      "/images/yuantid-2010-2.webp",
+      "/images/yuantid-2010-3.webp"
+    ]
+  },
+  {
+    "id": 2011,
+    "name": "Pinealon",
+    "subtitle": "2 packages · 10–50mg per vial",
+    "category": "Single Peptides",
+    "price": 9900,
+    "old_price": 0,
+    "stock": 200,
+    "image": "/images/yuantid-2011-1.webp",
+    "tag": "SINGLE PEPTIDES",
+    "description": "Pinealon is listed in our Single Peptides range. 2 packages to choose from: 10–50mg per vial, 10 vials per package. Prices run from $99.00 to $414.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
+    "source_url": "https://www.yuantid.com/products/pinealon",
+    "source_checked_on": "2026-10-23",
+    "variants": [
+      {
+        "id": 201101,
+        "label": "PIN10 10mg*10vials",
+        "price": 9900,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420908"
+      },
+      {
+        "id": 201102,
+        "label": "PIN50 50mg*10vials",
+        "price": 41400,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420909"
+      }
+    ],
+    "gallery": [
+      "/images/yuantid-2011-1.webp",
+      "/images/yuantid-2011-2.webp"
+    ]
+  },
+  {
+    "id": 2012,
+    "name": "Thymosin Alpha-1",
+    "subtitle": "2 packages · 5–10mg per vial",
+    "category": "Single Peptides",
+    "price": 17550,
+    "old_price": 0,
+    "stock": 200,
+    "image": "/images/yuantid-2012-1.webp",
+    "tag": "SINGLE PEPTIDES",
+    "description": "Thymosin Alpha-1 is listed in our Single Peptides range. 2 packages to choose from: 5–10mg per vial, 10 vials per package. Prices run from $175.50 to $326.25 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
+    "source_url": "https://www.yuantid.com/products/thymosin-1",
+    "source_checked_on": "2026-10-23",
+    "variants": [
+      {
+        "id": 201201,
+        "label": "TA5 5mg*10vials",
+        "price": 17550,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420910"
+      },
+      {
+        "id": 201202,
+        "label": "TA10 10mg*10vials",
+        "price": 32625,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420911"
+      }
+    ],
+    "gallery": [
+      "/images/yuantid-2012-1.webp",
+      "/images/yuantid-2012-2.webp"
+    ]
+  },
+  {
+    "id": 2013,
+    "name": "Semax",
+    "subtitle": "3 packages · 5–30mg per vial",
+    "category": "Single Peptides",
+    "price": 5175,
+    "old_price": 0,
+    "stock": 300,
+    "image": "/images/yuantid-2013-1.webp",
+    "tag": "SINGLE PEPTIDES",
+    "description": "Semax is listed in our Single Peptides range. 3 packages to choose from: 5–30mg per vial, 10 vials per package. Prices run from $51.75 to $132.75 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
+    "source_url": "https://www.yuantid.com/products/semax",
+    "source_checked_on": "2026-10-23",
+    "variants": [
+      {
+        "id": 201301,
+        "label": "XA5 5mg*10vials",
+        "price": 5175,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420912"
+      },
+      {
+        "id": 201302,
+        "label": "XA10 10mg*10vials",
+        "price": 7650,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420913"
+      },
+      {
+        "id": 201303,
+        "label": "XA30 30mg*10vials",
+        "price": 13275,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420914"
+      }
+    ],
+    "gallery": [
+      "/images/yuantid-2013-1.webp",
+      "/images/yuantid-2013-2.webp",
+      "/images/yuantid-2013-3.webp"
+    ]
+  },
+  {
+    "id": 2014,
+    "name": "Selank",
+    "subtitle": "2 packages · 5–10mg per vial",
+    "category": "Single Peptides",
+    "price": 4900,
+    "old_price": 0,
+    "stock": 200,
+    "image": "/images/yuantid-2014-1.webp",
+    "tag": "SINGLE PEPTIDES",
+    "description": "Selank is listed in our Single Peptides range. 2 packages to choose from: 5–10mg per vial, 10 vials per package. Prices run from $49.00 to $74.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
+    "source_url": "https://www.yuantid.com/products/selank",
+    "source_checked_on": "2026-10-23",
+    "variants": [
+      {
+        "id": 201401,
+        "label": "SK5 5mg*10vials",
+        "price": 4900,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420915"
+      },
+      {
+        "id": 201402,
+        "label": "SK10 10mg*10vials",
+        "price": 7400,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420916"
+      }
+    ],
+    "gallery": [
+      "/images/yuantid-2014-1.webp",
+      "/images/yuantid-2014-2.webp"
+    ]
+  },
+  {
+    "id": 2015,
+    "name": "Cagrilintide",
+    "subtitle": "2 packages · 5–10mg per vial",
+    "category": "GLP Series",
+    "price": 16900,
+    "old_price": 0,
+    "stock": 200,
+    "image": "/images/yuantid-2015-1.webp",
+    "tag": "GLP SERIES",
+    "description": "Cagrilintide is listed in our GLP Series range. 2 packages to choose from: 5–10mg per vial, 10 vials per package. Prices run from $169.00 to $328.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
+    "source_url": "https://www.yuantid.com/products/cagrilintide",
+    "source_checked_on": "2026-10-23",
+    "variants": [
+      {
+        "id": 201501,
+        "label": "CGL5 5mg*10vials",
+        "price": 16900,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420917"
+      },
+      {
+        "id": 201502,
+        "label": "CGL10 10mg*10vials",
+        "price": 32800,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420918"
+      }
+    ],
+    "gallery": [
+      "/images/yuantid-2015-1.webp",
+      "/images/yuantid-2015-2.webp"
+    ]
+  },
+  {
+    "id": 2016,
+    "name": "BPC-157",
+    "subtitle": "3 packages · 5–20mg per vial",
+    "category": "Single Peptides",
+    "price": 5200,
+    "old_price": 0,
+    "stock": 300,
+    "image": "/images/yuantid-2016-1.webp",
+    "tag": "SINGLE PEPTIDES",
+    "description": "BPC-157 is listed in our Single Peptides range. 3 packages to choose from: 5–20mg per vial, 10 vials per package. Prices run from $52.00 to $129.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
+    "source_url": "https://www.yuantid.com/products/bpc-157_8bd5ae7e",
+    "source_checked_on": "2026-10-23",
+    "variants": [
+      {
+        "id": 201601,
+        "label": "BC5 5mg*10vials",
+        "price": 5200,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420919"
+      },
+      {
+        "id": 201602,
+        "label": "BC10 10mg*10vials",
+        "price": 8100,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420920"
+      },
+      {
+        "id": 201603,
+        "label": "BC20 20mg*10vials",
+        "price": 12900,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420921"
+      }
+    ],
+    "gallery": [
+      "/images/yuantid-2016-1.webp",
+      "/images/yuantid-2016-2.webp",
+      "/images/yuantid-2016-3.webp",
+      "/images/yuantid-2016-4.webp"
+    ]
+  },
+  {
+    "id": 2017,
+    "name": "Melanotan II",
+    "subtitle": "1 package · 10mg per vial",
+    "category": "Single Peptides",
+    "price": 7650,
+    "old_price": 0,
+    "stock": 100,
+    "image": "/images/yuantid-2017-1.webp",
+    "tag": "SINGLE PEPTIDES",
+    "description": "Melanotan II is listed in our Single Peptides range. One package: 10mg per vial, 10 vials per package. Priced at $76.50 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
+    "source_url": "https://www.yuantid.com/products/melanotan-ii",
+    "source_checked_on": "2026-10-23",
+    "variants": [
+      {
+        "id": 201701,
+        "label": "ML10 10mg*10vials",
+        "price": 7650,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420937"
+      }
+    ],
+    "gallery": [
+      "/images/yuantid-2017-1.webp"
+    ]
+  },
+  {
+    "id": 2018,
+    "name": "TB-500",
+    "subtitle": "3 packages · 5–20mg per vial",
+    "category": "Single Peptides",
+    "price": 9200,
+    "old_price": 0,
+    "stock": 300,
+    "image": "/images/yuantid-2018-1.webp",
+    "tag": "SINGLE PEPTIDES",
+    "description": "TB-500 is listed in our Single Peptides range. 3 packages to choose from: 5–20mg per vial, 10 vials per package. Prices run from $92.00 to $234.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
+    "source_url": "https://www.yuantid.com/products/tb-500",
+    "source_checked_on": "2026-10-23",
+    "variants": [
+      {
+        "id": 201801,
+        "label": "BT5 5mg*10vials",
+        "price": 9200,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420944"
+      },
+      {
+        "id": 201802,
+        "label": "BT10 10mg*10vials",
+        "price": 16900,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420945"
+      },
+      {
+        "id": 201803,
+        "label": "BT20 20mg*10vials",
+        "price": 23400,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420946"
+      }
+    ],
+    "gallery": [
+      "/images/yuantid-2018-1.webp",
+      "/images/yuantid-2018-2.webp",
+      "/images/yuantid-2018-3.webp"
+    ]
+  },
+  {
+    "id": 2019,
+    "name": "SS-31",
+    "subtitle": "2 packages · 10–50mg per vial",
+    "category": "Single Peptides",
+    "price": 7200,
+    "old_price": 0,
+    "stock": 200,
+    "image": "/images/yuantid-2019-1.png",
+    "tag": "SINGLE PEPTIDES",
+    "description": "SS-31 is listed in our Single Peptides range. 2 packages to choose from: 10–50mg per vial, 10 vials per package. Prices run from $72.00 to $319.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
+    "source_url": "https://www.yuantid.com/products/ss-31",
+    "source_checked_on": "2026-10-23",
+    "variants": [
+      {
+        "id": 201901,
+        "label": "2S10 10mg*10vials",
+        "price": 7200,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420942"
+      },
+      {
+        "id": 201902,
+        "label": "2S50 50mg*10vials",
+        "price": 31900,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420943"
+      }
+    ],
+    "gallery": [
+      "/images/yuantid-2019-1.png"
+    ]
+  },
+  {
+    "id": 2020,
+    "name": "PT-141",
+    "subtitle": "1 package · 10mg per vial",
+    "category": "Single Peptides",
+    "price": 9900,
+    "old_price": 0,
+    "stock": 100,
+    "image": "/images/yuantid-2020-1.png",
+    "tag": "SINGLE PEPTIDES",
+    "description": "PT-141 is listed in our Single Peptides range. One package: 10mg per vial, 10 vials per package. Priced at $99.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
+    "source_url": "https://www.yuantid.com/products/pt-141",
+    "source_checked_on": "2026-10-23",
+    "variants": [
+      {
+        "id": 202001,
+        "label": "P41 10mg*10vials",
+        "price": 9900,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420941"
+      }
+    ],
+    "gallery": [
+      "/images/yuantid-2020-1.png"
+    ]
+  },
+  {
+    "id": 2021,
+    "name": "NAD",
+    "subtitle": "3 packages · 100–1000mg per vial",
+    "category": "Single Peptides",
+    "price": 3800,
+    "old_price": 0,
+    "stock": 300,
+    "image": "/images/yuantid-2021-1.png",
+    "tag": "SINGLE PEPTIDES",
+    "description": "NAD is listed in our Single Peptides range. 3 packages to choose from: 100–1000mg per vial, 10 vials per package. Prices run from $38.00 to $71.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
+    "source_url": "https://www.yuantid.com/products/nad",
+    "source_checked_on": "2026-10-23",
+    "variants": [
+      {
+        "id": 202101,
+        "label": "NJ100 100mg*10vials",
+        "price": 3800,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420938"
+      },
+      {
+        "id": 202102,
+        "label": "NJ500 500mg*10vials",
+        "price": 5500,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420939"
+      },
+      {
+        "id": 202103,
+        "label": "NJ1000 1000mg*10vials",
+        "price": 7100,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420940"
+      }
+    ],
+    "gallery": [
+      "/images/yuantid-2021-1.png"
+    ]
+  },
+  {
+    "id": 2022,
+    "name": "MOTS-c",
+    "subtitle": "3 packages · 10–40mg per vial",
+    "category": "Single Peptides",
+    "price": 6900,
+    "old_price": 0,
+    "stock": 300,
+    "image": "/images/yuantid-2022-1.webp",
+    "tag": "SINGLE PEPTIDES",
+    "description": "MOTS-c is listed in our Single Peptides range. 3 packages to choose from: 10–40mg per vial, 10 vials per package. Prices run from $69.00 to $258.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
+    "source_url": "https://www.yuantid.com/products/mots-c",
+    "source_checked_on": "2026-10-23",
+    "variants": [
+      {
+        "id": 202201,
+        "label": "MS10 10mg*10vials",
+        "price": 6900,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420934"
+      },
+      {
+        "id": 202202,
+        "label": "MS20 20mg*10vials",
+        "price": 13500,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420935"
+      },
+      {
+        "id": 202203,
+        "label": "MS40 40mg*10vials",
+        "price": 25800,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420936"
+      }
+    ],
+    "gallery": [
+      "/images/yuantid-2022-1.webp",
+      "/images/yuantid-2022-2.webp",
+      "/images/yuantid-2022-3.webp"
+    ]
+  },
+  {
+    "id": 2023,
+    "name": "KPV",
+    "subtitle": "3 packages · 5–30mg per vial",
+    "category": "Single Peptides",
+    "price": 4950,
+    "old_price": 0,
+    "stock": 300,
+    "image": "/images/yuantid-2023-1.png",
+    "tag": "SINGLE PEPTIDES",
+    "description": "KPV is listed in our Single Peptides range. 3 packages to choose from: 5–30mg per vial, 10 vials per package. Prices run from $49.50 to $202.50 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
+    "source_url": "https://www.yuantid.com/products/kpv",
+    "source_checked_on": "2026-10-23",
+    "variants": [
+      {
+        "id": 202301,
+        "label": "KPV5 5mg*10vials",
+        "price": 4950,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420930"
+      },
+      {
+        "id": 202302,
+        "label": "KPV10 10mg*10vials",
+        "price": 8325,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420931"
+      },
+      {
+        "id": 202303,
+        "label": "KPV30 30mg*10vials",
+        "price": 20250,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420932"
+      }
+    ],
+    "gallery": [
+      "/images/yuantid-2023-1.png"
+    ]
+  },
+  {
+    "id": 2024,
+    "name": "GHK-CU",
+    "subtitle": "2 packages · 50–100mg per vial",
+    "category": "Single Peptides",
+    "price": 2100,
+    "old_price": 0,
+    "stock": 200,
+    "image": "/images/yuantid-2024-1.webp",
+    "tag": "SINGLE PEPTIDES",
+    "description": "GHK-CU is listed in our Single Peptides range. 2 packages to choose from: 50–100mg per vial, 10 vials per package. Prices run from $21.00 to $32.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
+    "source_url": "https://www.yuantid.com/products/ghk-cu",
+    "source_checked_on": "2026-10-23",
+    "variants": [
+      {
+        "id": 202401,
+        "label": "CU50 50mg*10vials",
+        "price": 2100,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420928"
+      },
+      {
+        "id": 202402,
+        "label": "CU100 100mg*10vials",
+        "price": 3200,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420929"
+      }
+    ],
+    "gallery": [
+      "/images/yuantid-2024-1.webp",
+      "/images/yuantid-2024-2.webp",
+      "/images/yuantid-2024-3.webp"
+    ]
+  },
+  {
+    "id": 2025,
+    "name": "FOXO4",
+    "subtitle": "1 package · 10mg per vial",
+    "category": "Single Peptides",
+    "price": 42600,
+    "old_price": 0,
+    "stock": 100,
+    "image": "/images/yuantid-2025-1.webp",
+    "tag": "SINGLE PEPTIDES",
+    "description": "FOXO4 is listed in our Single Peptides range. One package: 10mg per vial, 10 vials per package. Priced at $426.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
+    "source_url": "https://www.yuantid.com/products/foxo4",
+    "source_checked_on": "2026-10-23",
+    "variants": [
+      {
+        "id": 202501,
+        "label": "F410 10mg*10vials",
+        "price": 42600,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420927"
+      }
+    ],
+    "gallery": [
+      "/images/yuantid-2025-1.webp"
+    ]
+  },
+  {
+    "id": 2026,
+    "name": "Epithalon",
+    "subtitle": "2 packages · 10–50mg per vial",
+    "category": "Single Peptides",
+    "price": 6300,
+    "old_price": 0,
+    "stock": 200,
+    "image": "/images/yuantid-2026-1.webp",
+    "tag": "SINGLE PEPTIDES",
+    "description": "Epithalon is listed in our Single Peptides range. 2 packages to choose from: 10–50mg per vial, 10 vials per package. Prices run from $63.00 to $239.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
+    "source_url": "https://www.yuantid.com/products/epithalon",
+    "source_checked_on": "2026-10-23",
+    "variants": [
+      {
+        "id": 202601,
+        "label": "ET10 10mg*10vials",
+        "price": 6300,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420925"
+      },
+      {
+        "id": 202602,
+        "label": "ET50 50mg*10vials",
+        "price": 23900,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420926"
+      }
+    ],
+    "gallery": [
+      "/images/yuantid-2026-1.webp",
+      "/images/yuantid-2026-2.webp"
+    ]
+  },
+  {
+    "id": 2027,
+    "name": "CJC-1295 With DAC",
+    "subtitle": "3 packages · 2–10mg per vial",
+    "category": "Single Peptides",
+    "price": 12400,
+    "old_price": 0,
+    "stock": 300,
+    "image": "/images/yuantid-2027-1.webp",
+    "tag": "SINGLE PEPTIDES",
+    "description": "CJC-1295 With DAC is listed in our Single Peptides range. 3 packages to choose from: 2–10mg per vial, 10 vials per package. Prices run from $124.00 to $440.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
+    "source_url": "https://www.yuantid.com/products/cjc-1295-5mg",
+    "source_checked_on": "2026-10-23",
+    "variants": [
+      {
+        "id": 202701,
+        "label": "CD2 2mg*10vials",
+        "price": 12400,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420922"
+      },
+      {
+        "id": 202702,
+        "label": "CD5 5mg*10vials",
+        "price": 23800,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420923"
+      },
+      {
+        "id": 202703,
+        "label": "CD10 10mg*10vials",
+        "price": 44000,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420924"
+      }
+    ],
+    "gallery": [
+      "/images/yuantid-2027-1.webp",
+      "/images/yuantid-2027-2.webp",
+      "/images/yuantid-2027-3.webp",
+      "/images/yuantid-2027-4.png",
+      "/images/yuantid-2027-5.png"
+    ]
+  },
+  {
+    "id": 2028,
+    "name": "AOD-9604",
+    "subtitle": "2 packages · 5–10mg per vial",
+    "category": "Single Peptides",
+    "price": 16800,
+    "old_price": 0,
+    "stock": 200,
+    "image": "/images/yuantid-2028-1.webp",
+    "tag": "SINGLE PEPTIDES",
+    "description": "AOD-9604 is listed in our Single Peptides range. 2 packages to choose from: 5–10mg per vial, 10 vials per package. Prices run from $168.00 to $299.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
+    "source_url": "https://www.yuantid.com/products/aod-9604",
+    "source_checked_on": "2026-10-23",
+    "variants": [
+      {
+        "id": 202801,
+        "label": "5AD 5mg*10vials",
+        "price": 16800,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420949"
+      },
+      {
+        "id": 202802,
+        "label": "10AD 10mg*10vials",
+        "price": 29900,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420950"
+      }
+    ],
+    "gallery": [
+      "/images/yuantid-2028-1.webp",
+      "/images/yuantid-2028-2.webp"
+    ]
+  },
+  {
+    "id": 2029,
+    "name": "10-amino-1mq",
+    "subtitle": "2 packages · 5–10mg per vial",
+    "category": "Single Peptides",
+    "price": 3000,
+    "old_price": 0,
+    "stock": 200,
+    "image": "/images/yuantid-2029-1.webp",
+    "tag": "SINGLE PEPTIDES",
+    "description": "10-amino-1mq is listed in our Single Peptides range. 2 packages to choose from: 5–10mg per vial, 10 vials per package. Prices run from $30.00 to $51.75 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
+    "source_url": "https://www.yuantid.com/products/10-amino-1mq",
+    "source_checked_on": "2026-10-23",
+    "variants": [
+      {
+        "id": 202901,
+        "label": "5AM 5mg*10vials",
+        "price": 3000,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420947"
+      },
+      {
+        "id": 202902,
+        "label": "10AM 10mg*10vials",
+        "price": 5175,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420948"
+      }
+    ],
+    "gallery": [
+      "/images/yuantid-2029-1.webp",
+      "/images/yuantid-2029-2.webp"
+    ]
+  },
+  {
+    "id": 2030,
+    "name": "Klow80",
+    "subtitle": "1 package · 80mg per vial",
+    "category": "Peptide Blends",
+    "price": 31200,
+    "old_price": 0,
+    "stock": 100,
+    "image": "/images/yuantid-2030-1.webp",
+    "tag": "PEPTIDE BLENDS",
+    "description": "Klow80 is listed in our Peptide Blends range. One package: 80mg per vial, 10 vials per package. Priced at $312.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
+    "source_url": "https://www.yuantid.com/products/klow-peptide-blend",
+    "source_checked_on": "2026-10-23",
+    "variants": [
+      {
+        "id": 203001,
+        "label": "Klow80 80mg*10vials",
+        "price": 31200,
+        "stock": 100,
+        "active": 1,
+        "source_variant_id": "26420933"
+      }
+    ],
+    "gallery": [
+      "/images/yuantid-2030-1.webp"
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+# Include inside an HTTPS server block with your domain and TLS certificates.
+# Deploy frontend/dist into /srv/aurelis/frontend/dist.
+root /srv/aurelis/frontend/dist;
+index index.html;
+location / {
+    try_files $uri $uri/ /index.html;
+}
+location /api/ {
+    proxy_pass http://127.0.0.1:8080;
+    proxy_set_header Host $host;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+}
+location ~* ^/assets/ {
+    expires 1y;
+    add_header Cache-Control "public, immutable";
+}

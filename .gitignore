@@ -1,0 +1,11 @@
+data/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+backend/bin/
+*.db-wal
+*.db-shm

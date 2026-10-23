@@ -1,0 +1,12 @@
+server:
+  address: 127.0.0.1
+  port: ${API_PORT:8081}
+spring:
+  datasource:
+    url: jdbc:sqlite:${SHOP_DB:data/shop.db}
+    driver-class-name: org.sqlite.JDBC
+  jackson:
+    default-property-inclusion: non_null
+aurelis:
+  root: ${AURELIS_ROOT:..}
+  whatsapp-number: ${WHATSAPP_NUMBER:}

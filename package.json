@@ -1,0 +1,16 @@
+{
+  "name": "aurelis-store",
+  "version": "2.0.0",
+  "private": true,
+  "description": "AURELIS: React + TypeScript frontend and Go + Gin API",
+  "scripts": {
+    "setup": "npm ci --prefix frontend",
+    "dev": "node scripts/dev.mjs",
+    "start": "node scripts/dev.mjs --preview",
+    "build": "npm run build --prefix frontend && cd backend && go build -o bin/server ./cmd/server",
+    "test": "cd backend && go test -race ./...",
+    "check": "npm run build --prefix frontend && cd backend && go vet ./...",
+    "format": "npm exec --prefix frontend -- prettier --write 'frontend/src/**/*.{ts,tsx}' && cd backend && gofmt -w cmd internal",
+    "dev:java": "node scripts/dev-java.mjs"
+  }
+}
