@@ -12,5 +12,8 @@
     "check": "npm run build --prefix frontend && cd backend && go vet ./...",
     "format": "npm exec --prefix frontend -- prettier --write 'frontend/src/**/*.{ts,tsx}' && cd backend && gofmt -w cmd internal",
     "dev:java": "node scripts/dev-java.mjs"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
   }
 }
