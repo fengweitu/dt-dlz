@@ -36,3 +36,7 @@ WhatsApp 只用于建立联系，不是支付网关。后端读取配置并生�
 ## 数据迁移
 
 保留现有 SQLite 数据和原账号会话，不转换历史订单金额。密码兼容原有 PBKDF2，并在成功登录时迁移至 bcrypt。空库才初始化商品。`legacy` 仅保存旧版本，不参与服务启动。
+
+## COA 报告图片
+
+`frontend/public/reports/` 存放自托管的 97 份检测报告（1588×2245 JPEG），`catalog.json` 与 `coaExtra.json` 的 `reportUrl` 指向这里，不再外链第三方图床。报告原始文件由同一模板生成，其中 Manufacturer / Official Website 与 Sample / Batch 两行的框位置、灰度和字号与上方字段不一致，`scripts/mirror_report_images.py` 在镜像时按 “Task Number / Received Date” 这一行重建这两行，并保留每份报告自己的样品名与批号。`scripts/fix_test_report_fields.py` 用同样方式重建本地样例图 `tideora-test-report-sample.jpg`（无报告时兜底）。源地址记录在 `scripts/report_image_sources.json`。

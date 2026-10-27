@@ -204,17 +204,17 @@ export function Coa() {
         <div role="dialog" aria-modal="true" aria-label="Test report" onClick={() => setOpenName(null)} style={{ position: "fixed", inset: 0, background: "rgba(10,25,20,0.6)", display: "flex", alignItems: "center", justifyContent: "center", padding: 16, zIndex: 1000 }}>
           <div onClick={(e) => e.stopPropagation()} style={{ background: "#fff", borderRadius: 16, maxWidth: 820, width: "100%", maxHeight: "90vh", overflow: "hidden", padding: 16, position: "relative", display: "flex", justifyContent: "center" }}>
             <button onClick={() => setOpenName(null)} aria-label="Close report" style={{ position: "absolute", top: 12, right: 12, zIndex: 2, border: "1px solid #ddd", background: "#fff", borderRadius: "50%", width: 36, height: 36, fontSize: 20, cursor: "pointer", boxShadow: "0 1px 6px rgba(0,0,0,0.15)" }}>×</button>
-            {openRow && openRow.reportUrl ? (
-              <div style={{ position: "relative", height: "calc(90vh - 32px)", maxWidth: "100%", aspectRatio: "1588 / 2245" }}>
-                <img src={openRow.reportUrl} alt="Test Report" style={{ width: "100%", height: "100%", objectFit: "contain", border: "1px solid #e3e7df", borderRadius: 8 }} />
-                <span style={{ position: "absolute", left: "19.8%", top: "23.0%", color: "#1a4a6a", fontSize: 13, fontWeight: 700 }}>&gt;</span>
-                <span style={{ position: "absolute", left: "22.2%", top: "22.2%", width: "23.0%", height: "3.8%", background: "#e8e8e8", display: "flex", alignItems: "center", paddingLeft: "1%", fontSize: 13, color: "#1e1e1e", whiteSpace: "nowrap", overflow: "hidden" }}>Tideora</span>
-                <span style={{ position: "absolute", left: "70.5%", top: "23.0%", color: "#1a4a6a", fontSize: 13, fontWeight: 700 }}>&gt;</span>
-                <span style={{ position: "absolute", left: "72.1%", top: "22.2%", width: "23.0%", height: "3.8%", background: "#e8e8e8", display: "flex", alignItems: "center", paddingLeft: "1%", fontSize: 12, color: "#1e1e1e", whiteSpace: "nowrap", overflow: "hidden" }}>www.tideoralab.com</span>
-              </div>
-            ) : (
-              <img src="/images/tideora-test-report-sample.jpg" alt="Test Report" style={{ maxHeight: "calc(90vh - 32px)", width: "auto", maxWidth: "100%", height: "auto", objectFit: "contain", border: "1px solid #e3e7df", borderRadius: 8 }} />
-            )}
+            {/* Every report is mirrored into /reports (see
+                scripts/mirror_report_images.py) with its four lower field rows
+                rebuilt onto the same grid and the Tideora brand in the document
+                itself, so the image is shown as delivered - no DOM overlay, which
+                could never line up with the document boxes at every zoom level.
+                The local sample stands in for a row without a published report. */}
+            <img
+              src={(openRow && openRow.reportUrl) || "/images/tideora-test-report-sample.jpg"}
+              alt="Test Report"
+              style={{ maxHeight: "calc(90vh - 32px)", width: "auto", maxWidth: "100%", height: "auto", objectFit: "contain", border: "1px solid #e3e7df", borderRadius: 8 }}
+            />
           </div>
         </div>
       )}
