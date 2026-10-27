@@ -1,4 +1,4 @@
-# AURELIS 电商独立站
+# TIDEORA 电商独立站
 
 当前版本采用 **React + TypeScript 前端 / Go + Gin 后端**，前后端独立运行、独立构建，通过 JSON REST API 通信。运行商城不再需要 Python。
 
@@ -8,7 +8,7 @@
 | --- | --- | --- |
 | 前端 | React 19、TypeScript 5、Vite 6 | 组件、状态、表单及生产构建 |
 | 路由 | React Router 7（HashRouter） | 保留旧版 `#home`、`#product/2001` 等访问链接 |
-| 图标 / 样式 | Lucide React、CSS | 保留 AURELIS 深绿、暖白、香槟色设计及移动端布局 |
+| 图标 / 样式 | Lucide React、CSS | 保留 TIDEORA 深绿、暖白、香槟色设计及移动端布局 |
 | API | Go 1.25、Gin v1.12、net/http | 独立 REST API、请求校验、会话及商家权限 |
 | 数据访问 | database/sql、go-sqlite3 | SQLite 持久化、事务、库存一致性 |
 | 密码 | bcrypt；兼容旧 PBKDF2 | 原有账号直接登录，登录后自动升级旧哈希 |

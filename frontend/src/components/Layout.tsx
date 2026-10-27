@@ -9,11 +9,20 @@ import { CartDrawer } from "./CartDrawer";
 import { ContactFloat } from "./ContactFloat";
 export function Brand() {
   return (
-    <Link to="/" className="brand" aria-label="Aurelis home">
-      <span className="brand-emblem">A</span>
-      <span className="brand-word">
-        AURELIS<small>RESEARCH PEPTIDES</small>
-      </span>
+    <Link
+      to="/"
+      className="brand"
+      aria-label="Tideora home"
+      style={{ background: "#ffffff", borderRadius: 8, padding: "6px 10px" }}
+    >
+      <img
+        src="/images/tideora-logo-horizontal.jpg"
+        alt="Tideora Peptides and Biotech"
+        style={{ height: 48, width: "auto", maxWidth: 260, display: "block" }}
+        onError={(e) => {
+          (e.currentTarget as HTMLImageElement).style.display = "none";
+        }}
+      />
     </Link>
   );
 }
@@ -36,30 +45,78 @@ export function Layout() {
   }
   return (
     <>
+      {/* Nav underline distance: site CSS puts the active underline at
+          bottom:24-28px, too close to the text. Move it down to near the
+          bottom edge of the header so it sits further from the text. */}
+      <style>{`.header nav a.active:after{bottom:10px !important;}`}</style>
       <div className="announcement">
         <span>For research use only. Not for human or veterinary use.</span>
+        <span>Free shipping over $500</span>
         <Link to="/shop">Browse the catalogue ↗</Link>
       </div>
-      <header className="header">
+      <header
+        className="header"
+        style={{
+          position: "sticky",
+          top: 0,
+          zIndex: 50,
+          background: "#ffffff",
+          boxShadow: "0 2px 12px rgba(15,46,38,0.12)",
+          paddingTop: 14,
+          paddingBottom: 14,
+        }}
+      >
         <Brand />
         <nav
           className={menu ? "open" : ""}
           aria-label="Main navigation"
           onClick={() => setMenu(false)}
+          style={{ gap: 8 }}
         >
           {[
             ["/", "Home"],
             ["/shop", "Catalogue"],
-            ["/quality", "Specifications & pricing"],
+            ["/coa", "COA & Testing"],
+            ["/quality", "Quality"],
+            ["/faq", "FAQ"],
+            ["/shipping", "Shipping"],
             ["/journal", "Research notes"],
-            ["/story", "About AURELIS"],
+            ["/story", "About"],
           ].map(([to, label]) => (
-            <NavLink key={to} to={to} end>
+            <NavLink
+              key={to}
+              to={to}
+              end
+              style={({ isActive }) => ({
+                fontSize: 17,
+                fontWeight: 700,
+                padding: "12px 16px",
+                color: isActive ? "#0f2e26" : "#222222",
+                // Do not add a text underline here: the site CSS already draws
+                // one line under the active nav link via .header nav a.active:after.
+                // Adding underline here created a second line.
+                textDecoration: "none",
+                whiteSpace: "nowrap",
+              })}
+            >
               {label}
             </NavLink>
           ))}
         </nav>
         <div className="header-actions">
+          <Link
+            to="/coa"
+            className="btn"
+            style={{
+              background: "#c9a86a",
+              color: "#0f2e26",
+              fontWeight: 700,
+              padding: "10px 16px",
+              whiteSpace: "nowrap",
+            }}
+          >
+            Certificates (COA)
+          </Link>
           <button
             className="icon-button"
             aria-label="Search products"
@@ -112,7 +169,10 @@ export function Layout() {
             <Link to="/shop?category=GLP+Series">GLP series</Link>
             <Link to="/shop?category=Single+Peptides">Single peptides</Link>
             <Link to="/shop?category=Peptide+Blends">Peptide blends</Link>
+            <Link to="/coa">Certificates (COA) &amp; testing</Link>
             <Link to="/quality">Specifications & pricing</Link>
+            <Link to="/faq">FAQ</Link>
+            <Link to="/shipping">Shipping &amp; returns</Link>
           </div>
           <div>
             <h4>Ordering</h4>
@@ -145,13 +205,12 @@ export function Layout() {
           </div>
         </div>
         <div className="footer-disclaimer">
-          Product names, specifications and USD prices are based on the public
-          YuanTid catalog, checked October 23, 2026. Product photos are from
-          YuanTid; editorial artwork is by AURELIS. Payment is arranged through
-          WhatsApp.
+          Product names, specifications and USD prices are listed by TIDEORA,
+          checked October 23, 2026. Payment is arranged through WhatsApp.
+          Batch COA is available on request via WhatsApp.
         </div>
         <div className="footer-bottom">
-          <span>© 2026 AURELIS. All rights reserved.</span>
+          <span>© 2026 TIDEORA. All rights reserved.</span>
           <span>Research use only. No medical claims.</span>
           <Link to="/privacy">Privacy policy</Link>
           <Link to="/admin">Merchant portal</Link>
@@ -185,7 +244,7 @@ export function Layout() {
         <Modal title={policy} onClose={() => setPolicy("")}>
           <p>
             {policy === "Shipping & returns"
-              ? "Shipping is $15 per order, or complimentary on orders of $299 or more before discounts. Dispatch, tracking and any return or refund are arranged with you on WhatsApp after your order is placed."
+              ? "Shipping is $15 per order, or complimentary on orders of $500 or more. Dispatch, tracking and any return or refund are arranged with you on WhatsApp after your order is placed."
               : "Use the WhatsApp button on any page to reach us, or select Pay via WhatsApp in your order history to message us with your order summary already filled in. We reply during business hours."}
           </p>
         </Modal>

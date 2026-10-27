@@ -7,11 +7,9 @@
     "price": 8550,
     "old_price": 0,
     "stock": 200,
-    "image": "/images/yuantid-2001-1.webp",
+    "image": "/images/tideora-slu-pp-332.jpg",
     "tag": "SINGLE PEPTIDES",
-    "description": "SLU-PP-332 is listed in our Single Peptides range. 2 packages to choose from: 5–10mg per vial, 10 vials per package. Prices run from $85.50 to $135.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
-    "source_url": "https://www.yuantid.com/products/slu-pp-332",
-    "source_checked_on": "2026-10-23",
+    "description": "SLU-PP-332 is a synthetic research compound studied as an agonist of the estrogen-related receptors ERRα, ERRβ and ERRγ. Preclinical literature investigates it in metabolic and mitochondrial research, including energy expenditure and oxidative metabolism in cell and animal models. It is supplied as a lyophilized vial for laboratory research only.",
     "variants": [
       {
         "id": 200101,
@@ -19,7 +17,10 @@
         "price": 8550,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420863"
+        "source_variant_id": "26420863",
+        "image": "/images/tideora-slu-pp-332.jpg",
+        "testedOn": "July 18, 2026",
+        "purity": "99.64%"
       },
       {
         "id": 200102,
@@ -27,12 +28,15 @@
         "price": 13500,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420864"
+        "source_variant_id": "26420864",
+        "image": "/images/tideora-2001-2.jpg",
+        "testedOn": "July 18, 2026",
+        "purity": "99.64%"
       }
     ],
     "gallery": [
-      "/images/yuantid-2001-1.webp",
-      "/images/yuantid-2001-2.webp"
+      "/images/tideora-slu-pp-332.jpg",
+      "/images/tideora-2001-2.jpg"
     ]
   },
   {
@@ -43,11 +47,9 @@
     "price": 4400,
     "old_price": 0,
     "stock": 200,
-    "image": "/images/yuantid-2002-1.webp",
+    "image": "/images/tideora-2002-1.jpg",
     "tag": "SINGLE PEPTIDES",
-    "description": "Ipamorelin is listed in our Single Peptides range. 2 packages to choose from: 5–10mg per vial, 10 vials per package. Prices run from $44.00 to $76.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
-    "source_url": "https://www.yuantid.com/products/ipamorelin",
-    "source_checked_on": "2026-10-23",
+    "description": "Ipamorelin is a pentapeptide growth hormone secretagogue, studied as a selective agonist of the ghrelin receptor (GHSR). Published preclinical work describes it as a selective secretagogue, investigated in research on growth hormone pulses and body composition in animal models. It is supplied as a lyophilized vial for laboratory research only.",
     "variants": [
       {
         "id": 200201,
@@ -55,7 +57,11 @@
         "price": 4400,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420865"
+        "source_variant_id": "26420865",
+        "image": "/images/tideora-2002-1.jpg",
+        "testedOn": "August 10, 2026",
+        "purity": "99.51%",
+        "reportUrl": "https://img.wpassets-delta.com/images/0e0f448e1f338daf89457a353d8fb562de23847f539033f872f563557ae593e9.jpg"
       },
       {
         "id": 200202,
@@ -63,12 +69,16 @@
         "price": 7600,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420866"
+        "source_variant_id": "26420866",
+        "image": "/images/tideora-2002-2.jpg",
+        "testedOn": "July 24, 2026",
+        "purity": "99.72%",
+        "reportUrl": "https://img.wpassets-delta.com/images/53fa35d7653335c5510f0f58be80f2f30917338004e739071900120d98e797c0.jpg"
       }
     ],
     "gallery": [
-      "/images/yuantid-2002-1.webp",
-      "/images/yuantid-2002-2.webp"
+      "/images/tideora-2002-1.jpg",
+      "/images/tideora-2002-2.jpg"
     ]
   },
   {
@@ -79,11 +89,9 @@
     "price": 9450,
     "old_price": 0,
     "stock": 200,
-    "image": "/images/yuantid-2003-1.png",
+    "image": "/images/tideora-2003-1.jpg",
     "tag": "SINGLE PEPTIDES",
-    "description": "VIP is listed in our Single Peptides range. 2 packages to choose from: 5–10mg per vial, 10 vials per package. Prices run from $94.50 to $198.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
-    "source_url": "https://www.yuantid.com/products/vip",
-    "source_checked_on": "2026-10-23",
+    "description": "Vasoactive intestinal peptide (VIP) is a 28-amino-acid neuropeptide studied in neuroscience, immunology and gut research. It acts through VPAC1 and VPAC2 receptors in published work, and is investigated in models of vasodilation, immune signalling and intestinal function. It is supplied as a lyophilized vial for laboratory research only.",
     "variants": [
       {
         "id": 200301,
@@ -91,7 +99,11 @@
         "price": 9450,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420867"
+        "source_variant_id": "26420867",
+        "image": "/images/tideora-2003-2.jpg",
+        "testedOn": "August 10, 2026",
+        "purity": "99.51%",
+        "reportUrl": "https://img.wpassets-delta.com/images/cd58b80c6fc337127cb9401324f5947e30b08a6fab176a91771670cf60507f21.jpg"
       },
       {
         "id": 200302,
@@ -99,11 +111,16 @@
         "price": 19800,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420868"
+        "source_variant_id": "26420868",
+        "image": "/images/tideora-2003-1.jpg",
+        "testedOn": "August 2, 2026",
+        "purity": "99.85%",
+        "reportUrl": "https://img.wpassets-delta.com/images/2f48a72aaa5fb4cb337f9c56842846726fd1d665d21d99374da5295eb0391c38.jpg"
       }
     ],
     "gallery": [
-      "/images/yuantid-2003-1.png"
+      "/images/tideora-2003-1.jpg",
+      "/images/tideora-2003-2.jpg"
     ]
   },
   {
@@ -114,11 +131,9 @@
     "price": 5175,
     "old_price": 0,
     "stock": 500,
-    "image": "/images/yuantid-2004-1.webp",
+    "image": "/images/tideora-2004-1.jpg",
     "tag": "GLP SERIES",
-    "description": "Semaglutide is listed in our GLP Series range. 5 packages to choose from: 5–30mg per vial, 10 vials per package. Prices run from $51.75 to $135.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
-    "source_url": "https://www.yuantid.com/products/semaglutide",
-    "source_checked_on": "2026-10-23",
+    "description": "Semaglutide is a long-acting GLP-1 receptor agonist peptide studied in metabolic research. The literature investigates GLP-1 signalling in glucose regulation, satiety pathways and energy balance in preclinical and clinical models. It is supplied as a lyophilized vial for laboratory research only.",
     "variants": [
       {
         "id": 200401,
@@ -126,7 +141,11 @@
         "price": 5175,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420869"
+        "source_variant_id": "26420869",
+        "image": "/images/tideora-2004-1.jpg",
+        "testedOn": "August 10, 2026",
+        "purity": "99.51%",
+        "reportUrl": "https://img.wpassets-delta.com/images/7f1c2f0120af845d3eaecb280130d1b3985e01a81e2747729298c47909c45dba.jpg"
       },
       {
         "id": 200402,
@@ -134,7 +153,11 @@
         "price": 6300,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420870"
+        "source_variant_id": "26420870",
+        "image": "/images/tideora-2004-2.jpg",
+        "testedOn": "July 12, 2026",
+        "purity": "99.48%",
+        "reportUrl": "https://img.wpassets-delta.com/images/fa97db690a07c56568e201633fb30b868748d4fbe28d3a319fa405b66b2a6923.jpg"
       },
       {
         "id": 200403,
@@ -142,7 +165,11 @@
         "price": 7650,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420871"
+        "source_variant_id": "26420871",
+        "image": "/images/tideora-2004-4.jpg",
+        "testedOn": "July 18, 2026",
+        "purity": "99.64%",
+        "reportUrl": "https://img.wpassets-delta.com/images/44c5915f103d2db79bcccb2ca894e17957457c179d3c0dae4b3e5cea7db6625e.jpg"
       },
       {
         "id": 200404,
@@ -150,7 +177,11 @@
         "price": 9900,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420872"
+        "source_variant_id": "26420872",
+        "image": "/images/tideora-2004-3.jpg",
+        "testedOn": "July 24, 2026",
+        "purity": "99.72%",
+        "reportUrl": "https://img.wpassets-delta.com/images/793e61e731af55fde0a5ff301855878e1efe462e19851c97f5812bf39949a7ea.jpg"
       },
       {
         "id": 200405,
@@ -158,15 +189,19 @@
         "price": 13500,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420873"
+        "source_variant_id": "26420873",
+        "image": "/images/tideora-2004-5.jpg",
+        "testedOn": "August 2, 2026",
+        "purity": "99.85%",
+        "reportUrl": "https://img.wpassets-delta.com/images/8473f02e5d09628dac1d20bee2ee7e437b9a67248c00b87876023e9a0073d52a.jpg"
       }
     ],
     "gallery": [
-      "/images/yuantid-2004-1.webp",
-      "/images/yuantid-2004-2.webp",
-      "/images/yuantid-2004-3.webp",
-      "/images/yuantid-2004-4.webp",
-      "/images/yuantid-2004-5.webp"
+      "/images/tideora-2004-1.jpg",
+      "/images/tideora-2004-2.jpg",
+      "/images/tideora-2004-3.jpg",
+      "/images/tideora-2004-4.jpg",
+      "/images/tideora-2004-5.jpg"
     ]
   },
   {
@@ -177,11 +212,9 @@
     "price": 45000,
     "old_price": 0,
     "stock": 100,
-    "image": "/images/yuantid-2005-1.webp",
+    "image": "/images/tideora-2005-1.jpg",
     "tag": "GLP SERIES",
-    "description": "Mazdutide is listed in our GLP Series range. One package: 10mg per vial, 10 vials per package. Priced at $450.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
-    "source_url": "https://www.yuantid.com/products/mazdutide",
-    "source_checked_on": "2026-10-23",
+    "description": "Mazdutide is a dual GLP-1 and glucagon receptor agonist studied in metabolic research. Published work investigates dual incretin and glucagon signalling in models of weight, glucose and lipid metabolism. It is supplied as a lyophilized vial for laboratory research only.",
     "variants": [
       {
         "id": 200501,
@@ -189,11 +222,15 @@
         "price": 45000,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420874"
+        "source_variant_id": "26420874",
+        "image": "/images/tideora-2005-1.jpg",
+        "testedOn": "July 24, 2026",
+        "purity": "99.72%",
+        "reportUrl": "https://img.wpassets-delta.com/images/2077ba929594ad96764bcc50af86c0042065e16059d247ffed6aaea546c7ff60.jpg"
       }
     ],
     "gallery": [
-      "/images/yuantid-2005-1.webp"
+      "/images/tideora-2005-1.jpg"
     ]
   },
   {
@@ -204,11 +241,9 @@
     "price": 7650,
     "old_price": 0,
     "stock": 100,
-    "image": "/images/yuantid-2006-1.webp",
+    "image": "/images/tideora-2006-1.jpg",
     "tag": "SINGLE PEPTIDES",
-    "description": "Melanotan I is listed in our Single Peptides range. One package: 10mg per vial, 10 vials per package. Priced at $76.50 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
-    "source_url": "https://www.yuantid.com/products/melanotan-i",
-    "source_checked_on": "2026-10-23",
+    "description": "Melanotan I is an analogue of alpha-melanocyte-stimulating hormone (alpha-MSH) studied in pigmentation research. It acts primarily through the melanocortin-1 receptor in published work, and is investigated in models of melanin production. It is supplied as a lyophilized vial for laboratory research only.",
     "variants": [
       {
         "id": 200601,
@@ -216,13 +251,16 @@
         "price": 7650,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420875"
+        "source_variant_id": "26420875",
+        "image": "/images/tideora-2006-1.jpg",
+        "testedOn": "August 10, 2026",
+        "purity": "99.51%",
+        "reportUrl": "https://img.wpassets-delta.com/images/04ae3f5136544901d2fc648be805ee00f41a1c947ce79e0cb99efbf50cbc3ade.jpg"
       }
     ],
     "gallery": [
-      "/images/yuantid-2006-1.webp",
-      "/images/yuantid-2006-2.png",
-      "/images/yuantid-2006-3.png"
+      "/images/tideora-2006-1.jpg",
+      "/images/tideora-2006-2.jpg"
     ]
   },
   {
@@ -233,11 +271,9 @@
     "price": 4200,
     "old_price": 0,
     "stock": 900,
-    "image": "/images/yuantid-2007-1.webp",
+    "image": "/images/tideora-2007-1.jpg",
     "tag": "GLP SERIES",
-    "description": "Tirzepatide is listed in our GLP Series range. 9 packages to choose from: 5–60mg per vial, 10 vials per package. Prices run from $42.00 to $254.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
-    "source_url": "https://www.yuantid.com/products/tirzepatide",
-    "source_checked_on": "2026-10-23",
+    "description": "Tirzepatide is a dual GIP and GLP-1 receptor agonist studied in metabolic research. The literature investigates combined incretin signalling in models of glucose control, appetite and energy balance. It is supplied as a lyophilized vial for laboratory research only.",
     "variants": [
       {
         "id": 200701,
@@ -245,7 +281,11 @@
         "price": 4200,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420960"
+        "source_variant_id": "26420960",
+        "image": "/images/tideora-2007-2.jpg",
+        "testedOn": "August 10, 2026",
+        "purity": "99.51%",
+        "reportUrl": "https://img.wpassets-delta.com/images/767558f6e6b5c85defb6d2309bb349acb650229c1d051db7555a5b1d219e2f0f.jpg"
       },
       {
         "id": 200702,
@@ -253,7 +293,11 @@
         "price": 5800,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420961"
+        "source_variant_id": "26420961",
+        "image": "/images/tideora-2007-3.jpg",
+        "testedOn": "July 24, 2026",
+        "purity": "99.72%",
+        "reportUrl": "https://img.wpassets-delta.com/images/ec5c1b60304cc2621157a416dc3676dfad21f271014c15c432682512aa86f99c.jpg"
       },
       {
         "id": 200703,
@@ -261,7 +305,11 @@
         "price": 7600,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420962"
+        "source_variant_id": "26420962",
+        "image": "/images/tideora-2007-1.jpg",
+        "testedOn": "August 2, 2026",
+        "purity": "99.85%",
+        "reportUrl": "https://img.wpassets-delta.com/images/8ff61a4519de014827b8a869a0d373df8b447040e6ecf295046c80fa6946a16a.jpg"
       },
       {
         "id": 200704,
@@ -269,7 +317,11 @@
         "price": 10400,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420963"
+        "source_variant_id": "26420963",
+        "image": "/images/tideora-2007-4.jpg",
+        "testedOn": "August 10, 2026",
+        "purity": "99.51%",
+        "reportUrl": "https://img.wpassets-delta.com/images/bc02e690f4488c9ccd0b302b4d837fbd09d7fc00817cb9bb76e22cb74ee0b0b1.jpg"
       },
       {
         "id": 200705,
@@ -277,7 +329,11 @@
         "price": 13200,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420964"
+        "source_variant_id": "26420964",
+        "image": "/images/tideora-2007-5.jpg",
+        "testedOn": "July 18, 2026",
+        "purity": "99.64%",
+        "reportUrl": "https://img.wpassets-delta.com/images/05dc9cf03ef4af35d5816b8dd43433741d36c4ce606bc572d637a0d7db208cdc.jpg"
       },
       {
         "id": 200706,
@@ -285,7 +341,11 @@
         "price": 17800,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420965"
+        "source_variant_id": "26420965",
+        "image": "/images/tideora-2007-6.jpg",
+        "testedOn": "July 24, 2026",
+        "purity": "99.72%",
+        "reportUrl": "https://img.wpassets-delta.com/images/7872656c0d6274016b7154e9766e9a5553df0332569040d26ffb6e23aa0f2107.jpg"
       },
       {
         "id": 200707,
@@ -293,7 +353,9 @@
         "price": 20900,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420966"
+        "source_variant_id": "26420966",
+        "testedOn": "August 10, 2026",
+        "purity": "99.51%"
       },
       {
         "id": 200708,
@@ -301,7 +363,11 @@
         "price": 22800,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420967"
+        "source_variant_id": "26420967",
+        "image": "/images/tideora-2007-7.jpg",
+        "testedOn": "August 2, 2026",
+        "purity": "99.85%",
+        "reportUrl": "https://img.wpassets-delta.com/images/303f594a69194360e34aaa421e78d470812498c38328891ce0237bcb6dfc3b68.jpg"
       },
       {
         "id": 200709,
@@ -309,18 +375,22 @@
         "price": 25400,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420968"
+        "source_variant_id": "26420968",
+        "image": "/images/tideora-2007-8.jpg",
+        "testedOn": "July 12, 2026",
+        "purity": "99.48%",
+        "reportUrl": "https://img.wpassets-delta.com/images/a03a2b864ea89249538a744ab834e8d74d9fa23cec7e73539386e1f21e2a6d30.jpg"
       }
     ],
     "gallery": [
-      "/images/yuantid-2007-1.webp",
-      "/images/yuantid-2007-2.webp",
-      "/images/yuantid-2007-3.webp",
-      "/images/yuantid-2007-4.webp",
-      "/images/yuantid-2007-5.webp",
-      "/images/yuantid-2007-6.webp",
-      "/images/yuantid-2007-7.webp",
-      "/images/yuantid-2007-8.webp"
+      "/images/tideora-2007-1.jpg",
+      "/images/tideora-2007-2.jpg",
+      "/images/tideora-2007-3.jpg",
+      "/images/tideora-2007-4.jpg",
+      "/images/tideora-2007-5.jpg",
+      "/images/tideora-2007-6.jpg",
+      "/images/tideora-2007-7.jpg",
+      "/images/tideora-2007-8.jpg"
     ]
   },
   {
@@ -331,11 +401,9 @@
     "price": 4600,
     "old_price": 0,
     "stock": 1000,
-    "image": "/images/yuantid-2008-1.webp",
+    "image": "/images/tideora-2008-1.jpg",
     "tag": "GLP SERIES",
-    "description": "Retatrutide is listed in our GLP Series range. 10 packages, published as RT5 through RT60. The source catalogue lists these codes without a quantity, so we quote them exactly as published rather than inferring one. Prices run from $46.00 to $308.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
-    "source_url": "https://www.yuantid.com/products/retatrutide",
-    "source_checked_on": "2026-10-23",
+    "description": "Retatrutide is a triple receptor agonist studied in metabolic research, acting on GIP, GLP-1 and glucagon receptors in published work. It is investigated in models of weight, glucose and lipid metabolism. It is supplied as a lyophilized vial for laboratory research only.",
     "variants": [
       {
         "id": 200801,
@@ -343,7 +411,10 @@
         "price": 4600,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26421010"
+        "source_variant_id": "26421010",
+        "testedOn": "July 12, 2026",
+        "purity": "99.48%",
+        "reportUrl": "https://img.wpassets-delta.com/images/93622b358d2ba6a849f09d9261efd6a05afdb8b59326b8f70d27f97dd5510fed.jpg"
       },
       {
         "id": 200802,
@@ -351,7 +422,10 @@
         "price": 6900,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26421011"
+        "source_variant_id": "26421011",
+        "testedOn": "August 10, 2026",
+        "purity": "99.51%",
+        "reportUrl": "https://img.wpassets-delta.com/images/ef7a17f69fb7e2bc449cd4497bb4d6a2e72312cc5c359089c87865e49e53f701.jpg"
       },
       {
         "id": 200803,
@@ -359,7 +433,10 @@
         "price": 9800,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26421012"
+        "source_variant_id": "26421012",
+        "testedOn": "July 12, 2026",
+        "purity": "99.48%",
+        "reportUrl": "https://img.wpassets-delta.com/images/a731f395562371a9b790ea227b893a1f03e14ae86cb12c8fbe37a7bed7bd9184.jpg"
       },
       {
         "id": 200804,
@@ -367,7 +444,11 @@
         "price": 12700,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26421013"
+        "source_variant_id": "26421013",
+        "image": "/images/tideora-2008-1.jpg",
+        "testedOn": "July 18, 2026",
+        "purity": "99.64%",
+        "reportUrl": "https://img.wpassets-delta.com/images/5d1612cc4cf35d36e334d718fcc54d47eea5a72050f3d9e5d6e13d1d895158c8.jpg"
       },
       {
         "id": 200805,
@@ -375,7 +456,9 @@
         "price": 15500,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26421014"
+        "source_variant_id": "26421014",
+        "testedOn": "July 12, 2026",
+        "purity": "99.48%"
       },
       {
         "id": 200806,
@@ -383,7 +466,10 @@
         "price": 18900,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26421015"
+        "source_variant_id": "26421015",
+        "testedOn": "July 24, 2026",
+        "purity": "99.72%",
+        "reportUrl": "https://img.wpassets-delta.com/images/1fa8b35e5d651df1867c6e8a6e67b8ba466d09951193c695eb8f7b8529a6487e.jpg"
       },
       {
         "id": 200807,
@@ -391,7 +477,9 @@
         "price": 20400,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26421016"
+        "source_variant_id": "26421016",
+        "testedOn": "July 12, 2026",
+        "purity": "99.48%"
       },
       {
         "id": 200808,
@@ -399,7 +487,10 @@
         "price": 24000,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26421017"
+        "source_variant_id": "26421017",
+        "testedOn": "August 2, 2026",
+        "purity": "99.85%",
+        "reportUrl": "https://img.wpassets-delta.com/images/3c2e2156f7fbf24df549f3292566f61332e4e698b71774d4d1d919a582abbfdf.jpg"
       },
       {
         "id": 200809,
@@ -407,7 +498,10 @@
         "price": 26900,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26421018"
+        "source_variant_id": "26421018",
+        "testedOn": "August 10, 2026",
+        "purity": "99.51%",
+        "reportUrl": "https://img.wpassets-delta.com/images/55057f763a042721e1bb0c9363aaed266f89cc986c4e2c8ad0cc285a4ae8d010.jpg"
       },
       {
         "id": 200810,
@@ -415,11 +509,14 @@
         "price": 30800,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26421019"
+        "source_variant_id": "26421019",
+        "testedOn": "July 18, 2026",
+        "purity": "99.64%",
+        "reportUrl": "https://img.wpassets-delta.com/images/0236a3bb5711dc0aa6058a54555338f753597b31110e7ff08f6ecaefa699a214.jpg"
       }
     ],
     "gallery": [
-      "/images/yuantid-2008-1.webp"
+      "/images/tideora-2008-1.jpg"
     ]
   },
   {
@@ -430,11 +527,9 @@
     "price": 12800,
     "old_price": 0,
     "stock": 300,
-    "image": "/images/yuantid-2009-1.webp",
+    "image": "/images/tideora-2009-1.jpg",
     "tag": "PEPTIDE BLENDS",
-    "description": "BPC 10mg+Tb500 10mg is listed in our Peptide Blends range. 3 packages, published as BB10, BB20, BB30. The source catalogue lists these codes without a quantity, so we quote them exactly as published rather than inferring one. Prices run from $128.00 to $329.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
-    "source_url": "https://www.yuantid.com/products/bpc-10mg-tb500-10mg",
-    "source_checked_on": "2026-10-23",
+    "description": "This blend combines BPC-157 and TB-500 in one package for comparative laboratory research. BPC-157 is a pentadecapeptide fragment studied in tissue repair models, and TB-500 is a thymosin beta-4 fragment studied in cell migration and actin-related repair models. It is supplied as lyophilized vials for laboratory research only.",
     "variants": [
       {
         "id": 200901,
@@ -442,7 +537,11 @@
         "price": 12800,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26421000"
+        "source_variant_id": "26421000",
+        "image": "/images/tideora-2009-1.jpg",
+        "testedOn": "August 2, 2026",
+        "purity": "99.85%",
+        "reportUrl": "https://img.wpassets-delta.com/images/0f194b1ed6dbe91bdefa5beeb34259076dbacc260e3284443e40e43522613ac9.jpg"
       },
       {
         "id": 200902,
@@ -450,7 +549,9 @@
         "price": 23500,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26421001"
+        "source_variant_id": "26421001",
+        "testedOn": "August 2, 2026",
+        "purity": "99.85%"
       },
       {
         "id": 200903,
@@ -458,11 +559,13 @@
         "price": 32900,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26421002"
+        "source_variant_id": "26421002",
+        "testedOn": "August 2, 2026",
+        "purity": "99.85%"
       }
     ],
     "gallery": [
-      "/images/yuantid-2009-1.webp"
+      "/images/tideora-2009-1.jpg"
     ]
   },
   {
@@ -473,11 +576,9 @@
     "price": 10600,
     "old_price": 0,
     "stock": 400,
-    "image": "/images/yuantid-2010-1.webp",
+    "image": "/images/tideora-2010-1.jpg",
     "tag": "SINGLE PEPTIDES",
-    "description": "Tesamorelin is listed in our Single Peptides range. 4 packages to choose from: 5–20mg per vial, 10 vials per package. Prices run from $106.00 to $385.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
-    "source_url": "https://www.yuantid.com/products/tesamorelin",
-    "source_checked_on": "2026-10-23",
+    "description": "Tesamorelin is a growth hormone-releasing hormone (GHRH) analogue studied in growth hormone and IGF-1 research. Published work investigates it in models of body composition and growth hormone signalling. It is supplied as a lyophilized vial for laboratory research only.",
     "variants": [
       {
         "id": 201001,
@@ -485,7 +586,11 @@
         "price": 10600,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420993"
+        "source_variant_id": "26420993",
+        "image": "/images/tideora-2010-1.jpg",
+        "testedOn": "July 24, 2026",
+        "purity": "99.72%",
+        "reportUrl": "https://img.wpassets-delta.com/images/5b74f652a4f0322cf6d02cc213b34fd2a70058b5c2908a7e694a272302b972df.jpg"
       },
       {
         "id": 201002,
@@ -493,7 +598,10 @@
         "price": 19900,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420994"
+        "source_variant_id": "26420994",
+        "image": "/images/tideora-2010-2.jpg",
+        "testedOn": "August 10, 2026",
+        "purity": "99.51%"
       },
       {
         "id": 201003,
@@ -501,7 +609,9 @@
         "price": 26800,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420995"
+        "source_variant_id": "26420995",
+        "testedOn": "July 24, 2026",
+        "purity": "99.72%"
       },
       {
         "id": 201004,
@@ -509,13 +619,17 @@
         "price": 38500,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420996"
+        "source_variant_id": "26420996",
+        "image": "/images/tideora-2010-3.jpg",
+        "testedOn": "July 12, 2026",
+        "purity": "99.48%",
+        "reportUrl": "https://img.wpassets-delta.com/images/0912b925a589046a89dacc79550941e5ed7f7f997c21cdcc8170beabed410c96.jpg"
       }
     ],
     "gallery": [
-      "/images/yuantid-2010-1.webp",
-      "/images/yuantid-2010-2.webp",
-      "/images/yuantid-2010-3.webp"
+      "/images/tideora-2010-1.jpg",
+      "/images/tideora-2010-2.jpg",
+      "/images/tideora-2010-3.jpg"
     ]
   },
   {
@@ -526,11 +640,9 @@
     "price": 9900,
     "old_price": 0,
     "stock": 200,
-    "image": "/images/yuantid-2011-1.webp",
+    "image": "/images/tideora-2011-1.jpg",
     "tag": "SINGLE PEPTIDES",
-    "description": "Pinealon is listed in our Single Peptides range. 2 packages to choose from: 10–50mg per vial, 10 vials per package. Prices run from $99.00 to $414.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
-    "source_url": "https://www.yuantid.com/products/pinealon",
-    "source_checked_on": "2026-10-23",
+    "description": "Pinealon is a short tripeptide (Glu-Asp-Arg) studied in neuroprotection and brain ageing research. The bioregulator literature investigates it in preclinical models of neuronal function and age-related changes. It is supplied as a lyophilized vial for laboratory research only.",
     "variants": [
       {
         "id": 201101,
@@ -538,7 +650,11 @@
         "price": 9900,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420908"
+        "source_variant_id": "26420908",
+        "image": "/images/tideora-2011-1.jpg",
+        "testedOn": "August 10, 2026",
+        "purity": "99.51%",
+        "reportUrl": "https://img.wpassets-delta.com/images/5db0591c4e291a37d400afb5ae335a2f85b568cd8af8fbf3878e0d9af4e357d6.jpg"
       },
       {
         "id": 201102,
@@ -546,12 +662,15 @@
         "price": 41400,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420909"
+        "source_variant_id": "26420909",
+        "image": "/images/tideora-2011-2.jpg",
+        "testedOn": "August 10, 2026",
+        "purity": "99.51%"
       }
     ],
     "gallery": [
-      "/images/yuantid-2011-1.webp",
-      "/images/yuantid-2011-2.webp"
+      "/images/tideora-2011-1.jpg",
+      "/images/tideora-2011-2.jpg"
     ]
   },
   {
@@ -562,11 +681,9 @@
     "price": 17550,
     "old_price": 0,
     "stock": 200,
-    "image": "/images/yuantid-2012-1.webp",
+    "image": "/images/tideora-2012-1.jpg",
     "tag": "SINGLE PEPTIDES",
-    "description": "Thymosin Alpha-1 is listed in our Single Peptides range. 2 packages to choose from: 5–10mg per vial, 10 vials per package. Prices run from $175.50 to $326.25 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
-    "source_url": "https://www.yuantid.com/products/thymosin-1",
-    "source_checked_on": "2026-10-23",
+    "description": "Thymosin Alpha-1 is a 28-amino-acid peptide derived from prothymosin alpha, studied in immune research. Published work investigates it in models of T-cell function and immune modulation. It is supplied as a lyophilized vial for laboratory research only.",
     "variants": [
       {
         "id": 201201,
@@ -574,7 +691,11 @@
         "price": 17550,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420910"
+        "source_variant_id": "26420910",
+        "image": "/images/tideora-2012-1.jpg",
+        "testedOn": "July 12, 2026",
+        "purity": "99.48%",
+        "reportUrl": "https://img.wpassets-delta.com/images/f6cdf4ce32714cafd551ddb4fdb2ca05679f8a0af6efca4da93ac1c753296ac1.jpg"
       },
       {
         "id": 201202,
@@ -582,12 +703,16 @@
         "price": 32625,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420911"
+        "source_variant_id": "26420911",
+        "image": "/images/tideora-2012-2.jpg",
+        "testedOn": "August 10, 2026",
+        "purity": "99.51%",
+        "reportUrl": "https://img.wpassets-delta.com/images/dc94ae8dedb5491da1786df146134e6011c33c4bf162fe7013805e4b22b2e6f1.jpg"
       }
     ],
     "gallery": [
-      "/images/yuantid-2012-1.webp",
-      "/images/yuantid-2012-2.webp"
+      "/images/tideora-2012-1.jpg",
+      "/images/tideora-2012-2.jpg"
     ]
   },
   {
@@ -598,11 +723,9 @@
     "price": 5175,
     "old_price": 0,
     "stock": 300,
-    "image": "/images/yuantid-2013-1.webp",
+    "image": "/images/tideora-2013-1.jpg",
     "tag": "SINGLE PEPTIDES",
-    "description": "Semax is listed in our Single Peptides range. 3 packages to choose from: 5–30mg per vial, 10 vials per package. Prices run from $51.75 to $132.75 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
-    "source_url": "https://www.yuantid.com/products/semax",
-    "source_checked_on": "2026-10-23",
+    "description": "Semax is an analogue of an ACTH fragment (ACTH 4-10 with a Pro-Gly-Pro tail) studied in neuroprotection research. The literature investigates it in animal models of brain injury, cognition and neurotrophic signalling. It is supplied as a lyophilized vial for laboratory research only.",
     "variants": [
       {
         "id": 201301,
@@ -610,7 +733,11 @@
         "price": 5175,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420912"
+        "source_variant_id": "26420912",
+        "image": "/images/tideora-2013-1.jpg",
+        "testedOn": "July 24, 2026",
+        "purity": "99.72%",
+        "reportUrl": "https://img.wpassets-delta.com/images/fb00c155885f45952efcc369b6fd00c213862b6ac3de0c386e702e2c850970a5.jpg"
       },
       {
         "id": 201302,
@@ -618,7 +745,11 @@
         "price": 7650,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420913"
+        "source_variant_id": "26420913",
+        "image": "/images/tideora-2013-2.jpg",
+        "testedOn": "July 12, 2026",
+        "purity": "99.48%",
+        "reportUrl": "https://img.wpassets-delta.com/images/ac0a22ef0b69203079d903f87e71df48bfc60e78c468fbfe5d9c188c0bb41437.jpg"
       },
       {
         "id": 201303,
@@ -626,13 +757,17 @@
         "price": 13275,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420914"
+        "source_variant_id": "26420914",
+        "image": "/images/tideora-2013-3.jpg",
+        "testedOn": "July 18, 2026",
+        "purity": "99.64%",
+        "reportUrl": "https://img.wpassets-delta.com/images/eccbe2814d75c9ee3f7c7b56c8311343a648c602b3e10a4d3c42f18b46febdd2.jpg"
       }
     ],
     "gallery": [
-      "/images/yuantid-2013-1.webp",
-      "/images/yuantid-2013-2.webp",
-      "/images/yuantid-2013-3.webp"
+      "/images/tideora-2013-1.jpg",
+      "/images/tideora-2013-2.jpg",
+      "/images/tideora-2013-3.jpg"
     ]
   },
   {
@@ -643,11 +778,9 @@
     "price": 4900,
     "old_price": 0,
     "stock": 200,
-    "image": "/images/yuantid-2014-1.webp",
+    "image": "/images/tideora-2014-1.jpg",
     "tag": "SINGLE PEPTIDES",
-    "description": "Selank is listed in our Single Peptides range. 2 packages to choose from: 5–10mg per vial, 10 vials per package. Prices run from $49.00 to $74.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
-    "source_url": "https://www.yuantid.com/products/selank",
-    "source_checked_on": "2026-10-23",
+    "description": "Selank is a tuftsin-derived heptapeptide studied in anxiety, immune and neuro research. Published animal work investigates it in models of stress responses, GABAergic signalling and neurotrophic factors. It is supplied as a lyophilized vial for laboratory research only.",
     "variants": [
       {
         "id": 201401,
@@ -655,7 +788,11 @@
         "price": 4900,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420915"
+        "source_variant_id": "26420915",
+        "image": "/images/tideora-2014-1.jpg",
+        "testedOn": "August 10, 2026",
+        "purity": "99.51%",
+        "reportUrl": "https://img.wpassets-delta.com/images/c7b1ac63cabbc63d60c8f9c50b75b5bb67d09b64c7a0ad59359aac0cca94f7cb.jpg"
       },
       {
         "id": 201402,
@@ -663,12 +800,16 @@
         "price": 7400,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420916"
+        "source_variant_id": "26420916",
+        "image": "/images/tideora-2014-2.jpg",
+        "testedOn": "August 2, 2026",
+        "purity": "99.85%",
+        "reportUrl": "https://img.wpassets-delta.com/images/3049499f2a7e94ef2affceca86310023a8144263ef5a8e6f7fe66f3f8675c027.jpg"
       }
     ],
     "gallery": [
-      "/images/yuantid-2014-1.webp",
-      "/images/yuantid-2014-2.webp"
+      "/images/tideora-2014-1.jpg",
+      "/images/tideora-2014-2.jpg"
     ]
   },
   {
@@ -679,11 +820,9 @@
     "price": 16900,
     "old_price": 0,
     "stock": 200,
-    "image": "/images/yuantid-2015-1.webp",
+    "image": "/images/tideora-2015-1.jpg",
     "tag": "GLP SERIES",
-    "description": "Cagrilintide is listed in our GLP Series range. 2 packages to choose from: 5–10mg per vial, 10 vials per package. Prices run from $169.00 to $328.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
-    "source_url": "https://www.yuantid.com/products/cagrilintide",
-    "source_checked_on": "2026-10-23",
+    "description": "Cagrilintide is a long-acting amylin analogue studied in metabolic research. The literature investigates amylin signalling in satiety and energy balance, including in combination with GLP-1 pathways in preclinical models. It is supplied as a lyophilized vial for laboratory research only.",
     "variants": [
       {
         "id": 201501,
@@ -691,7 +830,11 @@
         "price": 16900,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420917"
+        "source_variant_id": "26420917",
+        "image": "/images/tideora-2015-1.jpg",
+        "testedOn": "August 10, 2026",
+        "purity": "99.51%",
+        "reportUrl": "https://img.wpassets-delta.com/images/920081a598c37258b1e748b6665a690621be6930758d8bac7e43c8f2b65afb0d.jpg"
       },
       {
         "id": 201502,
@@ -699,12 +842,16 @@
         "price": 32800,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420918"
+        "source_variant_id": "26420918",
+        "image": "/images/tideora-2015-2.jpg",
+        "testedOn": "August 2, 2026",
+        "purity": "99.85%",
+        "reportUrl": "https://img.wpassets-delta.com/images/a2d11664694a49c26459e1b00215778bd3a73112f037f4128ab9e12a860a9ef0.jpg"
       }
     ],
     "gallery": [
-      "/images/yuantid-2015-1.webp",
-      "/images/yuantid-2015-2.webp"
+      "/images/tideora-2015-1.jpg",
+      "/images/tideora-2015-2.jpg"
     ]
   },
   {
@@ -715,11 +862,9 @@
     "price": 5200,
     "old_price": 0,
     "stock": 300,
-    "image": "/images/yuantid-2016-1.webp",
+    "image": "/images/tideora-2016-1.jpg",
     "tag": "SINGLE PEPTIDES",
-    "description": "BPC-157 is listed in our Single Peptides range. 3 packages to choose from: 5–20mg per vial, 10 vials per package. Prices run from $52.00 to $129.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
-    "source_url": "https://www.yuantid.com/products/bpc-157_8bd5ae7e",
-    "source_checked_on": "2026-10-23",
+    "description": "BPC-157 is a pentadecapeptide fragment studied in tissue repair research. Published work investigates it in models of tendon, gut and wound healing, angiogenesis and cell migration. It is supplied as a lyophilized vial for laboratory research only.",
     "variants": [
       {
         "id": 201601,
@@ -727,7 +872,11 @@
         "price": 5200,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420919"
+        "source_variant_id": "26420919",
+        "image": "/images/tideora-2016-3.jpg",
+        "testedOn": "July 24, 2026",
+        "purity": "99.72%",
+        "reportUrl": "https://img.wpassets-delta.com/images/7aa21f12bf05605c1c322294fe24acb63fe37f5a707a576c85eeed9660d6c1d5.jpg"
       },
       {
         "id": 201602,
@@ -735,7 +884,11 @@
         "price": 8100,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420920"
+        "source_variant_id": "26420920",
+        "image": "/images/tideora-2016-2.jpg",
+        "testedOn": "August 10, 2026",
+        "purity": "99.51%",
+        "reportUrl": "https://img.wpassets-delta.com/images/18e7446e4e89220d06d1e7f477978f278aee7546855b30e29da034d99f6d3677.jpg"
       },
       {
         "id": 201603,
@@ -743,14 +896,18 @@
         "price": 12900,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420921"
+        "source_variant_id": "26420921",
+        "image": "/images/tideora-2016-1.jpg",
+        "testedOn": "July 24, 2026",
+        "purity": "99.72%",
+        "reportUrl": "https://img.wpassets-delta.com/images/1d5cf36a9e6947a22c5b17770cb816b678d2ff0cd728ce9eada43820a8d0e517.jpg"
       }
     ],
     "gallery": [
-      "/images/yuantid-2016-1.webp",
-      "/images/yuantid-2016-2.webp",
-      "/images/yuantid-2016-3.webp",
-      "/images/yuantid-2016-4.webp"
+      "/images/tideora-2016-1.jpg",
+      "/images/tideora-2016-2.jpg",
+      "/images/tideora-2016-3.jpg",
+      "/images/tideora-2016-4.jpg"
     ]
   },
   {
@@ -761,11 +918,9 @@
     "price": 7650,
     "old_price": 0,
     "stock": 100,
-    "image": "/images/yuantid-2017-1.webp",
+    "image": "/images/tideora-2017-1.jpg",
     "tag": "SINGLE PEPTIDES",
-    "description": "Melanotan II is listed in our Single Peptides range. One package: 10mg per vial, 10 vials per package. Priced at $76.50 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
-    "source_url": "https://www.yuantid.com/products/melanotan-ii",
-    "source_checked_on": "2026-10-23",
+    "description": "Melanotan II is a cyclic melanocortin agonist studied in pigmentation and melanocortin receptor research. It acts on MC1R and MC4R in published work, and is investigated in animal models of melanin production and melanocortin signalling. It is supplied as a lyophilized vial for laboratory research only.",
     "variants": [
       {
         "id": 201701,
@@ -773,11 +928,15 @@
         "price": 7650,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420937"
+        "source_variant_id": "26420937",
+        "image": "/images/tideora-2017-1.jpg",
+        "testedOn": "July 12, 2026",
+        "purity": "99.48%",
+        "reportUrl": "https://img.wpassets-delta.com/images/837bf41d48de2de0bffa3dd63541d52da07afc219b72fdaa51bea355865b4e02.jpg"
       }
     ],
     "gallery": [
-      "/images/yuantid-2017-1.webp"
+      "/images/tideora-2017-1.jpg"
     ]
   },
   {
@@ -788,11 +947,9 @@
     "price": 9200,
     "old_price": 0,
     "stock": 300,
-    "image": "/images/yuantid-2018-1.webp",
+    "image": "/images/tideora-2018-1.jpg",
     "tag": "SINGLE PEPTIDES",
-    "description": "TB-500 is listed in our Single Peptides range. 3 packages to choose from: 5–20mg per vial, 10 vials per package. Prices run from $92.00 to $234.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
-    "source_url": "https://www.yuantid.com/products/tb-500",
-    "source_checked_on": "2026-10-23",
+    "description": "TB-500 is a synthetic version of the thymosin beta-4 fragment studied in cell migration and repair research. Published work investigates it in models of actin sequestration, cell movement and tissue repair. It is supplied as a lyophilized vial for laboratory research only.",
     "variants": [
       {
         "id": 201801,
@@ -800,7 +957,11 @@
         "price": 9200,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420944"
+        "source_variant_id": "26420944",
+        "image": "/images/tideora-2018-1.jpg",
+        "testedOn": "August 2, 2026",
+        "purity": "99.85%",
+        "reportUrl": "https://img.wpassets-delta.com/images/d87407bf8e2e2ddda1929cb0c93a54b094359dff492df3a483aa24a0117bd8ec.jpg"
       },
       {
         "id": 201802,
@@ -808,7 +969,11 @@
         "price": 16900,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420945"
+        "source_variant_id": "26420945",
+        "image": "/images/tideora-2018-2.jpg",
+        "testedOn": "August 2, 2026",
+        "purity": "99.85%",
+        "reportUrl": "https://img.wpassets-delta.com/images/1305e5b0859b76335de949cd36f357a9dc6b7393f89da4ede463483024bdb0f4.jpg"
       },
       {
         "id": 201803,
@@ -816,13 +981,16 @@
         "price": 23400,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420946"
+        "source_variant_id": "26420946",
+        "image": "/images/tideora-2018-3.jpg",
+        "testedOn": "August 2, 2026",
+        "purity": "99.85%"
       }
     ],
     "gallery": [
-      "/images/yuantid-2018-1.webp",
-      "/images/yuantid-2018-2.webp",
-      "/images/yuantid-2018-3.webp"
+      "/images/tideora-2018-1.jpg",
+      "/images/tideora-2018-2.jpg",
+      "/images/tideora-2018-3.jpg"
     ]
   },
   {
@@ -833,11 +1001,9 @@
     "price": 7200,
     "old_price": 0,
     "stock": 200,
-    "image": "/images/yuantid-2019-1.png",
+    "image": "/images/tideora-2019-1.jpg",
     "tag": "SINGLE PEPTIDES",
-    "description": "SS-31 is listed in our Single Peptides range. 2 packages to choose from: 10–50mg per vial, 10 vials per package. Prices run from $72.00 to $319.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
-    "source_url": "https://www.yuantid.com/products/ss-31",
-    "source_checked_on": "2026-10-23",
+    "description": "SS-31, also known as elamipretide, is a tetrapeptide studied in mitochondrial research. It targets cardiolipin in the inner mitochondrial membrane in published work, and is investigated in models of mitochondrial dysfunction, ageing and cardiac and renal function. It is supplied as a lyophilized vial for laboratory research only.",
     "variants": [
       {
         "id": 201901,
@@ -845,7 +1011,11 @@
         "price": 7200,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420942"
+        "source_variant_id": "26420942",
+        "image": "/images/tideora-2019-1.jpg",
+        "testedOn": "August 2, 2026",
+        "purity": "99.85%",
+        "reportUrl": "https://img.wpassets-delta.com/images/138d00bf486644997d83bf095b94a22d7436286ade62a8b5f4dc9954f4b04c93.jpg"
       },
       {
         "id": 201902,
@@ -853,11 +1023,14 @@
         "price": 31900,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420943"
+        "source_variant_id": "26420943",
+        "testedOn": "August 10, 2026",
+        "purity": "99.51%",
+        "reportUrl": "https://img.wpassets-delta.com/images/6297b3c83e1312d2b4aebf17a49ddc5927ae02b1c963f0456be10d845cbeeb5b.jpg"
       }
     ],
     "gallery": [
-      "/images/yuantid-2019-1.png"
+      "/images/tideora-2019-1.jpg"
     ]
   },
   {
@@ -868,11 +1041,9 @@
     "price": 9900,
     "old_price": 0,
     "stock": 100,
-    "image": "/images/yuantid-2020-1.png",
+    "image": "/images/tideora-2020-1.jpg",
     "tag": "SINGLE PEPTIDES",
-    "description": "PT-141 is listed in our Single Peptides range. One package: 10mg per vial, 10 vials per package. Priced at $99.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
-    "source_url": "https://www.yuantid.com/products/pt-141",
-    "source_checked_on": "2026-10-23",
+    "description": "PT-141, also known as bremelanotide, is a cyclic heptapeptide melanocortin agonist studied in melanocortin receptor research. It acts primarily through MC4R in published work, and is investigated in animal and clinical models of melanocortin signalling. It is supplied as a lyophilized vial for laboratory research only.",
     "variants": [
       {
         "id": 202001,
@@ -880,11 +1051,15 @@
         "price": 9900,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420941"
+        "source_variant_id": "26420941",
+        "image": "/images/tideora-2020-1.jpg",
+        "testedOn": "July 18, 2026",
+        "purity": "99.64%",
+        "reportUrl": "https://img.wpassets-delta.com/images/51ac669f60e1002e34f73e1950e4186789d2d72a5779966ef976d7af240e1029.jpg"
       }
     ],
     "gallery": [
-      "/images/yuantid-2020-1.png"
+      "/images/tideora-2020-1.jpg"
     ]
   },
   {
@@ -895,11 +1070,9 @@
     "price": 3800,
     "old_price": 0,
     "stock": 300,
-    "image": "/images/yuantid-2021-1.png",
+    "image": "/images/tideora-2021-1.jpg",
     "tag": "SINGLE PEPTIDES",
-    "description": "NAD is listed in our Single Peptides range. 3 packages to choose from: 100–1000mg per vial, 10 vials per package. Prices run from $38.00 to $71.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
-    "source_url": "https://www.yuantid.com/products/nad",
-    "source_checked_on": "2026-10-23",
+    "description": "NAD (nicotinamide adenine dinucleotide) is a coenzyme central to redox reactions and energy metabolism, studied in ageing and metabolic research. Published work investigates it in models of sirtuin signalling, mitochondrial function and cellular energy balance. It is supplied for laboratory research only.",
     "variants": [
       {
         "id": 202101,
@@ -907,7 +1080,11 @@
         "price": 3800,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420938"
+        "source_variant_id": "26420938",
+        "image": "/images/tideora-2021-1.jpg",
+        "testedOn": "July 24, 2026",
+        "purity": "99.72%",
+        "reportUrl": "https://img.wpassets-delta.com/images/f2f3b91b76a363b8853fb2d937bea2911c5647439ca41915137a2bede018b891.jpg"
       },
       {
         "id": 202102,
@@ -915,7 +1092,10 @@
         "price": 5500,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420939"
+        "source_variant_id": "26420939",
+        "testedOn": "August 2, 2026",
+        "purity": "99.85%",
+        "reportUrl": "https://img.wpassets-delta.com/images/aeaa089e8531c04837ab54c8450acb67bc724fd2f754d6aa9c8a350838815124.jpg"
       },
       {
         "id": 202103,
@@ -923,11 +1103,14 @@
         "price": 7100,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420940"
+        "source_variant_id": "26420940",
+        "testedOn": "July 18, 2026",
+        "purity": "99.64%",
+        "reportUrl": "https://img.wpassets-delta.com/images/87cc30cd773902ee218c830dd1f3f10ed8ee2f5e7eda5c93836e6e97b8aed700.jpg"
       }
     ],
     "gallery": [
-      "/images/yuantid-2021-1.png"
+      "/images/tideora-2021-1.jpg"
     ]
   },
   {
@@ -938,11 +1121,9 @@
     "price": 6900,
     "old_price": 0,
     "stock": 300,
-    "image": "/images/yuantid-2022-1.webp",
+    "image": "/images/tideora-2022-1.jpg",
     "tag": "SINGLE PEPTIDES",
-    "description": "MOTS-c is listed in our Single Peptides range. 3 packages to choose from: 10–40mg per vial, 10 vials per package. Prices run from $69.00 to $258.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
-    "source_url": "https://www.yuantid.com/products/mots-c",
-    "source_checked_on": "2026-10-23",
+    "description": "MOTS-c is a mitochondrial-derived peptide, 16 amino acids encoded in the mitochondrial genome, studied in metabolic research. Published work investigates it in models of AMPK signalling, exercise metabolism and ageing. It is supplied as a lyophilized vial for laboratory research only.",
     "variants": [
       {
         "id": 202201,
@@ -950,7 +1131,11 @@
         "price": 6900,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420934"
+        "source_variant_id": "26420934",
+        "image": "/images/tideora-2022-1.jpg",
+        "testedOn": "August 2, 2026",
+        "purity": "99.85%",
+        "reportUrl": "https://img.wpassets-delta.com/images/14c7b84dc3909b38b8866dd249fd7d9e9dd7847ff2df876e2ebf89204975f828.jpg"
       },
       {
         "id": 202202,
@@ -958,7 +1143,11 @@
         "price": 13500,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420935"
+        "source_variant_id": "26420935",
+        "image": "/images/tideora-2022-2.jpg",
+        "testedOn": "August 10, 2026",
+        "purity": "99.51%",
+        "reportUrl": "https://img.wpassets-delta.com/images/3a33aa47e7ef252ef5c3624ac90d84db693781926d594364e6b9500af5aa1e85.jpg"
       },
       {
         "id": 202203,
@@ -966,13 +1155,17 @@
         "price": 25800,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420936"
+        "source_variant_id": "26420936",
+        "image": "/images/tideora-2022-3.jpg",
+        "testedOn": "July 12, 2026",
+        "purity": "99.48%",
+        "reportUrl": "https://img.wpassets-delta.com/images/544198012840eb56ba09aa7af98c5f7cab73b1cfae5b42cc0e962206e20baa06.jpg"
       }
     ],
     "gallery": [
-      "/images/yuantid-2022-1.webp",
-      "/images/yuantid-2022-2.webp",
-      "/images/yuantid-2022-3.webp"
+      "/images/tideora-2022-1.jpg",
+      "/images/tideora-2022-2.jpg",
+      "/images/tideora-2022-3.jpg"
     ]
   },
   {
@@ -983,11 +1176,9 @@
     "price": 4950,
     "old_price": 0,
     "stock": 300,
-    "image": "/images/yuantid-2023-1.png",
+    "image": "/images/tideora-2023-1.jpg",
     "tag": "SINGLE PEPTIDES",
-    "description": "KPV is listed in our Single Peptides range. 3 packages to choose from: 5–30mg per vial, 10 vials per package. Prices run from $49.50 to $202.50 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
-    "source_url": "https://www.yuantid.com/products/kpv",
-    "source_checked_on": "2026-10-23",
+    "description": "KPV is a tripeptide (Lys-Pro-Val), the C-terminal fragment of alpha-MSH, studied in anti-inflammatory research. Published work investigates it in gut and skin models, without the pigmentation effects associated with full melanocortin agonists in the literature. It is supplied as a lyophilized vial for laboratory research only.",
     "variants": [
       {
         "id": 202301,
@@ -995,7 +1186,10 @@
         "price": 4950,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420930"
+        "source_variant_id": "26420930",
+        "testedOn": "August 10, 2026",
+        "purity": "99.51%",
+        "reportUrl": "https://img.wpassets-delta.com/images/6ff7c6a9db735e18b14139e59636de8e6f9fe3f9a8e85b56650b4ff7a76a754d.jpg"
       },
       {
         "id": 202302,
@@ -1003,7 +1197,10 @@
         "price": 8325,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420931"
+        "source_variant_id": "26420931",
+        "testedOn": "August 2, 2026",
+        "purity": "99.85%",
+        "reportUrl": "https://img.wpassets-delta.com/images/a737594141d4875239db7bc7d099188cce269ff89259764e3b180bb6b92a4219.jpg"
       },
       {
         "id": 202303,
@@ -1011,11 +1208,14 @@
         "price": 20250,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420932"
+        "source_variant_id": "26420932",
+        "image": "/images/tideora-2023-1.jpg",
+        "testedOn": "August 2, 2026",
+        "purity": "99.85%"
       }
     ],
     "gallery": [
-      "/images/yuantid-2023-1.png"
+      "/images/tideora-2023-1.jpg"
     ]
   },
   {
@@ -1026,11 +1226,9 @@
     "price": 2100,
     "old_price": 0,
     "stock": 200,
-    "image": "/images/yuantid-2024-1.webp",
+    "image": "/images/tideora-2024-1.jpg",
     "tag": "SINGLE PEPTIDES",
-    "description": "GHK-CU is listed in our Single Peptides range. 2 packages to choose from: 50–100mg per vial, 10 vials per package. Prices run from $21.00 to $32.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
-    "source_url": "https://www.yuantid.com/products/ghk-cu",
-    "source_checked_on": "2026-10-23",
+    "description": "GHK-Cu is a copper-bound tripeptide (Gly-His-Lys) studied in skin, collagen and wound research. Originally isolated from human plasma in published work, it is investigated in models of collagen synthesis, tissue remodelling and hair biology. It is supplied as a lyophilized vial for laboratory research only.",
     "variants": [
       {
         "id": 202401,
@@ -1038,7 +1236,11 @@
         "price": 2100,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420928"
+        "source_variant_id": "26420928",
+        "image": "/images/tideora-2024-2.jpg",
+        "testedOn": "July 18, 2026",
+        "purity": "99.64%",
+        "reportUrl": "https://img.wpassets-delta.com/images/5d0ea5b291ab18d8c18291963f7362f138e1fdae4a4b4ab3c7b61807ef08d289.jpg"
       },
       {
         "id": 202402,
@@ -1046,13 +1248,17 @@
         "price": 3200,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420929"
+        "source_variant_id": "26420929",
+        "image": "/images/tideora-2024-1.jpg",
+        "testedOn": "July 12, 2026",
+        "purity": "99.48%",
+        "reportUrl": "https://img.wpassets-delta.com/images/209ceed05bfaef6692a221323da5e53d37e5979dc2b36a251870477264a9986a.jpg"
       }
     ],
     "gallery": [
-      "/images/yuantid-2024-1.webp",
-      "/images/yuantid-2024-2.webp",
-      "/images/yuantid-2024-3.webp"
+      "/images/tideora-2024-1.jpg",
+      "/images/tideora-2024-2.jpg",
+      "/images/tideora-2024-3.jpg"
     ]
   },
   {
@@ -1063,11 +1269,9 @@
     "price": 42600,
     "old_price": 0,
     "stock": 100,
-    "image": "/images/yuantid-2025-1.webp",
+    "image": "/images/tideora-2025-1.jpg",
     "tag": "SINGLE PEPTIDES",
-    "description": "FOXO4 is listed in our Single Peptides range. One package: 10mg per vial, 10 vials per package. Priced at $426.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
-    "source_url": "https://www.yuantid.com/products/foxo4",
-    "source_checked_on": "2026-10-23",
+    "description": "FOXO4 peptide is studied in senescent cell research, investigating the interaction between FOXO4 and p53 in published preclinical work. The literature explores it in models of ageing and cellular senescence. It is supplied as a lyophilized vial for laboratory research only.",
     "variants": [
       {
         "id": 202501,
@@ -1075,11 +1279,15 @@
         "price": 42600,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420927"
+        "source_variant_id": "26420927",
+        "image": "/images/tideora-2025-1.jpg",
+        "testedOn": "August 10, 2026",
+        "purity": "99.51%",
+        "reportUrl": "https://img.wpassets-delta.com/images/ef95f629ab62ab30e2c54fbdd5562f5dacb1421a962656782b3bb5430f8f903e.jpg"
       }
     ],
     "gallery": [
-      "/images/yuantid-2025-1.webp"
+      "/images/tideora-2025-1.jpg"
     ]
   },
   {
@@ -1090,11 +1298,9 @@
     "price": 6300,
     "old_price": 0,
     "stock": 200,
-    "image": "/images/yuantid-2026-1.webp",
+    "image": "/images/tideora-2026-1.jpg",
     "tag": "SINGLE PEPTIDES",
-    "description": "Epithalon is listed in our Single Peptides range. 2 packages to choose from: 10–50mg per vial, 10 vials per package. Prices run from $63.00 to $239.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
-    "source_url": "https://www.yuantid.com/products/epithalon",
-    "source_checked_on": "2026-10-23",
+    "description": "Epithalon is a tetrapeptide (Ala-Glu-Asp-Gly) studied in ageing research. The bioregulator literature investigates it in animal models of telomerase activity, circadian regulation and age-related changes. It is supplied as a lyophilized vial for laboratory research only.",
     "variants": [
       {
         "id": 202601,
@@ -1102,7 +1308,11 @@
         "price": 6300,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420925"
+        "source_variant_id": "26420925",
+        "image": "/images/tideora-2026-2.jpg",
+        "testedOn": "July 18, 2026",
+        "purity": "99.64%",
+        "reportUrl": "https://img.wpassets-delta.com/images/ad05a02e45afd4b84dbaee5aae1ab3ec0522cdd13af2673fc0bd0ea64f6b1260.jpg"
       },
       {
         "id": 202602,
@@ -1110,12 +1320,16 @@
         "price": 23900,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420926"
+        "source_variant_id": "26420926",
+        "image": "/images/tideora-2026-1.jpg",
+        "testedOn": "July 24, 2026",
+        "purity": "99.72%",
+        "reportUrl": "https://img.wpassets-delta.com/images/27df4ddea98026e2465b0739c5165b1d82336eb6196f2437890e82ef657b8384.jpg"
       }
     ],
     "gallery": [
-      "/images/yuantid-2026-1.webp",
-      "/images/yuantid-2026-2.webp"
+      "/images/tideora-2026-1.jpg",
+      "/images/tideora-2026-2.jpg"
     ]
   },
   {
@@ -1126,11 +1340,9 @@
     "price": 12400,
     "old_price": 0,
     "stock": 300,
-    "image": "/images/yuantid-2027-1.webp",
+    "image": "/images/tideora-2027-1.jpg",
     "tag": "SINGLE PEPTIDES",
-    "description": "CJC-1295 With DAC is listed in our Single Peptides range. 3 packages to choose from: 2–10mg per vial, 10 vials per package. Prices run from $124.00 to $440.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
-    "source_url": "https://www.yuantid.com/products/cjc-1295-5mg",
-    "source_checked_on": "2026-10-23",
+    "description": "CJC-1295 with DAC is a long-acting growth hormone-releasing hormone (GHRH) analogue, with a Drug Affinity Complex that binds albumin in published work. It is studied in growth hormone and IGF-1 research, including models of pulsatile growth hormone release. It is supplied as a lyophilized vial for laboratory research only.",
     "variants": [
       {
         "id": 202701,
@@ -1138,7 +1350,11 @@
         "price": 12400,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420922"
+        "source_variant_id": "26420922",
+        "image": "/images/tideora-2027-3.jpg",
+        "testedOn": "July 18, 2026",
+        "purity": "99.64%",
+        "reportUrl": "https://img.wpassets-delta.com/images/45405cdc237a8ff9b9f968afabf7f3507222a33486423a819c6e40813e60276b.jpg"
       },
       {
         "id": 202702,
@@ -1146,7 +1362,11 @@
         "price": 23800,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420923"
+        "source_variant_id": "26420923",
+        "image": "/images/tideora-2027-2.jpg",
+        "testedOn": "July 24, 2026",
+        "purity": "99.72%",
+        "reportUrl": "https://img.wpassets-delta.com/images/04c9dd508e4e1a2d8d056610108716803aded71d22a5a819a710a1a1d9eb06a3.jpg"
       },
       {
         "id": 202703,
@@ -1154,15 +1374,18 @@
         "price": 44000,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420924"
+        "source_variant_id": "26420924",
+        "image": "/images/tideora-2027-1.jpg",
+        "testedOn": "July 12, 2026",
+        "purity": "99.48%",
+        "reportUrl": "https://img.wpassets-delta.com/images/3c6814f03bc368c8f417df31f8052a9cdc49ed8bf954950b9ac7fa13395d0e08.jpg"
       }
     ],
     "gallery": [
-      "/images/yuantid-2027-1.webp",
-      "/images/yuantid-2027-2.webp",
-      "/images/yuantid-2027-3.webp",
-      "/images/yuantid-2027-4.png",
-      "/images/yuantid-2027-5.png"
+      "/images/tideora-2027-1.jpg",
+      "/images/tideora-2027-2.jpg",
+      "/images/tideora-2027-3.jpg",
+      "/images/tideora-2027-4.jpg"
     ]
   },
   {
@@ -1173,11 +1396,9 @@
     "price": 16800,
     "old_price": 0,
     "stock": 200,
-    "image": "/images/yuantid-2028-1.webp",
+    "image": "/images/tideora-2028-1.jpg",
     "tag": "SINGLE PEPTIDES",
-    "description": "AOD-9604 is listed in our Single Peptides range. 2 packages to choose from: 5–10mg per vial, 10 vials per package. Prices run from $168.00 to $299.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
-    "source_url": "https://www.yuantid.com/products/aod-9604",
-    "source_checked_on": "2026-10-23",
+    "description": "AOD-9604 is a fragment of human growth hormone (residues 176-191) studied in fat metabolism research. Published work investigates it in models of lipolysis and fat mass, without the growth hormone and IGF-1 effects described for full growth hormone in the literature. It is supplied as a lyophilized vial for laboratory research only.",
     "variants": [
       {
         "id": 202801,
@@ -1185,7 +1406,10 @@
         "price": 16800,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420949"
+        "source_variant_id": "26420949",
+        "image": "/images/tideora-2028-2.jpg",
+        "testedOn": "July 12, 2026",
+        "purity": "99.48%"
       },
       {
         "id": 202802,
@@ -1193,12 +1417,16 @@
         "price": 29900,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420950"
+        "source_variant_id": "26420950",
+        "image": "/images/tideora-2028-1.jpg",
+        "testedOn": "July 12, 2026",
+        "purity": "99.48%",
+        "reportUrl": "https://img.wpassets-delta.com/images/af2b5043e00b3c3ece3c2609b21272c094c23169f1c320d978b80d4e9c04fc3b.jpg"
       }
     ],
     "gallery": [
-      "/images/yuantid-2028-1.webp",
-      "/images/yuantid-2028-2.webp"
+      "/images/tideora-2028-1.jpg",
+      "/images/tideora-2028-2.jpg"
     ]
   },
   {
@@ -1209,11 +1437,9 @@
     "price": 3000,
     "old_price": 0,
     "stock": 200,
-    "image": "/images/yuantid-2029-1.webp",
+    "image": "/images/tideora-2029-1.jpg",
     "tag": "SINGLE PEPTIDES",
-    "description": "10-amino-1mq is listed in our Single Peptides range. 2 packages to choose from: 5–10mg per vial, 10 vials per package. Prices run from $30.00 to $51.75 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
-    "source_url": "https://www.yuantid.com/products/10-amino-1mq",
-    "source_checked_on": "2026-10-23",
+    "description": "5-Amino-1MQ (10-amino-1mq) is a small-molecule inhibitor of nicotinamide N-methyltransferase (NNMT) studied in metabolic research. Published preclinical work investigates NNMT inhibition in models of obesity, energy expenditure and ageing. It is supplied for laboratory research only.",
     "variants": [
       {
         "id": 202901,
@@ -1221,7 +1447,10 @@
         "price": 3000,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420947"
+        "source_variant_id": "26420947",
+        "image": "/images/tideora-2029-2.jpg",
+        "testedOn": "August 10, 2026",
+        "purity": "99.51%"
       },
       {
         "id": 202902,
@@ -1229,12 +1458,16 @@
         "price": 5175,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420948"
+        "source_variant_id": "26420948",
+        "image": "/images/tideora-2029-1.jpg",
+        "testedOn": "August 10, 2026",
+        "purity": "99.51%",
+        "reportUrl": "https://img.wpassets-delta.com/images/1ac4e093d6cc3c454a8c6284611c50a2426da26521a37a01883551756977b5e0.jpg"
       }
     ],
     "gallery": [
-      "/images/yuantid-2029-1.webp",
-      "/images/yuantid-2029-2.webp"
+      "/images/tideora-2029-1.jpg",
+      "/images/tideora-2029-2.jpg"
     ]
   },
   {
@@ -1245,11 +1478,9 @@
     "price": 31200,
     "old_price": 0,
     "stock": 100,
-    "image": "/images/yuantid-2030-1.webp",
+    "image": "/images/tideora-2030-1.jpg",
     "tag": "PEPTIDE BLENDS",
-    "description": "Klow80 is listed in our Peptide Blends range. One package: 80mg per vial, 10 vials per package. Priced at $312.00 per package, checked on 23 October 2026 against the public listing linked below. We reproduce the published name, package label and price, and make no purity or testing claims of our own. Supplied for research use only — not for human or veterinary use.",
-    "source_url": "https://www.yuantid.com/products/klow-peptide-blend",
-    "source_checked_on": "2026-10-23",
+    "description": "Klow80 is listed as a peptide blend in our catalogue, supplied as an 80mg vial package for comparative laboratory research. Its component profile is as listed on its package label; for batch documentation, check the COA Portal. It is supplied for laboratory research only.",
     "variants": [
       {
         "id": 203001,
@@ -1257,11 +1488,15 @@
         "price": 31200,
         "stock": 100,
         "active": 1,
-        "source_variant_id": "26420933"
+        "source_variant_id": "26420933",
+        "image": "/images/tideora-2030-1.jpg",
+        "testedOn": "July 24, 2026",
+        "purity": "99.72%",
+        "reportUrl": "https://img.wpassets-delta.com/images/17569f00aee335a2504ab601a19a5490f86cd2414e3db2582694ac7b710f0d3a.jpg"
       }
     ],
     "gallery": [
-      "/images/yuantid-2030-1.webp"
+      "/images/tideora-2030-1.jpg"
     ]
   }
 ]

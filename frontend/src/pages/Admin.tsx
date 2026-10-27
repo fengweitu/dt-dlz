@@ -61,7 +61,7 @@ export function Admin() {
   }
   return (
     <>
-      <Heading title="Merchant portal" subtitle="AURELIS / STORE MANAGEMENT" />
+      <Heading title="Merchant portal" subtitle="TIDEORA / STORE MANAGEMENT" />
       <div className="account-layout">
         <aside className="account-nav">
           {["overview", "products", "orders", "coupons"].map((t) => (
@@ -96,7 +96,7 @@ export function Admin() {
                 ))}
               </div>
               <div className="panel">
-                <h3>Welcome to AURELIS administration.</h3>
+                <h3>Welcome to TIDEORA administration.</h3>
                 <p>Manage your catalog, inventory, orders and promotions.</p>
                 <div className="notice">
                   Payments are arranged via WhatsApp. Confirm payment only after

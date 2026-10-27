@@ -28,7 +28,7 @@ export function AuthDialog() {
   }
   return (
     <Modal
-      title={register ? "Create your account." : "Welcome to AURELIS."}
+      title={register ? "Create your account." : "Welcome to TIDEORA."}
       onClose={() => s.setAuthOpen(false)}
     >
       <p className="modal-subtitle">

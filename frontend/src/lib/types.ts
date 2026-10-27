@@ -5,6 +5,9 @@ export interface Variant {
   price: number;
   stock: number;
   active: number;
+  image?: string;
+  testedOn?: string;
+  purity?: string;
 }
 export interface Product {
   id: number;
@@ -19,8 +22,8 @@ export interface Product {
   gallery: string[];
   tag: string;
   description: string;
-  source_url: string;
-  source_checked_on: string;
+  source_url?: string;
+  source_checked_on?: string;
   active: number;
   variants: Variant[];
 }

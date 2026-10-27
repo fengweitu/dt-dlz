@@ -98,18 +98,8 @@ export function CartDrawer() {
       {!!s.cart.length && (
         <div className="cart-summary">
           <div className="notice">
-            Complimentary shipping over $299 · WELCOME10 saves 10% on your first
-            order.
+            Complimentary shipping over $500.
           </div>
-          <form className="coupon-row" onSubmit={apply}>
-            <input
-              value={input}
-              onChange={(e) => setInput(e.target.value)}
-              aria-label="Promo code"
-              placeholder="Enter promo code"
-            />
-            <button className="btn">Apply</button>
-          </form>
           <ErrorText error={error} />
           {quote && <Summary quote={quote} />}
           <button

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useParams, useSearchParams } from "react-router-dom";
 import { Heart, ShoppingBag } from "lucide-react";
 import { useStore } from "../lib/store";
-import { categories, money } from "../lib/api";
+import { categories, money, whatsappUrl } from "../lib/api";
 import { Heading, Empty } from "../components/Common";
 import { ProductCard } from "../components/ProductCard";
 export function Shop() {
@@ -98,7 +98,11 @@ function ProductDetail({ id }: { id: number }) {
     [image, setImage] = useState("");
   if (!p) return <Empty title="Product unavailable." />;
   const v = p.variants.find((v) => v.id === selected) || p.variants[0],
-    stock = v?.stock ?? p.stock;
+    stock = v?.stock ?? p.stock,
+    // Variant image linkage: a variant's own image wins, otherwise the
+    // product main image. Changing the variant resets any manual
+    // thumbnail choice, so price and picture always move together.
+    mainImage = image || v.image || p.image;
   return (
     <>
       <div className="page-heading">
@@ -111,7 +115,7 @@ function ProductDetail({ id }: { id: number }) {
         <div className="detail-image">
           <img
             id="product-main-image"
-            src={image || p.image}
+            src={mainImage}
             alt={p.name + " product image"}
           />
           <div className="product-thumbnails" aria-label="Product images">
@@ -119,7 +123,7 @@ function ProductDetail({ id }: { id: number }) {
               <button
                 key={src}
                 aria-label={"View product image " + (i + 1)}
-                aria-pressed={(image || p.image) === src}
+                aria-pressed={mainImage === src}
                 onClick={() => setImage(src)}
               >
                 <img
@@ -130,10 +134,9 @@ function ProductDetail({ id }: { id: number }) {
               </button>
             ))}
           </div>
-          <small>PRODUCT IMAGES FROM YUANTID</small>
         </div>
         <div className="detail-info">
-          <span className="eyebrow">AURELIS / {p.category}</span>
+          <span className="eyebrow">TIDEORA / {p.category}</span>
           <h1>{p.name}</h1>
           <p className="subtitle">{p.subtitle}</p>
           <div className="price">
@@ -141,25 +144,59 @@ function ProductDetail({ id }: { id: number }) {
           </div>
           {p.variants.length > 0 && (
             <>
-              <label className="variant-label" htmlFor="variant-select">
+              <div className="variant-label">
                 Choose a package <span>{p.variants.length} sizes</span>
-              </label>
-              <select
-                id="variant-select"
-                className="variant-select"
-                value={v.id}
-                onChange={(e) => {
-                  setSelected(Number(e.target.value));
-                  setQty(1);
-                }}
+              </div>
+              <div
+                role="radiogroup"
+                aria-label="Choose a package"
+                style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap: 10, margin: "12px 0 20px" }}
               >
-                {p.variants.map((v) => (
-                  <option value={v.id} key={v.id}>
-                    {v.label} — {money(v.price)}
-                    {!v.stock ? " · Unavailable" : ""}
-                  </option>
-                ))}
-              </select>
+                {p.variants.map((vv) => {
+                  const active = vv.id === v.id;
+                  return (
+                    <button
+                      key={vv.id}
+                      role="radio"
+                      aria-checked={active}
+                      disabled={!vv.stock}
+                      onClick={() => {
+                        setSelected(vv.id);
+                        setQty(1);
+                        setImage("");
+                      }}
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        gap: 10,
+                        minWidth: 0,
+                        padding: "12px",
+                        borderRadius: 12,
+                        border: active ? "2px solid #0f2e26" : "1px solid #d8ddd5",
+                        background: active ? "#eef5ee" : "#fff",
+                        opacity: vv.stock ? 1 : 0.45,
+                        cursor: vv.stock ? "pointer" : "not-allowed",
+                        textAlign: "left",
+                      }}
+                    >
+                      <img
+                        src={vv.image || p.image}
+                        alt=""
+                        style={{ width: 48, height: 48, objectFit: "cover", borderRadius: 8, flexShrink: 0 }}
+                      />
+                      <span style={{ minWidth: 0, flex: 1 }}>
+                        <span style={{ display: "block", fontWeight: 700, fontSize: 14, overflowWrap: "break-word" }}>
+                          {vv.label}
+                        </span>
+                        <span style={{ display: "block", color: "#0f2e26", fontWeight: 700, fontSize: 14, marginTop: 2 }}>
+                          {money(vv.price)}
+                          {!vv.stock ? " · Unavailable" : ""}
+                        </span>
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
             </>
           )}
           <div className="product-specs">
@@ -203,6 +240,16 @@ function ProductDetail({ id }: { id: number }) {
             >
               Add to bag <ShoppingBag />
             </button>
+            <a
+              className="btn outline"
+              href={whatsappUrl(
+                `Hello, I'm interested in ${p.name} (${v?.label || p.name}) - ${money(v?.price ?? p.price)} per package, qty ${qty}. Could you please confirm availability and batch documentation?`,
+              )}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ask on WhatsApp
+            </a>
             <button
               className="icon-button"
               aria-label="Save product"
@@ -222,27 +269,30 @@ function ProductDetail({ id }: { id: number }) {
             <p>{p.description}</p>
           </details>
           <details>
-            <summary>Price & source</summary>
+            <summary>Certificates & batch testing</summary>
             <p>
-              Price checked {p.source_checked_on} against the public listing
-              below. We reproduce the published name, package label and price,
-              and make no purity or testing claims of our own.
+              Batch documentation is available on request via WhatsApp before
+              you pay. Send us the product, package and batch number and we
+              will share the lot-specific certificate of analysis (COA) for
+              that batch. A COA lists the product identity, package label,
+              purity result, test method, batch number and test date for that
+              lot.
             </p>
-            {p.source_url && (
-              <a
-                className="text-link"
-                href={p.source_url}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View the original listing ↗
-              </a>
-            )}
+            <p>
+              If a COA is not yet available for a batch, we will tell you
+              before payment rather than asking you to assume one exists.
+              Independent re-testing within 30 days of delivery that does not
+              match the COA can be raised on WhatsApp with the report, and we
+              will arrange a replacement or refund for that batch.
+            </p>
+            <a className="btn outline" href={whatsappUrl(`Hello, could you please share the batch COA for ${p.name} (${v?.label || p.name})?`)} target="_blank" rel="noopener noreferrer">
+              Request batch COA on WhatsApp
+            </a>
           </details>
           <details>
             <summary>Shipping & returns</summary>
             <p>
-              Shipping is $15 per order, or complimentary on orders of $299 or
+              Shipping is $15 per order, or complimentary on orders of $500 or
               more before discounts. Dispatch and any return are arranged with
               you on WhatsApp after your order is placed.
             </p>

@@ -35,7 +35,7 @@ export function Account() {
   if (!s.user)
     return (
       <>
-        <Heading title="Your AURELIS account." />
+        <Heading title="Your TIDEORA account." />
         <Empty title="Your orders live here.">
           <p>
             Sign in to track orders, arrange payment on WhatsApp and manage

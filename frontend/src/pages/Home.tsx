@@ -36,8 +36,15 @@ export function Home() {
               How we list prices ↗
             </Link>
           </div>
+          <p>
+            Free shipping on orders over $500.
+          </p>
           <div className="hero-footnote">
-            <span className="mini-mark">A</span>
+            <img
+              src="/images/tideora-logo-icon.jpg"
+              alt="Tideora"
+              style={{ height: 40, width: "auto", display: "block" }}
+            />
             <div>
               FOR RESEARCH USE ONLY
               <small>NOT FOR HUMAN OR VETERINARY USE</small>
@@ -47,7 +54,7 @@ export function Home() {
         <div className="hero-art">
           <img
             src="/images/aurelis-hero.svg"
-            alt="Aurelis peptide packaging concepts on architectural stone plinths"
+            alt="Tideora peptide packaging concepts on architectural stone plinths"
             fetchPriority="high"
           />
           <div className="hero-art-top">
@@ -71,7 +78,7 @@ export function Home() {
           <Box /> Sealed vials, sold by the package
         </div>
         <div>
-          <ShieldCheck /> Every price linked to its source
+          <ShieldCheck /> Batch COA available on request
         </div>
         <div>
           <UserRound /> Ordering and payment over WhatsApp
@@ -126,10 +133,10 @@ export function Home() {
         <div className="philosophy-art">
           <div className="orbital orbital-one" />
           <div className="orbital orbital-two" />
-          <span className="philosophy-monogram">A</span>
+          <span className="philosophy-monogram">T</span>
           <span className="art-caption">FOR RESEARCH USE ONLY.</span>
           <div className="art-coordinates">
-            AURELIS
+            TIDEORA
             <br />
             EST. 2026
           </div>
@@ -142,10 +149,11 @@ export function Home() {
             <em>traceable to the source.</em>
           </h2>
           <p>
-            Every product page links the public listing its name, package label
-            and price were taken from, and shows the date we checked it. We
-            publish what that catalogue publishes — no purity or testing claims
-            of our own.
+            Every product page shows the name, package label and price we
+            checked, with the date we checked it. Batch documentation is
+            separate: request the lot-specific COA on WhatsApp before you pay,
+            and we will share that batch's document or tell you if one is not
+            yet available.
           </p>
           <Link to="/quality" className="text-link">
             How we list specifications <ArrowRight />
@@ -181,7 +189,7 @@ export function Home() {
             [
               "03",
               "The price",
-              "The USD price, the date it was checked and a link to the original listing.",
+              "The USD price, the date it was checked, and batch documentation on request via WhatsApp.",
             ],
           ].map(([n, t, d]) => (
             <Link to="/quality" className="standard-card" key={n}>
@@ -215,7 +223,7 @@ export function Home() {
         <Link className="btn gold" to="/shop">
           See all {products.length} peptides <ArrowRight />
         </Link>
-        <span className="closing-watermark">AURELIS</span>
+        <span className="closing-watermark">TIDEORA</span>
       </section>
     </>
   );

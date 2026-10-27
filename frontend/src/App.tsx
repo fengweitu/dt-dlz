@@ -5,13 +5,17 @@ import { Layout } from "./components/Layout";
 import { Empty } from "./components/Common";
 import { Home } from "./pages/Home";
 import { Shop, ProductPage } from "./pages/Catalog";
-import { Journal, Quality, Story, Privacy } from "./pages/Information";
+import { Journal, Quality, Story, Privacy, Faq, Shipping } from "./pages/Information";
+import { Coa } from "./pages/Coa";
 import { Checkout } from "./pages/Checkout";
 import { Account } from "./pages/Account";
 import { Admin } from "./pages/Admin";
 const titles: Record<string, string> = {
   "/shop": "The catalogue",
-  "/quality": "Specifications & pricing",
+  "/coa": "Certificates of analysis (COA)",
+  "/quality": "How we ensure quality",
+  "/faq": "FAQ",
+  "/shipping": "Shipping & fulfillment",
   "/story": "About us",
   "/journal": "Research notes",
   "/privacy": "Privacy policy",
@@ -31,7 +35,7 @@ function StoreRoutes() {
         : location.pathname.startsWith("/journal/")
           ? "Research notes"
           : "Research Peptides");
-    document.title = page + " | AURELIS";
+    document.title = page + " | TIDEORA";
   }, [location.pathname]);
   if (s.loading) return <div className="loading">Loading the catalogue…</div>;
   if (s.error)
@@ -54,6 +58,9 @@ function StoreRoutes() {
         <Route path="/account" element={<Account />} />
         <Route path="/admin" element={<Admin />} />
         <Route path="/quality" element={<Quality />} />
+        <Route path="/faq" element={<Faq />} />
+        <Route path="/shipping" element={<Shipping />} />
+        <Route path="/coa" element={<Coa />} />
         <Route path="/story" element={<Story />} />
         <Route path="/journal" element={<Journal />} />
         <Route path="/journal/:id" element={<Journal />} />

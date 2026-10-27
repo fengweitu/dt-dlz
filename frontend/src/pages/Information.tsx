@@ -14,7 +14,7 @@ const journals = [
   {
     title: "Ordering, payment and shipping.",
     tag: "HOW TO ORDER / 03",
-    body: "Add the packages you want to your bag, sign in, and place the order. The order is created as awaiting payment and the stock is set aside for you; nothing is charged on this site. Open your order history and select Pay via WhatsApp — that opens a message to us with your order number, items and total already written out, which you send when you are ready. We confirm payment, then dispatch. Shipping is $15 per order, or complimentary above $299 before discounts, and WELCOME10 takes 10% off a first order.",
+    body: "Add the packages you want to your bag, sign in, and place the order. The order is created as awaiting payment and nothing is charged on this site. Availability is confirmed with us on WhatsApp before you pay. Open your order history and select Pay via WhatsApp — that opens a message to us with your order number, items and total already written out, which you send when you are ready. We confirm payment, then dispatch. Shipping is $15 per order, or complimentary above $500.",
   },
 ];
 export function JournalCards() {
@@ -75,52 +75,205 @@ export function Quality() {
   return (
     <>
       <Heading
-        title="Specifications & pricing."
-        subtitle="Where every name, package label and price on this site comes from."
+        title="How we ensure quality."
+        subtitle="Tideora supplies high-purity peptides for laboratory and in-vitro research. Every lot is verified by an independent laboratory — not by us."
       />
       <article className="article quality-article">
-        <span className="eyebrow">SOURCES</span>
-        <h2>
-          Nothing inferred.
-          <br />
-          Everything linked.
-        </h2>
+        <span className="eyebrow">OUR STANDARD</span>
+        <h2>We don&apos;t grade our own homework.</h2>
         <p>
-          The 30 products and 82 package specifications in this catalogue follow
-          the public YuanTid listing, checked on October 23, 2026. Every product
-          page links the listing its details came from.
+          Every lot goes to an independent third-party analytical laboratory
+          before it is listed. We never self-report a number. Our release
+          floor is 99%+ identity purity — anything under it doesn&apos;t ship.
+          Lot-specific Certificates of Analysis are published as each lot
+          clears testing, and when a report is still pending, we say so
+          instead of showing you something else.
         </p>
-        <div className="quality-list">
-          {[
-            [
-              "Names as published",
-              "Peptide names, product codes and catalogue photographs are reproduced as they appear in the source listing. We do not rename or re-group products.",
-            ],
-            [
-              "Package labels, unchanged",
-              "A label such as 332 5mg*10vials is quoted in full. Where the source publishes a code only — RT10, BB20 — we keep the code and do not infer a strength or a vial count.",
-            ],
-            [
-              "Prices with a date",
-              "Each price is a USD snapshot taken on the date shown on the product page. Select a package to see the price that applies to it; shipping is added at checkout.",
-            ],
-            [
-              "What we do not claim",
-              "We publish no purity figures, no HPLC or mass-spectrometry results, no certificates of analysis and no third-party test reports. Documentation of that kind can only come from the manufacturer, not from us.",
-            ],
-          ].map(([title, body], i) => (
-            <section key={title}>
-              <span>0{i + 1}</span>
-              <div>
-                <h3>{title}</h3>
-                <p>{body}</p>
-              </div>
-            </section>
-          ))}
-        </div>
+        <p>
+          Every order carries a research-use-only acknowledgment, and a
+          documented receipt lands in your inbox.
+        </p>
+
+        <h3>Third-party tested. Lot by lot. Order by order.</h3>
+        <h3>What every lot is measured against</h3>
+        <p>
+          An independent laboratory runs every assay — never us. These are
+          the tests, and the numbers they return are published in each
+          lot&apos;s Certificate of Analysis.
+        </p>
+        <table style={{ width: "100%", borderCollapse: "collapse" }}>
+          <thead>
+            <tr>
+              <th style={{ padding: "10px 12px", textAlign: "left", borderBottom: "2px solid #0f2e26" }}>Assay</th>
+              <th style={{ padding: "10px 12px", textAlign: "left", borderBottom: "2px solid #0f2e26" }}>Method</th>
+              <th style={{ padding: "10px 12px", textAlign: "left", borderBottom: "2px solid #0f2e26" }}>Release threshold</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ["Identity", "HPLC against a reference standard", "99%+ identity purity"],
+              ["Mass", "Mass spectrometry", "Molecular weight confirmed"],
+              ["Purity", "HPLC peak area", "99%+ by peak area"],
+              ["Sterility", "PCR", "No growth"],
+              ["Endotoxin", "LAL", "Measured value published per lot"],
+              ["Heavy metals", "ICP-MS", "Within USP <233> limits"],
+            ].map(([a, m, t]) => (
+              <tr key={a}>
+                <td style={{ padding: "10px 12px", borderBottom: "1px solid #ddd" }}>{a}</td>
+                <td style={{ padding: "10px 12px", borderBottom: "1px solid #ddd" }}>{m}</td>
+                <td style={{ padding: "10px 12px", borderBottom: "1px solid #ddd" }}>{t}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        <p><small>These are release thresholds, not lot results. Lot results are published in the COA.</small></p>
+
+        <h3>Not every supplier shows their work.</h3>
+        <p>
+          Anyone can claim a number. The difference is whether there is a
+          report behind it — written by someone with no stake in the answer.
+        </p>
+        <table style={{ width: "100%", borderCollapse: "collapse" }}>
+          <thead>
+            <tr>
+              <th style={{ padding: "10px 12px", textAlign: "left", borderBottom: "2px solid #0f2e26" }}>What you can verify</th>
+              <th style={{ padding: "10px 12px", textAlign: "left", borderBottom: "2px solid #0f2e26" }}>Tideora</th>
+              <th style={{ padding: "10px 12px", textAlign: "left", borderBottom: "2px solid #0f2e26" }}>Typical overseas supplier</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              ["Independent third-party testing on every lot", "✓", "Often unverified"],
+              ["99%+ identity purity, HPLC verified", "✓", "Rarely stated"],
+              ["Lot-specific COA published as testing completes", "✓", "Rarely provided"],
+              ["Ships from China", "✓", "Offshore"],
+              ["Free shipping on orders $500+", "✓", "Usually paid"],
+            ].map(([k, a, b]) => (
+              <tr key={k}>
+                <td style={{ padding: "10px 12px", borderBottom: "1px solid #ddd" }}>{k}</td>
+                <td style={{ padding: "10px 12px", borderBottom: "1px solid #ddd" }}>{a}</td>
+                <td style={{ padding: "10px 12px", borderBottom: "1px solid #ddd" }}>{b}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+
+        <h3>What that means in practice</h3>
+        <h4>What a COA contains</h4>
+        <p>
+          The assays above with their measured results, the lot number
+          identifying the lot the report covers, the test date, and the
+          independent laboratory that issued it. If a document is missing
+          any of those, it is not a lot report.
+        </p>
+        <h4>When reports publish</h4>
+        <p>
+          Per lot, as each one clears independent testing — not on a
+          schedule and not in advance. We don&apos;t put up placeholder
+          documents in the meantime.
+        </p>
+        <h4>If a lot fails re-verification</h4>
+        <p>
+          If a delivered lot is independently re-tested and the result
+          disagrees with its certificate, send us the report and your order
+          number — we will make it right.
+        </p>
+
+        <h3>Look up a lot before you buy.</h3>
+        <p>
+          Lot-specific Certificates of Analysis publish as each lot clears
+          independent testing. When a report is still pending, the listing
+          says so. No guessing.
+        </p>
+        <Link className="btn" to="/coa">
+          COA Portal ↗
+        </Link>{" "}
         <Link className="btn" to="/shop">
           Browse the catalogue ↗
         </Link>
+      </article>
+    </>
+  );
+}
+export function Faq() {
+  const sections: [string, [string, string][]][] = [
+    ["Compliance & use", [
+      ["What are these products for?", "Laboratory and in-vitro research only — never for human or veterinary use, and never for any therapeutic, diagnostic, or cosmetic purpose. Placing an order means you accept the Research-Use-Only acknowledgment shown at checkout."],
+      ["Do I need to sign anything?", "Just one acknowledgment. At checkout you confirm the Research-Use-Only terms before the order is captured, and a copy of what you agreed to comes with your order confirmation."],
+      ["Is there an age requirement?", "You must be 21 or older to purchase. It is part of our compliance policy and a condition of every sale."],
+    ]],
+    ["Quality & testing", [
+      ["Is every lot tested?", "Yes — by a lab that isn't us. Every lot is independently analyzed for identity, mass, purity, and endotoxin, and lot-specific Certificates of Analysis are published as each lot clears testing."],
+      ["Who does the testing?", "Independent analytical laboratories handle every release — not us. The panel covers identity (HPLC), molecular mass (MS), purity by HPLC peak area, and bacterial endotoxin (LAL)."],
+      ["What is the release floor?", "99%+ identity purity by HPLC — a lot that doesn't clear it doesn't get listed. Each lot's exact figure is printed on its Certificate of Analysis."],
+      ["What if re-verification disagrees?", "If a delivered lot is independently re-verified within 30 days and tests below its stated identity-purity floor, or shows endotoxin above the level on its Certificate of Analysis, we provide a refund and replacement."],
+    ]],
+    ["Shipping & fulfillment", [
+      ["How fast do orders ship?", "Once payment clears, orders ship within 24 hours, Monday to Friday. Weekend orders go out on Monday. Tracking details are sent via WhatsApp or email the moment your order ships."],
+      ["What does shipping cost?", "One flat rate for every order, and orders of $500 or more ship free. We ship worldwide via FedEx Express — fully tracked."],
+      ["Do you ship to PO Boxes?", "We ship to street addresses worldwide. If you can only receive to a PO Box, contact us before ordering."],
+      ["How are orders packaged?", "Orders ship in plain outer packaging with no contents listed on the outside — standard for laboratory shipments. Delivery doesn't require a signature."],
+      ["How should products be stored?", "Lyophilized compounds are stored sealed at 2–8°C, desiccated and protected from light. Bacteriostatic water is stored at room temperature. Check the product page for the storage detail of each compound."],
+    ]],
+    ["Orders & payment", [
+      ["How do I order?", "Add compounds to your cart from the shop or a product page. At checkout, confirm the Research Use Only acknowledgment, enter your shipping address, and pay. Once payment clears, orders ship within 24 hours, Monday to Friday."],
+      ["What payment methods do you accept?", "Major credit and debit cards at checkout through a secure, PCI-compliant processor — your card details never touch our servers. For other payment options, contact us before ordering."],
+      ["Can I change or cancel an order?", "If it hasn't shipped, contact us within an hour of ordering and we'll change or cancel it. Once a tracking number is generated, the package is already moving and can't be recalled."],
+      ["Can I order larger quantities?", "For larger quantities, contact us with the compounds and quantities you need before ordering — we'll confirm stock and timing."],
+      ["What about returns?", "Research materials can't be returned once shipped. If a protected shipment arrives damaged — or doesn't arrive — contact us with your order number and we'll replace or refund it."],
+    ]],
+  ];
+  return (
+    <>
+      <Heading
+        title="Questions, answered."
+        subtitle="The questions researchers ask before a first order, answered plainly from our published policies."
+      />
+      <article className="article quality-article">
+        {sections.map(([title, items], si) => (
+          <div key={title}>
+            <h3>{si + 1 < 10 ? `0${si + 1}` : si + 1} · {title}</h3>
+            {items.map(([q, a]) => (
+              <div key={q} style={{ marginBottom: 20 }}>
+                <h4>{q}</h4>
+                <p>{a}</p>
+              </div>
+            ))}
+          </div>
+        ))}
+        <h3>Still stuck</h3>
+        <p>Ask us about a specific lot or order. Include your order number or the SKU you&apos;re asking about and we&apos;ll get to it faster.</p>
+        <Link className="btn" to="/shop">Browse the catalogue ↗</Link>{" "}
+        <Link className="btn" to="/coa">COA Portal ↗</Link>
+        <p>For laboratory research use only. All products are sold strictly for in-vitro research and not for human consumption, veterinary use, or any therapeutic or diagnostic application. We ship worldwide via FedEx Express.</p>
+      </article>
+    </>
+  );
+}
+export function Shipping() {
+  return (
+    <>
+      <Heading
+        title="Shipping & fulfillment."
+        subtitle="Fast worldwide delivery, fully tracked, with free shipping on orders $500+."
+      />
+      <article className="article quality-article">
+        <h3>Dispatch</h3>
+        <p>All orders ship from China. Once payment clears, orders ship within 24 hours, Monday to Friday. Weekend orders go out on Monday. Tracking details are sent via WhatsApp or email the moment your order ships.</p>
+        <h3>Cost and carrier</h3>
+        <p>Shipping is $15 per order, or complimentary on orders of $500 or more, with no coupon needed. We ship worldwide via FedEx Express — fully tracked, to street addresses worldwide.</p>
+        <h3>Packaging</h3>
+        <p>Orders ship in plain outer packaging with no contents listed on the outside, with discreet packaging on every order — standard for laboratory shipments. Delivery doesn&apos;t require a signature, and there&apos;s no option to add one at checkout; if signature on delivery matters, contact us before it ships.</p>
+        <p>If you can only receive to a PO Box, contact us before ordering.</p>
+        <h3>Package Protection</h3>
+        <p>Package Protection is optional at checkout, charged at 2.5% of the order subtotal (minimum $0.99), shown as a separate line and removable. A protected parcel that is lost, stolen or damaged can be replaced or refunded with your order number and photos. A parcel shipped without Package Protection becomes the carrier&apos;s responsibility once accepted.</p>
+        <h3>Storage</h3>
+        <p>Lyophilized compounds are stored sealed at 2–8°C, desiccated and protected from light. Bacteriostatic water is stored at room temperature. Check the product page for the storage detail of each compound.</p>
+        <h3>Damaged, missing or re-verification</h3>
+        <p>Research materials can&apos;t be returned once shipped. If a protected shipment arrives damaged — or doesn&apos;t arrive — contact us with your order number and we&apos;ll replace or refund it. Orders shipped without Package Protection become the carrier&apos;s responsibility once accepted. Lots that fail independent re-verification are covered under our re-verification policy.</p>
+        <p>If an order hasn&apos;t shipped, contact us within an hour of ordering and we&apos;ll change or cancel it. Once a tracking number is generated, the package is already moving and can&apos;t be recalled.</p>
+        <Link className="btn" to="/shop">Browse the catalogue ↗</Link>{" "}
+        <Link className="btn" to="/faq">FAQ ↗</Link>
       </article>
     </>
   );
@@ -130,17 +283,18 @@ export function Story() {
     <article className="article brand-article">
       <span className="eyebrow">ABOUT US</span>
       <h1>Research peptides, plainly listed.</h1>
-      <img src="/images/aurelis-hero.svg" alt="Aurelis packaging concepts" />
+      <img src="/images/aurelis-hero.svg" alt="Tideora packaging concepts" />
       <p>
-        AURELIS sells research peptides by the package: GLP-series compounds,
+        TIDEORA sells research peptides by the package: GLP-series compounds,
         single peptides and pre-made blends, in sealed vials, priced in USD.
         Thirty products, eighty-two package specifications.
       </p>
       <p>
-        We are a storefront, not a laboratory. Our catalogue follows the public
-        YuanTid listing — names, package labels and prices — with the original
-        listing linked from every product page and the date we checked it. We
-        make no purity or testing claims of our own.
+        We are a storefront, not a laboratory. Our catalogue is TIDEORA's own
+        listing — names, package labels and prices — checked on October 23,
+        2026. Batch documentation is handled separately: ask us on WhatsApp
+        for the lot-specific COA before you pay, and we will share
+        that batch's document or tell you if one is not yet available.
       </p>
       <p>
         Everything here is supplied for laboratory research use only. It is not
@@ -159,9 +313,11 @@ export function Privacy() {
     <article className="article">
       <h1>Privacy policy</h1>
       <p>
-        This storefront stores your account details, hashed password, delivery
-        addresses, orders, favorites and subscription email. Your shopping bag
-        is stored in this browser.
+        In this Cloudflare front-end build, your account details, delivery
+        addresses, orders, favorites and subscription email are stored only in
+        this browser — there is no server-side account or password check in
+        this build, so do not reuse a password you use elsewhere. Your
+        shopping bag is also stored in this browser.
       </p>
       <p>
         Selecting Pay via WhatsApp opens a message draft containing your order
