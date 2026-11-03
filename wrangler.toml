@@ -1,0 +1,24 @@
+# Cloudflare Pages project for the TIDEORA storefront.
+#
+# The storefront itself is a static SPA (HashRouter). The only server-side code
+# is the WhatsApp number-pool API in ./functions/api/wa/*, which is why this file
+# can bind a KV namespace.
+#
+# Deploy: npx wrangler pages deploy   (reads pages_build_output_dir below)
+
+name = "tideora"
+compatibility_date = "2026-10-27"
+pages_build_output_dir = "frontend/dist"
+
+# --- WhatsApp number pool -----------------------------------------------------
+# KV namespace "WA_POOL" (created 2026-11-02). Without it the landing page still
+# works: it falls back to frontend/public/wa-pool.json and /wh-admin edits a
+# local copy. With it, the pool is shared and edits go live immediately.
+#
+# The admin token is NOT in this file. It is a Pages secret:
+#   npx wrangler pages secret put WA_ADMIN_TOKEN --project-name tideora
+# Rotate it any time by running the same command again.
+
+[[kv_namespaces]]
+binding = "WA_POOL"
+id = "043fad68ccbc4b1a9f21caf9385bfa75"

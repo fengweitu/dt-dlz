@@ -3,6 +3,7 @@ import { api, money, statusLabel } from "../lib/api";
 import type { Order } from "../lib/types";
 import { useStore } from "../lib/store";
 import { Modal, ErrorText } from "./Common";
+import { routeWaUrl } from "../lib/waLink";
 export function OrderCard({
   order: o,
   admin = false,
@@ -31,7 +32,12 @@ export function OrderCard({
         const u = new URL(r.url);
         if (u.protocol !== "https:" || u.hostname !== "wa.me")
           throw new Error("Invalid payment destination.");
-        window.location.assign(u.href);
+        const dest = await routeWaUrl(u.href);
+        if (!dest)
+          throw new Error(
+            "No WhatsApp agent is available right now. Please retry in a moment.",
+          );
+        window.location.assign(dest);
         return;
       }
       if (a === "ship")

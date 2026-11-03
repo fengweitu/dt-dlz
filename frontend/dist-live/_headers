@@ -1,0 +1,38 @@
+# Cloudflare Pages headers for the TIDEORA storefront.
+# Rules are additive: the /* block applies to everything, the more specific
+# blocks below add their own Cache-Control.
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: DENY
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+  Cross-Origin-Opener-Policy: same-origin
+
+# The HTML shell must be revalidated so a new deployment is picked up at once.
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+# Vite emits content-hashed file names, so these can be cached forever.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Product and brand imagery.
+/images/*
+  Cache-Control: public, max-age=604800
+
+# COA reports keep their file name when the document is regenerated, so they get
+# a shorter TTL than the hashed build assets.
+/reports/*
+  Cache-Control: public, max-age=86400
+
+# The number-pool admin must never be indexed or cached. It is also protected by
+# the WA_ADMIN_TOKEN check in functions/api/wa/pool.ts.
+/wh-admin*
+  X-Robots-Tag: noindex, nofollow, noarchive
+  Cache-Control: no-store
+
+# The landing page shell is the ad destination: always revalidate so a copy or
+# price change goes live immediately.
+/lp/*
+  Cache-Control: public, max-age=0, must-revalidate

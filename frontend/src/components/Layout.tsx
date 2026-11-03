@@ -245,7 +245,7 @@ export function Layout() {
           <p>
             {policy === "Shipping & returns"
               ? "Shipping is $15 per order, or complimentary on orders of $500 or more. Dispatch, tracking and any return or refund are arranged with you on WhatsApp after your order is placed."
-              : "Use the WhatsApp button on any page to reach us, or select Pay via WhatsApp in your order history to message us with your order summary already filled in. We reply during business hours."}
+              : "Add what you need to the bag, then press “Order on WhatsApp” — your items and quantities are copied into the message for you. No account is needed. We confirm stock, payment and delivery in the chat during business hours."}
           </p>
         </Modal>
       )}

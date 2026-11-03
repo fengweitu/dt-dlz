@@ -2,11 +2,10 @@ import catalog from '../data/catalog.json';
 import type {Product, User, Quote, Order, Address, Coupon} from './types';
 
 // WhatsApp contact for this Cloudflare front-end build.
-// The front-end build has no server, so the number is bundled here on
-// purpose: the floating contact button and the Pay via WhatsApp flow both
-// read it from this constant instead of from localStorage (which was never
-// written to, so both were previously broken).
-export const WHATSAPP_NUMBER = '8615190068041';
+// This number is only a last resort: every wa.me link on the site is rewritten
+// at click time by lib/waLink.ts to whichever number the pool assigns. Keep it
+// pointing at a number that is currently active in /wh-admin.
+export const WHATSAPP_NUMBER = '8613013925997';
 export const whatsappUrl = (text:string) =>
   `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
 export const FREE_SHIPPING_THRESHOLD_CENTS = 50000;
@@ -15,8 +14,16 @@ export const SHIPPING_FEE_CENTS = 1500;
 const key = (name:string) => `aurelis-frontend-${name}`;
 const read = <T>(name:string, fallback:T):T => { try { return JSON.parse(localStorage.getItem(key(name)) || JSON.stringify(fallback)); } catch { return fallback; } };
 const write = (name:string, value:unknown) => localStorage.setItem(key(name), JSON.stringify(value));
+// catalog.json is the bundled snapshot: it has no `max_price` / `active` on the
+// product row (those exist in the API shape), so they are derived here instead of
+// being cast away - the product card shows "price - max_price" as a range and the
+// admin list shows active state, both of which would otherwise read `undefined`.
+const products: Product[] = (catalog as unknown as Array<Omit<Product,'max_price'|'active'>>).map(p=>({
+  ...p,
+  max_price: Math.max(p.price, ...(p.variants||[]).map(v=>v.price)),
+  active: 1,
+}));
 export async function api<T>(path:string, method='GET', data?:any):Promise<T>{
-  const products = catalog as Product[];
   if(path==='/products') return products as T;
   if(path==='/contact') return {whatsapp_number: WHATSAPP_NUMBER, whatsapp_url: whatsappUrl('Hello, I have a question about TIDEORA research peptides.')} as T;
   if(path==='/me') return read<User|null>('user', null) as T;
@@ -39,7 +46,7 @@ export async function api<T>(path:string, method='GET', data?:any):Promise<T>{
   if(path.startsWith('/orders/')&&method==='POST'){const id=path.split('/')[2],action=path.split('/')[3];const all=read<Order[]>('orders',[]);const next=all.map(o=>o.id===id?{...o,status:action==='cancel'?'已取消':action==='receive'?'已完成':action==='refund'?'退款申请中':o.status}:o);write('orders',next);return {ok:true} as T;}
   return [] as T;
 }
-function quote(items:any[], code=''):Quote{const lines=items.map(i=>{const p=(catalog as Product[]).find(p=>p.id===i.id)!;const v=p.variants.find(v=>v.id===i.variant_id);return {id:p.id,name:p.name,price:v?.price??p.price,image:p.image,qty:i.qty,variant_id:i.variant_id,variant_label:v?.label||''}});const subtotal=lines.reduce((n,i)=>n+i.price*i.qty,0);const discount=0;const shipping=subtotal>=FREE_SHIPPING_THRESHOLD_CENTS?0:SHIPPING_FEE_CENTS;return {currency:'USD',items:lines,subtotal,discount,shipping,total:subtotal+shipping};}
+function quote(items:any[], code=''):Quote{const lines=items.map(i=>{const p=products.find(p=>p.id===i.id)!;const v=p.variants.find(v=>v.id===i.variant_id);return {id:p.id,name:p.name,price:v?.price??p.price,image:p.image,qty:i.qty,variant_id:i.variant_id,variant_label:v?.label||''}});const subtotal=lines.reduce((n,i)=>n+i.price*i.qty,0);const discount=0;const shipping=subtotal>=FREE_SHIPPING_THRESHOLD_CENTS?0:SHIPPING_FEE_CENTS;return {currency:'USD',items:lines,subtotal,discount,shipping,total:subtotal+shipping};}
 export const money=(value:number,currency='USD')=>new Intl.NumberFormat('en-US',{style:'currency',currency}).format(value/100);
 export const categories=['GLP Series','Single Peptides','Peptide Blends','Reagents'];
 export const statusLabel=(status:string)=>({'待付款':'Awaiting payment','待发货':'Processing','已发货':'Shipped','已完成':'Completed','已取消':'Cancelled','退款申请中':'Refund requested','已退款':'Refunded'}[status]||status);

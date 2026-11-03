@@ -2,6 +2,38 @@
 
 当前版本采用 **React + TypeScript 前端 / Go + Gin 后端**，前后端独立运行、独立构建，通过 JSON REST API 通信。运行商城不再需要 Python。
 
+## 广告落地页与 WhatsApp 号池
+
+线上跑的是纯静态版。除商城本身外，还有两条独立于 HashRouter 的路径：
+
+| 地址 | 用途 |
+| --- | --- |
+| `/lp/<产品名>` | FB 广告落地页，如 `/lp/tirzepatide`。移动端底部常驻按钮，一次点击跳到 WhatsApp，商品、规格、价格、Ref 码已写进消息 |
+| `/wh-admin` | 号池后台：加号、暂停、权重、国家、每日上限、点击统计 |
+
+分流由 `functions/api/wa/next` 决定，所以换号不用改广告、不用重新审核。号池配置（`wa-pool`）和点击统计（`wa-stats`）存在两个 KV 键里，点击不会覆盖后台设置。停用的号不会再被发出去：号池全停用时会显示「客服正在接入」，而不是退回旧号。
+
+完整说明、部署步骤、运营手册见 [docs/LANDING_WA_POOL.md](docs/LANDING_WA_POOL.md)。
+
+## 下单流程（无后端、无数据库）
+
+购物车里的按钮是 **Order on WhatsApp**，不是结算页：点一下就把袋里的商品、规格、数量、小计/运费/合计，加一个 `CART-xxxx` 来源码，整段写进 WhatsApp 消息，客服在聊天里确认库存、付款方式和运费。**不需要注册或登录**。
+
+`/#/checkout` 路由还在，但站内已经没有任何入口指向它（它是给有后端时用的，现在不参与流程）。
+
+## 部署
+
+前端是纯静态单页应用（数据打包在 bundle 内、订单存浏览器 localStorage、付款走 WhatsApp），
+直接部署到 Cloudflare Pages 即可，不需要服务器：
+
+```bash
+npm run setup      # 安装前端依赖
+npm run deploy:cf  # 构建 frontend/dist 并直传 Cloudflare Pages
+```
+
+完整步骤（购买并绑定 www.tideoralab.com、裸域 301、缓存头、验收清单、已知限制）见
+[Cloudflare 部署文档](docs/DEPLOY_CLOUDFLARE.md)。`wrangler.toml` 里是 Pages 项目名和构建输出目录。
+
 ## 技术栈
 
 | 层级 | 技术 | 用途 |
@@ -24,6 +56,7 @@ frontend/
     components/       头尾布局、商品卡片、购物袋、登录弹窗、订单卡片
     pages/            首页、商品、结算、账户、后台、文章
     lib/              API 客户端、TypeScript 类型、全局状态
+    lp/               广告落地页（/lp/*）与号池后台（/wh-admin）
     App.tsx           React Router 路由
     main.tsx          React 入口
   public/images/      商品原图和品牌资产
@@ -43,6 +76,7 @@ backend/
   go.mod / go.sum     锁定后端依赖
 catalog.json          首次启动的 30 款商品 / 82 种规格
 store-config.json     WhatsApp 联系号码配置
+functions/api/wa/     号池分流与后台接口（Cloudflare Pages Functions，仅静态站使用）
 sources/              商品、价格、图片来源快照
 scripts/dev.mjs       同时启动独立前端和 Go 服务
 scripts/              可选的历史商品导入和品牌素材工具

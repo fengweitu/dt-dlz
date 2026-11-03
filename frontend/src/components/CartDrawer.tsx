@@ -1,12 +1,11 @@
-import { useEffect, useState, type FormEvent } from "react";
-import { useNavigate } from "react-router-dom";
+import { useEffect, useMemo, useState, type FormEvent } from "react";
 import { useStore } from "../lib/store";
-import { api, money } from "../lib/api";
+import { api, money, whatsappUrl } from "../lib/api";
+import { refCode } from "../lp/wa";
 import type { Quote, CartItem } from "../lib/types";
 import { Modal, Summary, ErrorText } from "./Common";
 export function CartDrawer() {
   const s = useStore(),
-    navigate = useNavigate(),
     [quote, setQuote] = useState<Quote | null>(null),
     [error, setError] = useState(""),
     [input, setInput] = useState(s.coupon);
@@ -50,6 +49,40 @@ export function CartDrawer() {
       setError((e as Error).message);
     }
   }
+
+  // The store has no backend and no database, so there is no order to create:
+  // the bag becomes a pre-written WhatsApp message. The agent confirms stock,
+  // payment and shipping in the chat, and the customer never needs an account.
+  const orderText = useMemo(() => {
+    if (!quote || !quote.items.length) return "";
+    const lines = quote.items.map(
+      (i) =>
+        `• ${i.name} — ${i.variant_label || "package"} × ${i.qty} = ${money(
+          i.price * i.qty,
+        )}`,
+    );
+    const totals = [`Subtotal: ${money(quote.subtotal)}`];
+    if (quote.discount) totals.push(`Discount: -${money(quote.discount)}`);
+    totals.push(
+      quote.shipping
+        ? `Shipping: ${money(quote.shipping)}`
+        : "Shipping: complimentary",
+    );
+    totals.push(`Total: ${money(quote.total)}`);
+
+    return [
+      "Hi TIDEORA — I'd like to order:",
+      "",
+      ...lines,
+      "",
+      ...totals,
+      ...(s.coupon ? ["", `Coupon: ${s.coupon}`] : []),
+      "",
+      `Ref: ${refCode("CART")}`,
+      "",
+      "Please confirm stock, payment method and delivery to my country.",
+    ].join("\n");
+  }, [quote, s.coupon]);
   return (
     <Modal
       className="cart-dialog"
@@ -102,19 +135,25 @@ export function CartDrawer() {
           </div>
           <ErrorText error={error} />
           {quote && <Summary quote={quote} />}
-          <button
-            className="btn full"
-            disabled={!quote}
-            onClick={() => {
-              s.setCartOpen(false);
-              if (!s.user) {
-                s.setAuthOpen(true);
-                s.notify("Sign in to continue to checkout.");
-              } else navigate("/checkout");
-            }}
-          >
-            Proceed to checkout ↗
-          </button>
+          {quote ? (
+            <a
+              className="btn full"
+              href={whatsappUrl(orderText)}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => s.setCartOpen(false)}
+            >
+              Order on WhatsApp ↗
+            </a>
+          ) : (
+            <button className="btn full" disabled>
+              Preparing your bag…
+            </button>
+          )}
+          <p className="cart-note">
+            No account needed. We confirm stock, payment and shipping in the
+            chat — the bag above is copied into the message for you.
+          </p>
         </div>
       )}
       <button className="continue" onClick={() => s.setCartOpen(false)}>

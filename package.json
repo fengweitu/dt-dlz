@@ -8,6 +8,8 @@
     "dev": "node scripts/dev.mjs",
     "start": "node scripts/dev.mjs --preview",
     "build": "npm run build --prefix frontend && cd backend && go build -o bin/server ./cmd/server",
+    "build:web": "npm run build --prefix frontend",
+    "deploy:cf": "npm run build:web && npx wrangler@4 pages deploy frontend/dist --project-name tideora --branch main --commit-dirty=true",
     "test": "cd backend && go test -race ./...",
     "check": "npm run build --prefix frontend && cd backend && go vet ./...",
     "format": "npm exec --prefix frontend -- prettier --write 'frontend/src/**/*.{ts,tsx}' && cd backend && gofmt -w cmd internal",

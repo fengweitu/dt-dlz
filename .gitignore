@@ -9,3 +9,4 @@ frontend/dist/
 backend/bin/
 *.db-wal
 *.db-shm
+tideora-site.zip
