@@ -22,3 +22,7 @@
 @media(min-width:1600px){:root{--gutter:10%}}
 @media(max-width:1150px){:root{--gutter:4%}}
 @media(max-width:560px){:root{--gutter:6%}.hero-type{padding-left:var(--gutter);padding-right:var(--gutter)}}
+/* Hero blend: melt photo into hero background */
+.hero-art:after{background:linear-gradient(90deg,#192f25 0%,rgba(25,47,37,.75) 12%,rgba(25,47,37,.30) 28%,transparent 46%)}
+@media(max-width:560px){.hero-art:after{background:linear-gradient(180deg,#192f25 0%,rgba(25,47,37,.55) 10%,rgba(25,47,37,.18) 22%,transparent 36%)}}
+@media(min-width:1600px){.hero-art>img{object-position:40% center}}
