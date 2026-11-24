@@ -53,8 +53,8 @@ export function Home() {
         </div>
         <div className="hero-art">
           <img
-            src="/images/aurelis-hero.svg"
-            alt="Tideora peptide packaging concepts on architectural stone plinths"
+            src="/images/hero-vial-cluster.webp"
+            alt="TIDEORA Tirzepatide research peptide vials in warm studio light"
             fetchPriority="high"
           />
           <div className="hero-art-top">
